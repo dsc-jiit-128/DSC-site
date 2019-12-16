@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "dsc-font";
+  src: url("./fonts/dsc-font.woff2") format("woff2");
+}
+
+body {
+  margin: 0;
+}
+
+.navbar {
+  padding: 0.25rem 1rem;
+  background-color: white !important;
+}
+
+.dsc-logo {
+  width: 3rem;
+}
+
+.dsc-logo-text {
+  color: #6f7277;
+  font-family: dsc-font;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.dsc-college-name {
+  font-weight: 600;
+}
