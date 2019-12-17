@@ -3,12 +3,11 @@ import Navbar from "../common/Navbar";
 import Section1 from "./Section1";
 import Section2 from "./Section2";
 import Section3 from "./Section3";
+import Section4 from "./Section4";
+
 import Container from "@material-ui/core/Container";
 import { withRouter } from "react-router-dom";
-import ArrowDownwardIcon from "@material-ui/icons/ArrowDownward";
-import ArrowUpwardIcon from "@material-ui/icons/ArrowUpward";
 
-import IconButton from "@material-ui/core/IconButton";
 const Home = () => {
   return (
     <div>
@@ -21,6 +20,7 @@ const Home = () => {
 
       <Container>
         <Section3 />
+        <Section4 />
       </Container>
     </div>
   );

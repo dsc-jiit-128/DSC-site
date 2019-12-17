@@ -9,7 +9,7 @@ import { Typography } from "@material-ui/core";
 const Section1 = () => {
   return (
     <div>
-      <Box my={8}>
+      <Box my={12}>
         <Grid container spacing={3}>
           <Grid item sm={12} md={6} lg={6}>
             <img className="first-image" src={cosmic} alt="searching"></img>

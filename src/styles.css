@@ -12,6 +12,8 @@ body {
 .navbar {
   padding: 0.25rem 1rem;
   background-color: white !important;
+  position: fixed;
+  top: 0;
 }
 
 .dsc-logo {
@@ -60,4 +62,23 @@ body {
 
 .color-primary {
   color: #4285f4;
+}
+
+.section-4 img {
+  display: block;
+  width: 25%;
+  margin: auto;
+}
+
+.social-icon {
+  width: 3rem !important;
+  margin: 1rem !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .section-4 img {
+    display: block;
+    width: 100%;
+    margin: auto;
+  }
 }
