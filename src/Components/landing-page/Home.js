@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../common/Navbar";
 import Section1 from "./Section1";
 import Section2 from "./Section2";
+import Section3 from "./Section3";
 import Container from "@material-ui/core/Container";
 import { withRouter } from "react-router-dom";
 import ArrowDownwardIcon from "@material-ui/icons/ArrowDownward";
@@ -14,8 +15,12 @@ const Home = () => {
       <Navbar></Navbar>
       <Container>
         <Section1 />
+      </Container>
 
-        <Section2 />
+      <Section2 />
+
+      <Container>
+        <Section3 />
       </Container>
     </div>
   );

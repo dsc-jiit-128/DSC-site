@@ -37,6 +37,11 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+.dsc-font {
+  font-family: "dsc-font" !important;
+  margin: 1rem 0 !important;
+}
+
 .nav-icons {
   display: block !important;
   margin: 5rem auto !important;
@@ -51,4 +56,8 @@ body {
 .section-2-paper p {
   font-family: "dsc-font" !important;
   margin: 1rem 0;
+}
+
+.color-primary {
+  color: #4285f4;
 }

@@ -4,55 +4,78 @@ import Grid from "@material-ui/core/Grid";
 import Box from "@material-ui/core/Box";
 import Paper from "@material-ui/core/Paper";
 import { Typography } from "@material-ui/core";
-import Button from "@material-ui/core/Button";
-
 const Section2 = () => {
   return (
-    <Box my={8}>
-      <Grid container spacing={3}>
-        <Grid item sm={12} md={6} lg={6}>
-          <Paper className="section-2-paper">
-            <Typography component="p" variant="h4" align="left">
-              Events and so on
-            </Typography>
+    <Box my={8} p={5}>
+      <Container>
+        <Typography
+          variant="h3"
+          component="p"
+          className="dsc-font"
+          align="center"
+        >
+          What is a <span className="color-primary">DSC</span>?
+        </Typography>
+        <Typography variant="body1" component="p" className="dsc-font">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </Typography>
+      </Container>
 
-            <Typography component="p" variant="body1" align="left">
+      <Box className="about-dsc-div" p={5}>
+        <Grid container spacing={4}>
+          <Grid item lg={4} md={4} sm={12}>
+            <Typography
+              variant="h5"
+              component="p"
+              className="dsc-font"
+              align="center"
+            >
+              <span className="color-primary">Connect</span>
+            </Typography>
+            <Typography variant="body1" component="p" className="dsc-font">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              enim ad minim veniam
             </Typography>
-
-            <Typography component="p" variant="h4" align="left">
-              <Button variant="outlined">Timeline</Button>
+          </Grid>
+          <Grid item lg={4} md={4} sm={12}>
+            <Typography
+              variant="h5"
+              component="p"
+              className="dsc-font"
+              align="center"
+            >
+              <span className="color-primary">Learn</span>
             </Typography>
-          </Paper>
-        </Grid>
-        <Grid item sm={12} md={6} lg={6}>
-          <Paper className="section-2-paper">
-            <Typography component="p" variant="h4" align="left">
-              Behind the scenes
-            </Typography>
-
-            <Typography component="p" variant="body1" align="left">
+            <Typography variant="body1" component="p" className="dsc-font">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              enim ad minim veniam
             </Typography>
-
-            <Typography component="p" variant="h4" align="left">
-              <Button variant="outlined">Team</Button>
+          </Grid>
+          <Grid item lg={4} md={4} sm={12}>
+            <Typography
+              variant="h5"
+              component="p"
+              className="dsc-font"
+              align="center"
+            >
+              <span className="color-primary">Share</span>
             </Typography>
-          </Paper>
+            <Typography variant="body1" component="p" className="dsc-font">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam
+            </Typography>
+          </Grid>
         </Grid>
-      </Grid>
+      </Box>
     </Box>
   );
 };
