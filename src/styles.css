@@ -3,6 +3,8 @@
   src: url("./fonts/dsc-font.woff2") format("woff2");
 }
 
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
 body {
   margin: 0;
 }
@@ -25,4 +27,12 @@ body {
 
 .dsc-college-name {
   font-weight: 600;
+}
+
+.first-image {
+  width: 100%;
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
 }
