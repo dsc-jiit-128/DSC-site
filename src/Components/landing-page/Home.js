@@ -1,14 +1,21 @@
 import React from "react";
 import Navbar from "../common/Navbar";
 import Section1 from "./Section1";
+import Section2 from "./Section2";
 import Container from "@material-ui/core/Container";
 import { withRouter } from "react-router-dom";
+import ArrowDownwardIcon from "@material-ui/icons/ArrowDownward";
+import ArrowUpwardIcon from "@material-ui/icons/ArrowUpward";
+
+import IconButton from "@material-ui/core/IconButton";
 const Home = () => {
   return (
     <div>
       <Navbar></Navbar>
       <Container>
-        <Section1></Section1>
+        <Section1 />
+
+        <Section2 />
       </Container>
     </div>
   );

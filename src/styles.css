@@ -36,3 +36,19 @@ body {
 .montserrat {
   font-family: "Montserrat", sans-serif;
 }
+
+.nav-icons {
+  display: block !important;
+  margin: 5rem auto !important;
+}
+
+.section-2-paper {
+  padding: 2rem 5rem;
+  background-color: #f8f8f8 !important;
+  box-shadow: none !important;
+}
+
+.section-2-paper p {
+  font-family: "dsc-font" !important;
+  margin: 1rem 0;
+}
