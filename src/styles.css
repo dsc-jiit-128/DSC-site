@@ -18,13 +18,15 @@ body {
 
 .dsc-logo {
   width: 3rem;
+  cursor: pointer;
 }
 
 .dsc-logo-text {
   color: #6f7277;
-  font-family: dsc-font;
+  font-family: "dsc-font";
   font-size: 1.25rem;
   font-weight: 500;
+  cursor: pointer;
 }
 
 .dsc-college-name {

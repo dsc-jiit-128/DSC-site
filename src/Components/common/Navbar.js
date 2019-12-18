@@ -12,7 +12,12 @@ const Navbar = () => {
       <Container>
         <Grid justify="space-between" container alignItems="center">
           <Grid item>
-            <Box display="flex">
+            <Box
+              display="flex"
+              onClick={() => {
+                window.location = "/";
+              }}
+            >
               <img className="dsc-logo" src={dscIcon} alt="logo"></img>
               <p className="dsc-logo-text">
                 DSC <span className="dsc-college-name">JIIT128</span>

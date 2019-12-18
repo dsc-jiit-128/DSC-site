@@ -26,7 +26,14 @@ const Section3 = () => {
             </Typography>
 
             <Typography component="p" variant="h4" align="left">
-              <Button variant="outlined">Highlights</Button>
+              <Button
+                variant="outlined"
+                onClick={() => {
+                  window.location = "/highlights";
+                }}
+              >
+                Highlights
+              </Button>
             </Typography>
           </Paper>
         </Grid>
@@ -47,7 +54,14 @@ const Section3 = () => {
             </Typography>
 
             <Typography component="p" variant="h4" align="left">
-              <Button variant="outlined">The Team</Button>
+              <Button
+                variant="outlined"
+                onClick={() => {
+                  window.location = "/team";
+                }}
+              >
+                The Team
+              </Button>
             </Typography>
           </Paper>
         </Grid>
