@@ -5,7 +5,7 @@ import Box from "@material-ui/core/Box";
 import { Typography } from "@material-ui/core";
 const Section2 = () => {
   return (
-    <Box my={8} p={5}>
+    <Box my={8} p={5} className="darken">
       <Container>
         <Typography
           variant="h3"
@@ -13,7 +13,7 @@ const Section2 = () => {
           className="dsc-font"
           align="center"
         >
-          What is a <span className="color-primary">DSC</span>?
+          What do <span className="color-primary">we</span> do?
         </Typography>
         <Typography variant="body1" component="p" className="dsc-font">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -35,7 +35,7 @@ const Section2 = () => {
               className="dsc-font"
               align="center"
             >
-              <span className="color-primary">Connect</span>
+              <span className="color-danger">Connect</span>
             </Typography>
             <Typography variant="body1" component="p" className="dsc-font">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -50,7 +50,7 @@ const Section2 = () => {
               className="dsc-font"
               align="center"
             >
-              <span className="color-primary">Learn</span>
+              <span className="color-success">Learn</span>
             </Typography>
             <Typography variant="body1" component="p" className="dsc-font">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -65,7 +65,7 @@ const Section2 = () => {
               className="dsc-font"
               align="center"
             >
-              <span className="color-primary">Share</span>
+              <span className="color-warning">Share</span>
             </Typography>
             <Typography variant="body1" component="p" className="dsc-font">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
