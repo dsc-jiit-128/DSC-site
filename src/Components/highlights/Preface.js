@@ -1,25 +1,33 @@
 import React from "react";
 import Container from "@material-ui/core/Container";
 import { Typography } from "@material-ui/core";
+import CountUp from "react-countup";
+
 const Preface = () => {
   return (
     <Container>
-      <Typography
-        variant="h3"
-        component="p"
-        className="dsc-font"
-        align="center"
-      >
-        Lorem <span className="color-primary">ipsum</span>
+      <Typography variant="h3" component="p" className="dsc-font">
+        Insights
       </Typography>
-      <Typography variant="body1" component="p" className="dsc-font">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
+
+      <Typography variant="h4" component="p" className="dsc-font">
+        <CountUp className="color-primary" end={7} duration={10} />
+        <span>+ Languages covered</span>
+      </Typography>
+
+      <Typography variant="h4" component="p" className="dsc-font">
+        <CountUp className="color-primary" end={13} duration={10} />
+        <span>+ Workshops done</span>
+      </Typography>
+
+      <Typography variant="h4" component="p" className="dsc-font">
+        <CountUp className="color-primary" end={542} duration={6} />
+        <span>+ Students taught</span>
+      </Typography>
+
+      <Typography variant="h4" component="p" className="dsc-font">
+        <CountUp className="color-primary" end={1126} duration={6} />
+        <span>+ Lines of code written</span>
       </Typography>
     </Container>
   );

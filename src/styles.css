@@ -5,6 +5,10 @@
 
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
 }
@@ -12,7 +16,7 @@ body {
 .navbar {
   padding: 0.25rem 1rem;
   background-color: white !important;
-  position: fixed;
+  position: fixed !important;
   top: 0;
 }
 
@@ -53,14 +57,24 @@ body {
 
 .section-2-paper,
 .darken {
-  padding: 2rem 5rem;
-  background-color: #f8f8f8 !important;
-  box-shadow: none !important;
+  padding: 1rem 2rem;
 }
 
 .section-2-paper p {
   font-family: "dsc-font" !important;
   margin: 1rem 0;
+}
+
+.section-2-paper button {
+  color: white;
+  background: rgb(52, 109, 241);
+  border: 2px solid rgb(52, 109, 241);
+}
+
+.section-2-paper button:hover {
+  color: white;
+  background: rgb(28, 85, 218);
+  border: 2px solid rgb(28, 85, 218);
 }
 
 .color-primary {
@@ -92,6 +106,79 @@ body {
 
 .vertical-timeline::before {
   background: #535353 !important;
+}
+
+.top-bar {
+  position: fixed;
+}
+
+.mt-9 {
+  margin-top: 9rem;
+}
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 500px;
+  width: 100%;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 500px;
+  width: 100%;
+}
+
+.bg-success {
+  background-color: rgba(11, 184, 83, 0.15);
+  padding: 0.5rem 0.25rem;
+  border-radius: 5px;
+}
+
+.bg-danger {
+  background-color: rgba(223, 77, 19, 0.15);
+  padding: 0.5rem 0.25rem;
+  border-radius: 5px;
+}
+
+.bg-warning {
+  background-color: rgba(247, 212, 17, 0.15);
+  padding: 0.5rem 0.25rem;
+  border-radius: 5px;
+}
+
+.bg-primary {
+  background-color: rgba(12, 80, 182, 0.15);
+  padding: 0.5rem 0.25rem;
+  border-radius: 5px;
+}
+
+.slider-img {
+  width: 15rem;
+}
+
+.card-img {
+  height: 270px;
+  width: 100%;
+}
+
+.member-card img {
+  border-radius: 50%;
+  max-width: 13rem;
+}
+
+.member-card {
+  padding: 3rem;
+}
+
+.member-card p,
+h3 {
+  text-align: center;
+}
+
+.section-2-paper button {
+  margin: auto;
+  margin-bottom: 0.5rem;
 }
 
 @media only screen and (max-width: 600px) {

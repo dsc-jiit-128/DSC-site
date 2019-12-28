@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import Router from "./Routes";
 import "./styles.css";
 import "./fonts/dsc-font.woff2";
-import * as serviceWorker from "./serviceWorker";
+// import * as serviceWorker from "./serviceWorker";
 class App extends React.Component {
   render() {
     return (
@@ -16,4 +16,4 @@ class App extends React.Component {
 
 ReactDOM.render(<App />, document.getElementById("root"));
 
-serviceWorker.register();
+// serviceWorker.register();

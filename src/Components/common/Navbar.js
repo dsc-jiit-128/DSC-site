@@ -5,23 +5,33 @@ import Grid from "@material-ui/core/Grid";
 import dscIcon from "../../images/logo.svg";
 import Container from "@material-ui/core/Container";
 import Box from "@material-ui/core/Box";
-import Button from "@material-ui/core/Button";
-import Menu from "@material-ui/core/Menu";
-import MenuItem from "@material-ui/core/MenuItem";
-import Fade from "@material-ui/core/Fade";
+import { Button, Drawer, IconButton, Divider, List } from "@material-ui/core";
+import { useTheme } from "@material-ui/core/styles";
+
+import ChevronLeftIcon from "@material-ui/icons/ChevronLeft";
+import ChevronRightIcon from "@material-ui/icons/ChevronRight";
+import ListItem from "@material-ui/core/ListItem";
+import ListItemIcon from "@material-ui/core/ListItemIcon";
+import ListItemText from "@material-ui/core/ListItemText";
+import HomeIcon from "@material-ui/icons/Home";
+import EventIcon from "@material-ui/icons/Event";
+import GroupIcon from "@material-ui/icons/Group";
+import InfoIcon from "@material-ui/icons/Info";
+
+import workFromHome from "../../images/workfromhome.gif";
 
 const Navbar = () => {
-  const [anchorEl, setAnchorEl] = React.useState(null);
-  const open = Boolean(anchorEl);
+  const [open, setOpen] = React.useState(false);
 
-  const handleClick = event => {
-    setAnchorEl(event.currentTarget);
+  const handleDrawerOpen = () => {
+    setOpen(true);
   };
 
-  const handleClose = loc => {
-    window.location = loc;
-    setAnchorEl(null);
+  const handleDrawerClose = () => {
+    setOpen(false);
   };
+
+  const theme = useTheme();
 
   return (
     <div>
@@ -45,7 +55,7 @@ const Navbar = () => {
               <Button
                 aria-controls="fade-menu"
                 aria-haspopup="true"
-                onClick={handleClick}
+                onClick={handleDrawerOpen}
               >
                 <MenuIcon />
               </Button>
@@ -53,45 +63,67 @@ const Navbar = () => {
           </Grid>
         </Container>
       </AppBar>
-
-      {/* // menu below */}
-      <Menu
-        id="fade-menu"
-        anchorEl={anchorEl}
-        keepMounted
-        open={open}
-        onClose={handleClose}
-        TransitionComponent={Fade}
-      >
-        <MenuItem
-          onClick={() => {
-            handleClose("/");
-          }}
-        >
-          Home
-        </MenuItem>
-        <MenuItem
-          onClick={() => {
-            handleClose("/highlights");
-          }}
-        >
-          Highlights
-        </MenuItem>
-        <MenuItem
-          onClick={() => {
-            handleClose("/team");
-          }}
-        >
-          Team
-        </MenuItem>
-        <MenuItem
-          onClick={() => {
-            handleClose("/contact");
-          }}
-        >
-          Contact Us
-        </MenuItem>
-      </Menu>
+      {/* // menu below */}s
+      <Drawer variant="persistent" anchor="right" open={open}>
+        <div>
+          <IconButton onClick={handleDrawerClose}>
+            {theme.direction === "rtl" ? (
+              <ChevronLeftIcon />
+            ) : (
+              <ChevronRightIcon />
+            )}
+          </IconButton>
+        </div>
+        <Divider />
+        <img src={workFromHome} alt="workfromhome" className="slider-img" />
+        <Divider />
+        <List>
+          <ListItem
+            button
+            onClick={() => {
+              window.location = "./";
+            }}
+          >
+            <ListItemIcon>
+              <HomeIcon />
+            </ListItemIcon>
+            <ListItemText primary={"Home"} />
+          </ListItem>
+          <ListItem
+            button
+            onClick={() => {
+              window.location = "./highlights";
+            }}
+          >
+            <ListItemIcon>
+              <EventIcon />
+            </ListItemIcon>
+            <ListItemText primary={"Highlights"} />
+          </ListItem>
+          <ListItem
+            button
+            onClick={() => {
+              window.location = "./team";
+            }}
+          >
+            <ListItemIcon>
+              <GroupIcon />
+            </ListItemIcon>
+            <ListItemText primary={"Team"} />
+          </ListItem>
+          <ListItem
+            button
+            onClick={() => {
+              window.location = "/#reach-us";
+            }}
+          >
+            <ListItemIcon>
+              <InfoIcon />
+            </ListItemIcon>
+            <ListItemText primary={"Reach Us"} />
+          </ListItem>
+        </List>
+      </Drawer>
     </div>
   );
 };

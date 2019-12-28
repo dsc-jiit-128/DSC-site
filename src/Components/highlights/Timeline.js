@@ -1,21 +1,22 @@
 import React from "react";
 import Navbar from "../common/Navbar";
-import { Container, Typography, Box } from "@material-ui/core";
+import { Typography, Box } from "@material-ui/core";
 import {
   VerticalTimeline,
   VerticalTimelineElement
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import StarIcon from "@material-ui/icons/Star";
+// import StarIcon from "@material-ui/icons/Star";
 import WorkIcon from "@material-ui/icons/Work";
-import SchoolIcon from "@material-ui/icons/School";
+// import SchoolIcon from "@material-ui/icons/School";
 import { withRouter } from "react-router-dom";
 import Preface from "./Preface";
+// import { Spacing } from "@material-ui/system";
 const Timeline = () => {
   return (
     <div>
       <Navbar></Navbar>
-      <Box mt={10}>
+      <Box className="mt-9">
         <Preface />
         <VerticalTimeline>
           <VerticalTimelineElement
