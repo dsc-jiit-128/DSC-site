@@ -4,6 +4,15 @@ import Navbar from "../common/Navbar";
 import { withRouter } from "react-router-dom";
 import Member from "./MemberCard";
 import profileIcon from "../../images/profileAvatar.jpg";
+import {
+  GroupWork,
+  Android,
+  Bookmarks,
+  BorderColor,
+  Camera,
+  Facebook
+} from "@material-ui/icons";
+
 const Team = () => {
   return (
     <div>
@@ -15,8 +24,11 @@ const Team = () => {
             align="center"
             component="p"
             className="dsc-font"
+            data-aos="flip-left"
           >
-            <span>Core</span>
+            <span>
+              Core <GroupWork className="color-primary" fontSize="large" />
+            </span>
           </Typography>
           <Grid
             container
@@ -42,8 +54,11 @@ const Team = () => {
             align="center"
             component="p"
             className="dsc-font"
+            data-aos="flip-right"
           >
-            <span>Technical</span>
+            <span>
+              Technical <Android className="color-success" fontSize="large" />
+            </span>
           </Typography>
           <Grid
             container
@@ -69,8 +84,12 @@ const Team = () => {
             align="center"
             component="p"
             className="dsc-font"
+            data-aos="flip-left"
           >
-            <span>Management</span>
+            <span>
+              Management{" "}
+              <Bookmarks className="color-warning" fontSize="large" />
+            </span>
           </Typography>
           <Grid
             container
@@ -96,8 +115,12 @@ const Team = () => {
             align="center"
             component="p"
             className="dsc-font"
+            data-aos="flip-right"
           >
-            <span>Content writing</span>
+            <span>
+              Content writing{" "}
+              <BorderColor className="color-primary" fontSize="danger" />
+            </span>
           </Typography>
           <Grid
             container
@@ -123,8 +146,11 @@ const Team = () => {
             align="center"
             component="p"
             className="dsc-font"
+            data-aos="flip-left"
           >
-            <span>Photography</span>
+            <span>
+              Photography <Camera className="color-danger" fontSize="large" />
+            </span>
           </Typography>
           <Grid
             container
@@ -150,8 +176,12 @@ const Team = () => {
             align="center"
             component="p"
             className="dsc-font"
+            data-aos="flip-right"
           >
-            <span>Social Media and Outreach</span>
+            <span>
+              Social Media and Outreach{" "}
+              <Facebook className="color-primary" fontSize="large" />
+            </span>
           </Typography>
         </Box>
         <Grid
