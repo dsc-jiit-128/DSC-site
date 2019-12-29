@@ -12,11 +12,20 @@ const Section1 = () => {
       <Box className="mt-9">
         <Grid container spacing={3}>
           <Grid item sm={12} md={6} lg={6}>
-            <img className="first-image" src={cosmic} alt="searching"></img>
+            <img
+              data-aos="fade-right"
+              className="first-image"
+              src={cosmic}
+              alt="searching"
+            ></img>
           </Grid>
-          <Grid item sm={12} md={6} lg={6}>
+          <Grid item sm={12} md={6} lg={6} data-aos="fade-left">
             <Box mt={8}>
-              <img className="first-image" src={dscjiit} alt="searching"></img>
+              <img
+                className="first-image"
+                src={dscjiit}
+                alt="dscjiitlogo"
+              ></img>
               <Box pl={7} mt={2}>
                 <Container>
                   <Typography component="p" variant="body1" align="left">

@@ -114,13 +114,13 @@ const Navbar = () => {
           <ListItem
             button
             onClick={() => {
-              window.location = "/#reach-us";
+              window.location = "/#contact";
             }}
           >
             <ListItemIcon>
               <InfoIcon />
             </ListItemIcon>
-            <ListItemText primary={"Reach Us"} />
+            <ListItemText primary={"Contact Us"} />
           </ListItem>
         </List>
       </Drawer>

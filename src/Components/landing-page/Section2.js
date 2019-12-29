@@ -3,10 +3,11 @@ import Container from "@material-ui/core/Container";
 import Grid from "@material-ui/core/Grid";
 import Box from "@material-ui/core/Box";
 import { Typography } from "@material-ui/core";
+
 const Section2 = () => {
   return (
     <Box my={8} p={5}>
-      <Container>
+      <Container data-aos="zoom-in">
         <Typography
           variant="h3"
           component="p"
@@ -29,7 +30,14 @@ const Section2 = () => {
       <Box className="about-dsc-div" p={5}>
         <Container>
           <Grid container spacing={4}>
-            <Grid item lg={3} md={3} sm={12}>
+            <Grid
+              data-aos="fade-up"
+              data-aos-duration="500"
+              item
+              lg={3}
+              md={3}
+              sm={12}
+            >
               <Typography
                 variant="h5"
                 component="p"
@@ -44,7 +52,14 @@ const Section2 = () => {
                 enim ad minim veniam
               </Typography>
             </Grid>
-            <Grid item lg={3} md={3} sm={12}>
+            <Grid
+              data-aos="fade-up"
+              data-aos-duration="800"
+              item
+              lg={3}
+              md={3}
+              sm={12}
+            >
               <Typography
                 variant="h5"
                 component="p"
@@ -59,7 +74,14 @@ const Section2 = () => {
                 enim ad minim veniam
               </Typography>
             </Grid>
-            <Grid item lg={3} md={3} sm={12}>
+            <Grid
+              data-aos="fade-up"
+              data-aos-duration="1100"
+              item
+              lg={3}
+              md={3}
+              sm={12}
+            >
               <Typography
                 variant="h5"
                 component="p"
@@ -75,7 +97,14 @@ const Section2 = () => {
               </Typography>
             </Grid>
 
-            <Grid item lg={3} md={3} sm={12}>
+            <Grid
+              data-aos="fade-up"
+              data-aos-duration="1400"
+              item
+              lg={3}
+              md={3}
+              sm={12}
+            >
               <Typography
                 variant="h5"
                 component="p"

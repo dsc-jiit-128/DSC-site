@@ -38,7 +38,7 @@ const Home = () => {
         </div>
       </div>
 
-      <Container>
+      <Container id="contact">
         <Section4 />
       </Container>
     </div>

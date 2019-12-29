@@ -17,29 +17,27 @@ const Section4 = () => {
           className="dsc-font"
           align="center"
         >
-          <span id="reach-us" className="color-primary">
-            Catch us on{" "}
-          </span>
+          <span className="color-primary">Catch us on </span>
         </Typography>
         <Grid container justify="center">
-          <Grid item>
+          <Grid item data-aos="zoom-in" data-aos-duration="500">
             <a href="/">
               <img src={fbIcon} alt="fb-icon" className="social-icon" />
             </a>
           </Grid>
-          <Grid item>
+          <Grid item data-aos="zoom-in" data-aos-duration="900">
             <a href="/">
               <img src={githubIcon} alt="github-icon" className="social-icon" />
             </a>
           </Grid>
 
-          <Grid item>
+          <Grid item data-aos="zoom-in" data-aos-duration="1300">
             <a href="/">
               <img src={googleIcon} alt="github-icon" className="social-icon" />
             </a>
           </Grid>
 
-          <Grid item>
+          <Grid item data-aos="zoom-in" data-aos-duration="1700">
             <a href="/">
               <img
                 src={discordIcon}

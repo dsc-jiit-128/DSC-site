@@ -18,7 +18,7 @@ const Section3 = () => {
     <Box my={8}>
       <Grid container spacing={3}>
         <Grid item sm={12} md={4} lg={4}>
-          <Card>
+          <Card data-aos="flip-right">
             <CardActionArea>
               <img className="card-img" src={StudyJamImage} alt="studyjam" />
               <CardContent>
@@ -46,7 +46,7 @@ const Section3 = () => {
           </Card>
         </Grid>
         <Grid item sm={12} md={4} lg={4}>
-          <Card>
+          <Card data-aos="flip-right">
             <CardActionArea>
               <CardContent>
                 <img
@@ -80,7 +80,7 @@ const Section3 = () => {
         </Grid>
 
         <Grid item sm={12} md={4} lg={4}>
-          <Card>
+          <Card data-aos="flip-left">
             <CardActionArea>
               <img className="card-img" src={ExploreMLImage} alt="exploreml" />
               <CardContent>
