@@ -181,6 +181,10 @@ h3 {
   margin-bottom: 0.5rem;
 }
 
+.csj-bg {
+  width: 100%;
+}
+
 @media only screen and (max-width: 600px) {
   .section-4 img {
     display: block;

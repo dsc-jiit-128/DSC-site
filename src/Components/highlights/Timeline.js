@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../common/Navbar";
-import { Typography, Box } from "@material-ui/core";
+import { Typography, Box, Grid, Container } from "@material-ui/core";
 import {
   VerticalTimeline,
   VerticalTimelineElement
@@ -11,13 +11,24 @@ import WorkIcon from "@material-ui/icons/Work";
 // import SchoolIcon from "@material-ui/icons/School";
 import { withRouter } from "react-router-dom";
 import Preface from "./Preface";
-// import { Spacing } from "@material-ui/system";
+import Carousel from "./Carousel";
+import csjBg from "../../images/csj-wallpaper.png";
+
 const Timeline = () => {
   return (
     <div>
       <Navbar></Navbar>
       <Box className="mt-9">
         <Preface />
+        <Typography
+          className="dsc-font"
+          component="p"
+          variant="h3"
+          align="center"
+        >
+          Workshops
+        </Typography>
+
         <VerticalTimeline>
           <VerticalTimelineElement
             contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
@@ -181,6 +192,50 @@ const Timeline = () => {
             </Typography>
           </VerticalTimelineElement>
         </VerticalTimeline>
+        <Typography
+          className="dsc-font"
+          component="p"
+          variant="h3"
+          align="center"
+        >
+          Cloud Study Jam
+        </Typography>
+        <img src={csjBg} alt="csj-bg" className="csj-bg" />
+
+        <Container>
+          <Box mt={5}>
+            <Grid container>
+              <Grid item sm={12} md={6} lg={6} data-aos="fade-left">
+                <Box>
+                  <Container>
+                    <Typography
+                      className="dsc-font"
+                      component="p"
+                      variant="h3"
+                      align="left"
+                    >
+                      Lorem ipsum
+                    </Typography>
+                    <Typography component="p" variant="body1" align="left">
+                      something related to event Lorem ipsum dolor sit amet,
+                      consectetur adipiscing elit, sed do eiusmod tempor
+                      incididunt ut labore et dolore magna aliqua. Ut enim ad
+                      minim veniam, quis nostrud exercitation ullamco laboris
+                      nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                      dolor in reprehenderit in voluptate velit esse cillum
+                      dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                      cupidatat non proident, sunt in culpa qui officia deserunt
+                      mollit anim id est laborum.
+                    </Typography>
+                  </Container>
+                </Box>
+              </Grid>
+              <Grid item sm={12} md={6} lg={6}>
+                <Carousel />
+              </Grid>
+            </Grid>
+          </Box>
+        </Container>
       </Box>
     </div>
   );
