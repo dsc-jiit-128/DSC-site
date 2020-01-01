@@ -17,7 +17,6 @@ import HomeIcon from "@material-ui/icons/Home";
 import EventIcon from "@material-ui/icons/Event";
 import GroupIcon from "@material-ui/icons/Group";
 import InfoIcon from "@material-ui/icons/Info";
-
 import workFromHome from "../../images/workfromhome.gif";
 
 const Navbar = () => {

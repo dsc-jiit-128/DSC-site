@@ -31,7 +31,7 @@ const Timeline = () => {
           Workshops
         </Typography>
 
-        <VerticalTimeline>
+        <VerticalTimeline animate={false}>
           <VerticalTimelineElement
             contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
@@ -52,7 +52,7 @@ const Timeline = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea
+              nisi ut aliquip ex ea mco laboris nisi ut aliquip ex ea
             </Typography>
           </VerticalTimelineElement>
           <VerticalTimelineElement
