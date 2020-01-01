@@ -13,13 +13,13 @@ const Section1 = () => {
         <Grid container spacing={3}>
           <Grid item sm={12} md={6} lg={6}>
             <img
-              data-aos="fade-right"
+              data-aos="fade-top"
               className="first-image"
               src={cosmic}
               alt="searching"
             ></img>
           </Grid>
-          <Grid item sm={12} md={6} lg={6} data-aos="fade-left">
+          <Grid item sm={12} md={6} lg={6} data-aos="fade-bottom">
             <Box mt={8}>
               <img
                 className="first-image"

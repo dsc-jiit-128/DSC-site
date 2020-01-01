@@ -37,7 +37,7 @@ const Section2 = () => {
           </Grid>
           <Grid item sm={12} md={6} lg={6}>
             <img
-              data-aos="fade-right"
+              data-aos="flip-right"
               className="first-image"
               src={question}
               alt="searching"

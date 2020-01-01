@@ -63,7 +63,7 @@ const Navbar = () => {
           </Grid>
         </Container>
       </AppBar>
-      {/* // menu below */}s
+      {/* // menu below */}
       <Drawer variant="persistent" anchor="right" open={open}>
         <div>
           <IconButton onClick={handleDrawerClose}>

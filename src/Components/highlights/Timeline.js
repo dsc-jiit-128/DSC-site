@@ -208,7 +208,7 @@ const Timeline = () => {
         <Container>
           <Box mt={5}>
             <Grid container>
-              <Grid item sm={12} md={6} lg={6} data-aos="fade-left">
+              <Grid item sm={12} md={6} lg={6} data-aos="flip-left">
                 <Box>
                   <Container>
                     <Typography
@@ -234,7 +234,7 @@ const Timeline = () => {
                 </Box>
               </Grid>
               <Grid item sm={12} md={6} lg={6} className="carousel">
-                <Carousel data-aos="fade-right" />
+                <Carousel data-aos="flip-right" />
               </Grid>
             </Grid>
             <Container>
@@ -277,9 +277,9 @@ const Timeline = () => {
           <Box mt={5}>
             <Grid container>
               <Grid item sm={12} md={6} lg={6} className="carousel">
-                <Carousel data-aos="fade-bottom" />
+                <Carousel data-aos="flip-right" />
               </Grid>
-              <Grid item sm={12} md={6} lg={6} data-aos="fade-top">
+              <Grid item sm={12} md={6} lg={6} data-aos="flip-left">
                 <Box>
                   <Container>
                     <Typography
