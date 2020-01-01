@@ -13,6 +13,8 @@ import { withRouter } from "react-router-dom";
 import Preface from "./Preface";
 import Carousel from "./Carousel";
 import csjBg from "../../images/csj-wallpaper.png";
+import exploreMLbg from "../../images/exploreml-wallpaper.png";
+import Section4 from "../landing-page/Section4";
 
 const Timeline = () => {
   return (
@@ -193,6 +195,7 @@ const Timeline = () => {
           </VerticalTimelineElement>
         </VerticalTimeline>
         <Typography
+          id="csj"
           className="dsc-font"
           component="p"
           variant="h3"
@@ -230,11 +233,95 @@ const Timeline = () => {
                   </Container>
                 </Box>
               </Grid>
-              <Grid item sm={12} md={6} lg={6}>
-                <Carousel />
+              <Grid item sm={12} md={6} lg={6} className="carousel">
+                <Carousel data-aos="fade-right" />
               </Grid>
             </Grid>
+            <Typography
+              className="dsc-font"
+              component="p"
+              variant="h3"
+              align="left"
+            >
+              Highlights
+            </Typography>
+            <Typography className="dsc-font" component="p" variant="p">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </Typography>
           </Box>
+        </Container>
+
+        <Box mt={5} pt={5}>
+          <Typography
+            id="exploreml"
+            className="dsc-font"
+            component="p"
+            variant="h3"
+            align="center"
+          >
+            ExploreML
+          </Typography>
+        </Box>
+
+        <img src={exploreMLbg} alt="csj-bg" className="csj-bg" />
+
+        <Container>
+          <Box mt={5}>
+            <Grid container>
+              <Grid item sm={12} md={6} lg={6} className="carousel">
+                <Carousel data-aos="fade-bottom" />
+              </Grid>
+              <Grid item sm={12} md={6} lg={6} data-aos="fade-top">
+                <Box>
+                  <Container>
+                    <Typography
+                      className="dsc-font"
+                      component="p"
+                      variant="h3"
+                      align="left"
+                    >
+                      Lorem ipsum
+                    </Typography>
+                    <Typography component="p" variant="body1" align="left">
+                      something related to event Lorem ipsum dolor sit amet,
+                      consectetur adipiscing elit, sed do eiusmod tempor
+                      incididunt ut labore et dolore magna aliqua. Ut enim ad
+                      minim veniam, quis nostrud exercitation ullamco laboris
+                      nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                      dolor in reprehenderit in voluptate velit esse cillum
+                      dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                      cupidatat non proident, sunt in culpa qui officia deserunt
+                      mollit anim id est laborum.
+                    </Typography>
+                  </Container>
+                </Box>
+              </Grid>
+            </Grid>
+            <Typography
+              className="dsc-font"
+              component="p"
+              variant="h3"
+              align="left"
+            >
+              Highlights
+            </Typography>
+            <Typography className="dsc-font" component="p" variant="p">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </Typography>
+          </Box>
+          <Section4 />
         </Container>
       </Box>
     </div>

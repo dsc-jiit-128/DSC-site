@@ -12,6 +12,7 @@ import {
   Camera,
   Facebook
 } from "@material-ui/icons";
+import Section4 from "../landing-page/Section4";
 
 const Team = () => {
   return (
@@ -200,6 +201,7 @@ const Team = () => {
             </Grid>
           ))}
         </Grid>
+        <Section4 />
       </Container>
     </div>
   );

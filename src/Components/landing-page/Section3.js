@@ -37,7 +37,7 @@ const Section3 = () => {
               <Button
                 variant="outlined"
                 onClick={() => {
-                  window.location = "/highlights#studyjam";
+                  window.location = "/highlights#csj";
                 }}
               >
                 Insights
