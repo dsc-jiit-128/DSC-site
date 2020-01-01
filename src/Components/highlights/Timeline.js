@@ -237,23 +237,25 @@ const Timeline = () => {
                 <Carousel data-aos="fade-right" />
               </Grid>
             </Grid>
-            <Typography
-              className="dsc-font"
-              component="p"
-              variant="h3"
-              align="left"
-            >
-              Highlights
-            </Typography>
-            <Typography className="dsc-font" component="p" variant="p">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </Typography>
+            <Container>
+              <Typography
+                className="dsc-font"
+                component="p"
+                variant="h3"
+                align="left"
+              >
+                Highlights
+              </Typography>
+              <Typography className="dsc-font" component="p" variant="p">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </Typography>
+            </Container>
           </Box>
         </Container>
 
@@ -303,23 +305,25 @@ const Timeline = () => {
                 </Box>
               </Grid>
             </Grid>
-            <Typography
-              className="dsc-font"
-              component="p"
-              variant="h3"
-              align="left"
-            >
-              Highlights
-            </Typography>
-            <Typography className="dsc-font" component="p" variant="p">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </Typography>
+            <Container>
+              <Typography
+                className="dsc-font"
+                component="p"
+                variant="h3"
+                align="left"
+              >
+                Highlights
+              </Typography>
+              <Typography className="dsc-font" component="p" variant="p">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </Typography>
+            </Container>
           </Box>
           <Section4 />
         </Container>

@@ -12,7 +12,7 @@ const Section2 = () => {
           variant="h3"
           component="p"
           className="dsc-font"
-          align="left"
+          align="center"
         >
           What do <span className="color-primary">we</span> do?
         </Typography>

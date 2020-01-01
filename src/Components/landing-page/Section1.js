@@ -26,7 +26,7 @@ const Section1 = () => {
                 src={dscjiit}
                 alt="dscjiitlogo"
               ></img>
-              <Box pl={7} mt={2}>
+              <Box mt={2}>
                 <Container>
                   <Typography component="p" variant="body1" align="left">
                     something related to aim Lorem ipsum dolor sit amet,
