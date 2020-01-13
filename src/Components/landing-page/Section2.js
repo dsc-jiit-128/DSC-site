@@ -54,7 +54,7 @@ const Section2 = () => {
                 <span className="color-primary bg-primary">Hackathons</span>
               </Typography>
               <Typography variant="body1" component="p" className="dsc-font">
-                The idea is to make students code collaboratively from scratch and end with a working prototype.
+                The idea of conducting hackathons is to make students code collaboratively from scratch to end with a working prototype.
               </Typography>
             </Grid>
             <Grid
