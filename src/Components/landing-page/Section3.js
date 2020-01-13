@@ -26,7 +26,7 @@ const Section3 = () => {
                   Cloud Study Jam
                 </Typography>
                 <Typography component="p" variant="body1" align="left">
-                 Google Cloud Study Jams are community-run study groups for developers. From containerizing applications to creating virtual machines, study jams can be tailored to specific cloud topics and skill levels. One can learn the fundamental tools and capabilities of google cloud with free access to hands-on labs. 
+                 Google Cloud Study Jams are community-run study groups for developers. From containerizing applications to creating virtual machines, study jams can be tailored to specific cloud topics and skill levels with hands-on learning experience.  
                 </Typography>
               </CardContent>
             </CardActionArea>
@@ -56,7 +56,7 @@ const Section3 = () => {
                   Workshops
                 </Typography>
                 <Typography component="p" variant="body1" align="left">
-                  Workshops provide the ability to learn new development skills and solve the problems in the world using technology. Students can also display their prototypes & solutions for industries and organizations in these workshops.
+                  Workshops provide the ability to learn new development skills and solve the problems in the world using technology. Students can also display their prototypes and solutions for industries and organizations in these workshops and get honest reviews from fellow developers.
                 </Typography>
               </CardContent>
             </CardActionArea>
