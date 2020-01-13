@@ -19,20 +19,8 @@ const Section2 = () => {
         <Grid container>
           <Grid sm={12} md={6} lg={6} data-aos="zoom-in">
             <Typography variant="body1" component="p" className="dsc-font">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              With our team's moto being "Giving Direction to Greatness", we help the students to climb mountains on their own, as high as possible.
+              We conduct two flagship events, namely, Hackovation and ExploreML and various technical workshops, sessions, meetups and fun events as well.
             </Typography>
           </Grid>
           <Grid item sm={12} md={6} lg={6}>
@@ -66,9 +54,7 @@ const Section2 = () => {
                 <span className="color-primary bg-primary">Hackathons</span>
               </Typography>
               <Typography variant="body1" component="p" className="dsc-font">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam
+                The idea is to make students code collaboratively from scratch and end with a working prototype.
               </Typography>
             </Grid>
             <Grid
@@ -88,9 +74,7 @@ const Section2 = () => {
                 <span className="color-success bg-success">Sessions</span>
               </Typography>
               <Typography variant="body1" component="p" className="dsc-font">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam
+                Small sessions for the students to showcase their projects, achievements and for getting to know about the current trends.
               </Typography>
             </Grid>
             <Grid
@@ -110,9 +94,7 @@ const Section2 = () => {
                 <span className="color-warning bg-warning">Study Jams</span>
               </Typography>
               <Typography variant="body1" component="p" className="dsc-font">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam
+                Study Jams are community-run groups for Developers. Whether you are a beginner or an experienced developer, you can still get to learn new and exciting things.
               </Typography>
             </Grid>
 
@@ -133,9 +115,7 @@ const Section2 = () => {
                 <span className="color-danger bg-danger">Meetups</span>
               </Typography>
               <Typography variant="body1" component="p" className="dsc-font">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam
+                Regular meetings are organised for the students who share the same technical interests, so they can get connected with each other through the meeting.
               </Typography>
             </Grid>
           </Grid>

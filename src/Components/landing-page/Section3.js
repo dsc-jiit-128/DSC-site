@@ -26,10 +26,7 @@ const Section3 = () => {
                   Cloud Study Jam
                 </Typography>
                 <Typography component="p" variant="body1" align="left">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
+                 Google Cloud Study Jams are community-run study groups for developers. From containerizing applications to creating virtual machines, study jams can be tailored to specific cloud topics and skill levels. One can learn the fundamental tools and capabilities of google cloud with free access to hands-on labs. 
                 </Typography>
               </CardContent>
             </CardActionArea>
@@ -59,10 +56,7 @@ const Section3 = () => {
                   Workshops
                 </Typography>
                 <Typography component="p" variant="body1" align="left">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
+                  Workshops provide the ability to learn new development skills and solve the problems in the world using technology. Students can also display their prototypes & solutions for industries and organizations in these workshops.
                 </Typography>
               </CardContent>
             </CardActionArea>
@@ -88,10 +82,7 @@ const Section3 = () => {
                   Explore ML
                 </Typography>
                 <Typography component="p" variant="body1" align="left">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
+                  Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of Machine Learning Content (Beginner, Intermediate, Advanced). It is a 2-day training experience for the students.
                 </Typography>
               </CardContent>
             </CardActionArea>

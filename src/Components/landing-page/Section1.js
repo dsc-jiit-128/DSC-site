@@ -29,15 +29,9 @@ const Section1 = () => {
               <Box mt={2}>
                 <Container>
                   <Typography component="p" variant="body1" align="left">
-                    something related to aim Lorem ipsum dolor sit amet,
-                    consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad
-                    minim veniam, quis nostrud exercitation ullamco laboris nisi
-                    ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                    reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id
-                    est laborum.
+                    DSC(Developers Student Club) - JIIT128 is a Google Developers program aimed for college students to help them build their mobile, web, machine learning, cloud skills, etc. We are basically a community with connections all over the world. 
+                    Open to any student, ranging from novice developers who are just starting, to advanced developers who want to further enhance their skills, we provide a platform for students to learn and collaborate in solving problems around them with the help of technology.
+
                   </Typography>
                 </Container>
               </Box>
