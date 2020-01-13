@@ -26,7 +26,7 @@ const Section3 = () => {
                   Cloud Study Jam
                 </Typography>
                 <Typography component="p" variant="body1" align="left">
-                 Google Cloud Study Jams are community-run study groups for developers. From containerizing applications to creating virtual machines, study jams can be tailored to specific cloud topics and skill levels with hands-on learning experience.  
+                 Google Cloud Study Jams are community-run study groups for developers. From containerizing applications to creating virtual machines, study jams can be tailored to specific cloud topics and skill levels. Students also get trained with hands-on learning experience.  
                 </Typography>
               </CardContent>
             </CardActionArea>
