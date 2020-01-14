@@ -94,7 +94,7 @@ const Section2 = () => {
                 <span className="color-warning bg-warning">Study Jams</span>
               </Typography>
               <Typography variant="body1" component="p" className="dsc-font">
-                Study Jams are community-run groups for Developers. Whether you are a beginner or an experienced developer, you can still get to learn new and exciting things.
+                Study Jams are community-run groups for Developers. Whether you are a beginner or an experienced developer, you get to learn new things.
               </Typography>
             </Grid>
 
@@ -115,7 +115,7 @@ const Section2 = () => {
                 <span className="color-danger bg-danger">Meetups</span>
               </Typography>
               <Typography variant="body1" component="p" className="dsc-font">
-                Regular meetings are organised for the students who share the same technical interests, so they can get connected with each other through the meeting.
+                Regular meetings are organised for the students who share the same technical interests, so they can get connected with each other.
               </Typography>
             </Grid>
           </Grid>
