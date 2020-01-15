@@ -217,18 +217,11 @@ const Timeline = () => {
                       variant="h3"
                       align="left"
                     >
-                      Lorem ipsum
+                      Event Details
                     </Typography>
                     <Typography component="p" variant="body1" align="left">
-                      something related to event Lorem ipsum dolor sit amet,
-                      consectetur adipiscing elit, sed do eiusmod tempor
-                      incididunt ut labore et dolore magna aliqua. Ut enim ad
-                      minim veniam, quis nostrud exercitation ullamco laboris
-                      nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                      dolor in reprehenderit in voluptate velit esse cillum
-                      dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                      cupidatat non proident, sunt in culpa qui officia deserunt
-                      mollit anim id est laborum.
+                      From containerizing applications to creating virtual machines, Study Jams can be tailored to specific Cloud topics and skill levels. Whether you’re a beginner developer or interested in diving into Machine Learning, BigQuery, Certification, or Kubernetes - there's a track for you. You'll learn the fundamental tools and capabilities of Google Cloud with free access to hands-on labs. All Study Jam participants get one-month free access to QwikLabs. 
+                      Users who complete designated quests receive Google Cloud badges, unlocking additional free access. 
                     </Typography>
                   </Container>
                 </Box>
@@ -247,13 +240,17 @@ const Timeline = () => {
                 Highlights
               </Typography>
               <Typography className="dsc-font" component="p" variant="p">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                A workshop on GCP(Google Cloud Programme) was conducted, the workshop was
+fortunate to have zestful engagement from students. The leading technical
+facilitators looked after the proper functioning and ensured that workshop led a
+systematic and methodical way.
+The students were given an outline and brief highlights of the contentions that were
+to be covered in this workshop.Technical coordinators facilitated the synchronized
+teaching and hands-on sessions. The tracks on which labs were completed are as
+follows:
+Ø App development
+Ø Machine Learning
+Ø Data Science
               </Typography>
             </Container>
           </Box>
@@ -288,18 +285,10 @@ const Timeline = () => {
                       variant="h3"
                       align="left"
                     >
-                      Lorem ipsum
+                      Event Details
                     </Typography>
                     <Typography component="p" variant="body1" align="left">
-                      something related to event Lorem ipsum dolor sit amet,
-                      consectetur adipiscing elit, sed do eiusmod tempor
-                      incididunt ut labore et dolore magna aliqua. Ut enim ad
-                      minim veniam, quis nostrud exercitation ullamco laboris
-                      nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                      dolor in reprehenderit in voluptate velit esse cillum
-                      dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                      cupidatat non proident, sunt in culpa qui officia deserunt
-                      mollit anim id est laborum.
+                      Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of Machine Learning Content (Beginner, Intermediate, Advanced) and relies on our student facilitators to train other students on campus. Explore ML facilitators will deliver learning and development experiences to students on campus in a 'flipped classroom' environment.
                     </Typography>
                   </Container>
                 </Box>
@@ -315,13 +304,12 @@ const Timeline = () => {
                 Highlights
               </Typography>
               <Typography className="dsc-font" component="p" variant="p">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                ExploreML was conducted in our campus in November and it was
+fortunate to see enthusiastic students. The leading technical
+facilitators having profound knowledge of Machine Learning looked after the proper functioning and ensured that the event was led in a
+systematic and methodical way.
+The Technical coordinators facilitated the synchronized
+teaching, offered doubts-clearing and hands-on sessions. 
               </Typography>
             </Container>
           </Box>
