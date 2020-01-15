@@ -49,10 +49,8 @@ const Timeline = () => {
             </Typography>
 
             <Typography component="p" variant="body1" align="left">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea mco laboris nisi ut aliquip ex ea
+              A workshop on introduction to Basics of Web Development was conducted. The topics covered in the workshop were basically from HTML and
+CSS(basic).
             </Typography>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -68,14 +66,12 @@ const Timeline = () => {
               variant="h3"
               align="left"
             >
-              WebDev 19.1
+              WebDev 19.2
             </Typography>
 
             <Typography component="p" variant="body1" align="left">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea
+             A workshop on introduction to CSS was conducted. Following a quick recap and brief introductory lecture on CSS, the work shop
+proceeded to hands on training session.
             </Typography>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -91,14 +87,12 @@ const Timeline = () => {
               variant="h3"
               align="left"
             >
-              WebDev 19.1
+              WebDev 19.3
             </Typography>
 
             <Typography component="p" variant="body1" align="left">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea
+              A workshop on Advanced CSS was conducted. Following a quick recap and brief introductory lecture on CSS, the work shop
+proceeded to hands on training session.
             </Typography>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -114,14 +108,11 @@ const Timeline = () => {
               variant="h3"
               align="left"
             >
-              WebDev 19.1
+              WebDev 19.5
             </Typography>
 
             <Typography component="p" variant="body1" align="left">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea
+              A workshop on Javascript Basics was conducted. Following a brief introduction about the language, the basics was taught to the students with the help of a live session.
             </Typography>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -137,7 +128,7 @@ const Timeline = () => {
               variant="h3"
               align="left"
             >
-              WebDev 19.1
+              WebDev 19.6
             </Typography>
 
             <Typography component="p" variant="body1" align="left">
