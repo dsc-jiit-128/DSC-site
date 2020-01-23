@@ -1,6 +1,12 @@
 import React from "react";
 import Navbar from "../common/Navbar";
-import { Typography, Box, Grid, Container } from "@material-ui/core";
+import webdev1 from "../../images/webdev1.jpeg"
+import webdev2 from "../../images/webdev2.jpeg"
+import webdev3 from "../../images/webdev3.jpg"
+import webdev5 from "../../images/webdev5.jpeg"
+import webdev6 from "../../images/webdev6.jpeg"
+
+import { Typography, Box, Grid, Container, Avatar} from "@material-ui/core";
 import {
   VerticalTimeline,
   VerticalTimelineElement
@@ -47,10 +53,10 @@ const Timeline = () => {
             >
               WebDev 19.1
             </Typography>
-
+            <img src={webdev1}  height="75%" width="100%" />
             <Typography component="p" variant="body1" align="left">
               A workshop on introduction to Basics of Web Development was conducted. The topics covered in the workshop were basically from HTML and
-CSS(basic).
+              CSS(basic).
             </Typography>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -68,10 +74,10 @@ CSS(basic).
             >
               WebDev 19.2
             </Typography>
-
+            <img src={webdev2}  height="75%" width="100%" />
             <Typography component="p" variant="body1" align="left">
              A workshop on introduction to CSS was conducted. Following a quick recap and brief introductory lecture on CSS, the work shop
-proceeded to hands on training session.
+             proceeded to hands on training session.
             </Typography>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -89,10 +95,10 @@ proceeded to hands on training session.
             >
               WebDev 19.3
             </Typography>
-
+            <img src={webdev3}  height="75%" width="100%" />
             <Typography component="p" variant="body1" align="left">
               A workshop on Advanced CSS was conducted. Following a quick recap and brief introductory lecture on CSS, the work shop
-proceeded to hands on training session.
+              proceeded to hands on training session.
             </Typography>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -110,7 +116,7 @@ proceeded to hands on training session.
             >
               WebDev 19.5
             </Typography>
-
+            <img src={webdev5}  height="75%" width="100%" />
             <Typography component="p" variant="body1" align="left">
               A workshop on Javascript Basics was conducted. Following a brief introduction about the language, the basics was taught to the students with the help of a live session.
             </Typography>
@@ -130,7 +136,7 @@ proceeded to hands on training session.
             >
               WebDev 19.6
             </Typography>
-
+            <img src={webdev6}  height="75%" width="100%" />
             <Typography component="p" variant="body1" align="left">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -153,7 +159,7 @@ proceeded to hands on training session.
             >
               WebDev 19.1
             </Typography>
-
+            <img src={webdev1}  height="75%" width="100%" />
             <Typography component="p" variant="body1" align="left">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -176,7 +182,7 @@ proceeded to hands on training session.
             >
               WebDev 19.1
             </Typography>
-
+            <img src={webdev1}  height="75%" width="100%" />
             <Typography component="p" variant="body1" align="left">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut

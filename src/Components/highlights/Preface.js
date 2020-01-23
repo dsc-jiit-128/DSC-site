@@ -18,6 +18,11 @@ const Preface = () => {
           </Typography>
 
           <Typography variant="h4" component="p" className="dsc-font">
+            <CountUp className="color-primary" end={10} duration={10} />
+            <span>+ Events organized</span>
+          </Typography>
+
+          <Typography variant="h4" component="p" className="dsc-font">
             <CountUp className="color-success" end={13} duration={10} />
             <span>+ Workshops done</span>
           </Typography>
