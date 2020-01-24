@@ -1,6 +1,6 @@
 import React from "react";
 
-const Member = ({ img, name, position }) => {
+const Member= ({ img, name, position }) => {
   return (
     <div className="member-card" data-aos="zoom-out">
       <img src={img} alt="profile" />

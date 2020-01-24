@@ -18,7 +18,7 @@ const Section3 = () => {
     <Box my={8}>
       <Grid container spacing={3}>
         <Grid item sm={12} md={4} lg={4}>
-          <Card data-aos="flip-right">
+          <Card data-aos="flip-right" className="landing-card">
             <CardActionArea>
               <img className="card-img" src={StudyJamImage} alt="studyjam" />
               <CardContent>
@@ -26,7 +26,11 @@ const Section3 = () => {
                   Cloud Study Jam
                 </Typography>
                 <Typography component="p" variant="body1" align="left">
-                 Google Cloud Study Jams are community-run study groups for developers. From containerizing applications to creating virtual machines, study jams can be tailored to specific cloud topics and skill levels. Students also get trained with hands-on learning experience.  
+                  Google Cloud Study Jams are community-run study groups for
+                  developers. From containerizing applications to creating
+                  virtual machines, study jams can be tailored to specific cloud
+                  topics and skill levels with exclusive hands-on learning
+                  experience.
                 </Typography>
               </CardContent>
             </CardActionArea>
@@ -43,7 +47,7 @@ const Section3 = () => {
           </Card>
         </Grid>
         <Grid item sm={12} md={4} lg={4}>
-          <Card data-aos="flip-right">
+          <Card data-aos="flip-right" className="landing-card">
             <CardActionArea>
               <CardContent>
                 <img
@@ -56,7 +60,11 @@ const Section3 = () => {
                   Workshops
                 </Typography>
                 <Typography component="p" variant="body1" align="left">
-                  Workshops provide the ability to learn new development skills and solve the problems in the world using technology. Students can also display their prototypes and solutions for industries and organizations in these workshops and get honest reviews from fellow developers.
+                  Workshops provide the ability to learn new development skills
+                  and solve the problems in the world using technology. Students
+                  can also display their prototypes and solutions for industries
+                  and organizations in these workshops and get honest reviews
+                  from fellow developers.
                 </Typography>
               </CardContent>
             </CardActionArea>
@@ -74,7 +82,7 @@ const Section3 = () => {
         </Grid>
 
         <Grid item sm={12} md={4} lg={4}>
-          <Card data-aos="flip-left">
+          <Card data-aos="flip-left" className="landing-card">
             <CardActionArea>
               <img className="card-img" src={ExploreMLImage} alt="exploreml" />
               <CardContent>
@@ -82,7 +90,11 @@ const Section3 = () => {
                   Explore ML
                 </Typography>
                 <Typography component="p" variant="body1" align="left">
-                  Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of Machine Learning Content (Beginner, Intermediate, Advanced). It is a 2-day training experience for the students.
+                  Explore Machine Learning (ML) is a Google-sponsored program
+                  for university students to get started with Machine Learning.
+                  The curriculum offers 3 tracks of Machine Learning Content
+                  (Beginner, Intermediate, Advanced). It is a 2-day training
+                  experience for the students.
                 </Typography>
               </CardContent>
             </CardActionArea>
