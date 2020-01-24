@@ -211,14 +211,14 @@ proceeded to hands on training session.
                       Event Details
                     </Typography>
                     <Typography component="p" variant="body1" align="left">
-                      From containerizing applications to creating virtual machines, Study Jams can be tailored to specific Cloud topics and skill levels. Whether you’re a beginner developer or interested in diving into Machine Learning, BigQuery, Certification, or Kubernetes - there's a track for you. You'll learn the fundamental tools and capabilities of Google Cloud with free access to hands-on labs. All Study Jam participants get one-month free access to QwikLabs. 
-                      Users who complete designated quests receive Google Cloud badges, unlocking additional free access. 
+                      From containerizing applications to creating virtual machines, Study Jams can be tailored to specific Cloud topics and skill levels. Whether you’re a beginner developer or interested in diving into Machine Learning, BigQuery, Certification, or Kubernetes - there's a track for you. You'll learn the fundamental tools and capabilities of Google Cloud with free access to hands-on labs. All Study Jam participants get one-month free access to QwikLabs.
+                      Users who complete designated quests receive Google Cloud badges, unlocking additional free access.
                     </Typography>
                   </Container>
                 </Box>
               </Grid>
               <Grid item sm={12} md={6} lg={6} className="carousel">
-                <Carousel data-aos="flip-right" />
+                <Carousel data-aos="flip-right" name="event" />
               </Grid>
             </Grid>
             <Container>
@@ -265,7 +265,7 @@ follows:
           <Box mt={5}>
             <Grid container>
               <Grid item sm={12} md={6} lg={6} className="carousel">
-                <Carousel data-aos="flip-right" />
+                <Carousel data-aos="flip-right" name="exploreML" />
               </Grid>
               <Grid item sm={12} md={6} lg={6} data-aos="flip-left">
                 <Box>
@@ -300,7 +300,7 @@ fortunate to see enthusiastic students. The leading technical
 facilitators having profound knowledge of Machine Learning looked after the proper functioning and ensured that the event was led in a
 systematic and methodical way.
 The Technical coordinators facilitated the synchronized
-teaching, offered doubts-clearing and hands-on sessions. 
+teaching, offered doubts-clearing and hands-on sessions.
               </Typography>
             </Container>
           </Box>
