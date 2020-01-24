@@ -1,6 +1,6 @@
 import React from "react";
 
-const MemberCard = ({ img, name, position }) => {
+const Member= ({ img, name, position }) => {
   return (
     <div className="member-card" data-aos="zoom-out">
       <img src={img} alt="profile" />
@@ -10,4 +10,4 @@ const MemberCard = ({ img, name, position }) => {
   );
 };
 
-export default MemberCard;
+export default Member;
