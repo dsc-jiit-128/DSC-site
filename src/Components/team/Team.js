@@ -37,11 +37,47 @@ const Team = () => {
             justify="space-around"
             alignItems="center"
           >
-            {[1, 2, 3, 7, 9].map(val => (
+            {[1].map(val => (
               <Grid>
                 <Member
                   img={profileIcon}
-                  name="Lorem Ipsum"
+                  name="Fahad Siddiqui"
+                  position="DSC Member"
+                />
+              </Grid>
+            ))}
+            {[2].map(val => (
+              <Grid>
+                <Member
+                  img={profileIcon}
+                  name="Shubham"
+                  position="DSC Member"
+                />
+              </Grid>
+            ))}
+            {[3].map(val => (
+              <Grid>
+                <Member
+                  img={profileIcon}
+                  name="Shriyam"
+                  position="DSC Member"
+                />
+              </Grid>
+            ))}
+            {[4].map(val => (
+              <Grid>
+                <Member
+                  img={profileIcon}
+                  name="Uphaar"
+                  position="DSC Member"
+                />
+              </Grid>
+            ))}
+            {[7].map(val => (
+              <Grid>
+                <Member
+                  img={profileIcon}
+                  name="Ayush Tiwari"
                   position="DSC Member"
                 />
               </Grid>
