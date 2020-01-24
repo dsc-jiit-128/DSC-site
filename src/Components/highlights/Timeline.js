@@ -237,7 +237,7 @@ const Timeline = () => {
                 </Box>
               </Grid>
               <Grid item sm={12} md={6} lg={6} className="carousel">
-                <Carousel data-aos="flip-right" />
+                <Carousel data-aos="flip-right" name="gcp" />
               </Grid>
             </Grid>
             <Container>
@@ -283,7 +283,7 @@ const Timeline = () => {
           <Box mt={5}>
             <Grid container>
               <Grid item sm={12} md={6} lg={6} className="carousel">
-                <Carousel data-aos="flip-right" />
+                <Carousel data-aos="flip-right" name="exploreML" />
               </Grid>
               <Grid item sm={12} md={6} lg={6} data-aos="flip-left">
                 <Box>
