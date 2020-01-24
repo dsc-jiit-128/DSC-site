@@ -2,7 +2,7 @@ import React from "react";
 import { Typography, Container, Box, Grid } from "@material-ui/core";
 import Navbar from "../common/Navbar";
 import { withRouter } from "react-router-dom";
-import Member from "./MemberCard";
+import Member from "./memberCard";
 import profileIcon from "../../images/profileAvatar.jpg";
 import {
   GroupWork,
