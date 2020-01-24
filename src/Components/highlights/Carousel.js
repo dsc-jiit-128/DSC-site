@@ -20,54 +20,54 @@ import gcp5 from "../../images/gcp/5.jpeg";
 const tutorialSteps = {
   gcp: [
       {
-        label: "San Francisco – Oakland Bay Bridge, United States",
+        label: "Google Study Jam",
         imgPath:
           gcp1
       },
       {
-        label: "Bird",
+        label: "Work on Cloud",
         imgPath:
           gcp2
       },
       {
-        label: "Bali, Indonesia",
+        label: "Understanding Cloud Computing",
         imgPath:
           gcp3
       },
       {
-        label: "NeONBRAND Digital Marketing, Las Vegas, United States",
+        label: "Coordinators Managed Everything Excellently",
         imgPath:
           gcp4
       },
       {
-        label: "Goč, Serbia",
+        label: "Enthusiasm Everywhere",
         imgPath:
           gcp5
       }
     ],
   exploreML: [
       {
-        label: "San Francisco – Oakland Bay Bridge, United States",
+        label: "Explore ML",
         imgPath:
           eML1
       },
       {
-        label: "Bird",
+        label: "Let's Start ML",
         imgPath:
           eML2
       },
       {
-        label: "Bali, Indonesia",
+        label: "Student's Enthusiasm",
         imgPath:
           eML3
       },
       {
-        label: "NeONBRAND Digital Marketing, Las Vegas, United States",
+        label: "Perfect Explanations by our Coordinators",
         imgPath:
           eML4
       },
       {
-        label: "Goč, Serbia",
+        label: "Let's focus on ML",
         imgPath:
           eML5
       }
@@ -125,6 +125,8 @@ export default function TextMobileStepper(props) {
         className={classes.img}
         src={images[activeStep].imgPath}
         alt={images[activeStep].label}
+        height="500px"
+        width="880px"
       />
       <MobileStepper
         className="dsc-font"
