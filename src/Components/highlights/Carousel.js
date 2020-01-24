@@ -11,60 +11,65 @@ import eML2 from "../../images/exploreML/2.jpeg";
 import eML3 from "../../images/exploreML/3.jpeg";
 import eML4 from "../../images/exploreML/4.jpeg";
 import eML5 from "../../images/exploreML/5.jpeg";
+import gcp1 from "../../images/gcp/1.jpeg";
+import gcp2 from "../../images/gcp/2.jpeg";
+import gcp3 from "../../images/gcp/3.jpeg";
+import gcp4 from "../../images/gcp/4.jpeg";
+import gcp5 from "../../images/gcp/5.jpeg";
 
 const tutorialSteps = {
   event: [
       {
         label: "San Francisco – Oakland Bay Bridge, United States",
         imgPath:
-          "https://img.freepik.com/free-vector/abstract-dynamic-pattern-wallpaper-vector_53876-59131.jpg?size=338&ext=jpg"
+          gcp1
       },
       {
         label: "Bird",
         imgPath:
-          "https://images.unsplash.com/photo-1538032746644-0212e812a9e7?auto=format&fit=crop&w=400&h=250&q=60"
+          gcp2
       },
       {
         label: "Bali, Indonesia",
         imgPath:
-          "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=400&h=250&q=80"
+          gcp3
       },
       {
         label: "NeONBRAND Digital Marketing, Las Vegas, United States",
         imgPath:
-          "https://images.unsplash.com/photo-1518732714860-b62714ce0c59?auto=format&fit=crop&w=400&h=250&q=60"
+          gcp4
       },
       {
         label: "Goč, Serbia",
         imgPath:
-          "https://images.unsplash.com/photo-1512341689857-198e7e2f3ca8?auto=format&fit=crop&w=400&h=250&q=60"
+          gcp5
       }
     ],
   exploreML: [
       {
         label: "San Francisco – Oakland Bay Bridge, United States",
         imgPath:
-          {eML1}
+          eML1
       },
       {
         label: "Bird",
         imgPath:
-          {eML2}
+          eML2
       },
       {
         label: "Bali, Indonesia",
         imgPath:
-          {eML3}
+          eML3
       },
       {
         label: "NeONBRAND Digital Marketing, Las Vegas, United States",
         imgPath:
-          {eML4}
+          eML4
       },
       {
         label: "Goč, Serbia",
         imgPath:
-          "{eML5}"
+          eML5
       }
     ]
 };
