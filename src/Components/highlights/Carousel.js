@@ -18,7 +18,7 @@ import gcp4 from "../../images/gcp/4.jpeg";
 import gcp5 from "../../images/gcp/5.jpeg";
 
 const tutorialSteps = {
-  event: [
+  gcp: [
       {
         label: "San Francisco – Oakland Bay Bridge, United States",
         imgPath:
@@ -104,7 +104,7 @@ export default function TextMobileStepper(props) {
   const classes = useStyles();
   const theme = useTheme();
   const [activeStep, setActiveStep] = React.useState(0);
-  const maxSteps = tutorialSteps.event.length;
+  const maxSteps = images.length;
 
   const handleNext = () => {
     setActiveStep(prevActiveStep => prevActiveStep + 1);

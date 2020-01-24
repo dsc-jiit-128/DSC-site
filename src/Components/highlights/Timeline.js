@@ -218,7 +218,7 @@ proceeded to hands on training session.
                 </Box>
               </Grid>
               <Grid item sm={12} md={6} lg={6} className="carousel">
-                <Carousel data-aos="flip-right" name="event" />
+                <Carousel data-aos="flip-right" name="gcp" />
               </Grid>
             </Grid>
             <Container>
