@@ -4,7 +4,9 @@ import webdev1 from "../../images/webdev1.jpeg";
 import webdev2 from "../../images/webdev2.jpeg";
 import webdev3 from "../../images/webdev3.jpg";
 import webdev5 from "../../images/webdev5.jpeg";
+import webdev4 from "../../images/webdev4.jpeg";
 import webdev6 from "../../images/webdev6.jpeg";
+import py1 from "../../images/py1.jpg";
 
 import { Typography, Box, Grid, Container, Avatar } from "@material-ui/core";
 import {
@@ -73,7 +75,7 @@ const Timeline = () => {
               variant="h3"
               align="left"
             >
-              WebDev 19.2
+              CSS Basics 19.1
             </Typography>
             <img src={webdev2} height="75%" width="100%" alt="workshop-2" />
             <Typography component="p" variant="body1" align="left">
@@ -95,7 +97,7 @@ const Timeline = () => {
               variant="h3"
               align="left"
             >
-              WebDev 19.3
+              CSS Advanced 19.2
             </Typography>
             <img src={webdev3} height="75%" width="100%" alt="workshop-3" />
             <Typography component="p" variant="body1" align="left">
@@ -119,7 +121,7 @@ const Timeline = () => {
             >
               WebDev 19.5
             </Typography>
-            <img src={webdev5} height="75%" width="100%" alt="workshop-4" />
+            <img src={webdev4} height="75%" width="100%" alt="workshop-4" />
             <Typography component="p" variant="body1" align="left">
               A workshop on Javascript Basics was conducted. Following a brief
               introduction about the language, the basics was taught to the
@@ -141,12 +143,12 @@ const Timeline = () => {
             >
               WebDev 19.6
             </Typography>
-            <img src={webdev6} height="75%" width="100%" alt="workshop-5" />
+            <img src={webdev5} height="75%" width="100%" alt="workshop-5" />
             <Typography component="p" variant="body1" align="left">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea
+            A workshop on DOM Manipulation was conducted , the workshop was fortunate to
+            have zestful engagement from students. The leading technical facilitators looked
+            after the proper functioning and ensured that workshop led a systematised and
+            methodical way.
             </Typography>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -162,9 +164,9 @@ const Timeline = () => {
               variant="h3"
               align="left"
             >
-              WebDev 19.1
+              UI/UX Session
             </Typography>
-            <img src={webdev1} height="75%" width="100%" alt="workshop-6" />
+            <img src={webdev6} height="75%" width="100%" alt="workshop-6" />
             <Typography component="p" variant="body1" align="left">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -185,14 +187,14 @@ const Timeline = () => {
               variant="h3"
               align="left"
             >
-              WebDev 19.1
+              Python Basics Workshop
             </Typography>
-            <img src={webdev1} height="75%" width="100%" alt="workshop-7" />
+            <img src={py1} height="75%" width="100%" alt="workshop-7" />
             <Typography component="p" variant="body1" align="left">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea
+              A workshop on Basic Python was conducted , the workshop was fortunate to have
+              active participation from students of all batches. The main technical coordinators
+              looked after the smooth running of and ensured that workshop followed an
+              automated process.
             </Typography>
           </VerticalTimelineElement>
         </VerticalTimeline>
