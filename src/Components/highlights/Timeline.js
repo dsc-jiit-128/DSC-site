@@ -365,6 +365,7 @@ const Timeline = () => {
 
         <img src={progate} alt="progate" className="csj-bg" />
       </Box>
+      <Section4 />
     </div>
   );
 };

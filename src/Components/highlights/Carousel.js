@@ -152,8 +152,8 @@ export default function TextMobileStepper(props) {
         src={images[activeStep].imgPath}
         alt={images[activeStep].label}
         height="500px"
-        width="880px"
-        style={{objectFit: "cover"}}
+        width="800px"
+        style={{objectFit: "contain"}}
       />
       <MobileStepper
         className="dsc-font"
