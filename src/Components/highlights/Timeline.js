@@ -6,7 +6,7 @@ import webdev3 from "../../images/webdev3.jpg";
 import webdev5 from "../../images/webdev5.jpeg";
 import webdev4 from "../../images/webdev4.jpeg";
 import webdev6 from "../../images/webdev6.jpeg";
-import py1 from "../../images/py1.jpg";
+import python from "../../images/python.jpg";
 
 import { Typography, Box, Grid, Container, Avatar } from "@material-ui/core";
 import {
@@ -168,10 +168,8 @@ const Timeline = () => {
             </Typography>
             <img src={webdev6} height="75%" width="100%" alt="workshop-6" />
             <Typography component="p" variant="body1" align="left">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea
+              A UI/UX session was conducted to familiarize attendees with the basics of
+              designing in association with Prismatics
             </Typography>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -189,7 +187,7 @@ const Timeline = () => {
             >
               Python Basics Workshop
             </Typography>
-            <img src={py1} height="75%" width="100%" alt="workshop-7" />
+            <img src={python} height="75%" width="100%" alt="workshop-7" />
             <Typography component="p" variant="body1" align="left">
               A workshop on Basic Python was conducted , the workshop was fortunate to have
               active participation from students of all batches. The main technical coordinators
