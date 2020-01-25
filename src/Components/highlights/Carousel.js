@@ -16,6 +16,10 @@ import gcp2 from "../../images/gcp/2.jpeg";
 import gcp3 from "../../images/gcp/3.jpeg";
 import gcp4 from "../../images/gcp/4.jpeg";
 import gcp5 from "../../images/gcp/5.jpeg";
+import eMLN1 from "../../images/exploreMLN/1.jpeg";
+import eMLN2 from "../../images/exploreMLN/2.jpeg";
+import eMLN3 from "../../images/exploreMLN/3.jpeg";
+import eMLN4 from "../../images/exploreMLN/4.jpeg";
 
 const tutorialSteps = {
   gcp: [
@@ -70,6 +74,28 @@ const tutorialSteps = {
         label: "Let's focus on ML",
         imgPath:
           eML5
+      }
+    ],
+    exploreMLN: [
+      {
+        label: "Explore ML (November)",
+        imgPath:
+          eMLN1
+      },
+      {
+        label: "Dive into ML",
+        imgPath:
+          eMLN2
+      },
+      {
+        label: "Perfect Explanations by our Coordinators",
+        imgPath:
+          eMLN3
+      },
+      {
+        label: "Student's Enthusiasm",
+        imgPath:
+          eMLN4
       }
     ]
 };

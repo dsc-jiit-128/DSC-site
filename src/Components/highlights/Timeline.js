@@ -20,6 +20,7 @@ import Preface from "./Preface";
 import Carousel from "./Carousel";
 import csjBg from "../../images/csj-wallpaper.png";
 import exploreMLbg from "../../images/exploreml-wallpaper.png";
+import progate from "../../images/progate-wallpaper.jpg";
 import Section4 from "../landing-page/Section4";
 
 const Timeline = () => {
@@ -283,7 +284,7 @@ const Timeline = () => {
           <Box mt={5}>
             <Grid container>
               <Grid item sm={12} md={6} lg={6} className="carousel">
-                <Carousel data-aos="flip-right" name="exploreML" />
+                <Carousel data-aos="flip-right" name="exploreMLN" />
               </Grid>
               <Grid item sm={12} md={6} lg={6} data-aos="flip-left">
                 <Box>
@@ -310,6 +311,25 @@ const Timeline = () => {
                 </Box>
               </Grid>
             </Grid>
+            <Box mt={5} pt={5}>
+              <Typography
+                id="exploreml"
+                className="dsc-font"
+                component="p"
+                variant="h3"
+                align="center"
+              >
+                ExploreML (January)
+                <Grid container>
+                  <Grid item sm={12} md={2} lg={2} >
+
+                  </Grid>
+                  <Grid item sm={12} md={8} lg={8} className="carousel">
+                    <Carousel data-aos="flip-right" name="exploreML" />
+                  </Grid>
+                </Grid>
+              </Typography>
+            </Box>
             <Container>
               <Typography
                 className="dsc-font"
@@ -320,7 +340,7 @@ const Timeline = () => {
                 Highlights
               </Typography>
               <Typography className="dsc-font" component="p" variant="p">
-                ExploreML was conducted in our campus in November and it was
+                ExploreML was conducted in our campus in November and January and it was
                 fortunate to see enthusiastic students. The leading technical
                 facilitators having profound knowledge of Machine Learning
                 looked after the proper functioning and ensured that the event
@@ -330,8 +350,20 @@ const Timeline = () => {
               </Typography>
             </Container>
           </Box>
-          <Section4 />
         </Container>
+        <Box mt={5} pt={5}>
+          <Typography
+            id="exploreml"
+            className="dsc-font"
+            component="p"
+            variant="h3"
+            align="center"
+          >
+            Progate Week Of Learning
+          </Typography>
+        </Box>
+
+        <img src={progate} alt="progate" className="csj-bg" />
       </Box>
     </div>
   );
