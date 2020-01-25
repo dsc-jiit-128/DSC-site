@@ -5,6 +5,7 @@ import webdev2 from "../../images/webdev2.jpeg";
 import webdev3 from "../../images/webdev3.jpg";
 import webdev5 from "../../images/webdev5.jpeg";
 import webdev6 from "../../images/webdev6.jpeg";
+import python from "../../images/python.jpg";
 
 import { Typography, Box, Grid, Container, Avatar } from "@material-ui/core";
 import {
@@ -139,14 +140,12 @@ const Timeline = () => {
               variant="h3"
               align="left"
             >
-              WebDev 19.6
+              UI / UX
             </Typography>
             <img src={webdev6} height="75%" width="100%" alt="workshop-5" />
             <Typography component="p" variant="body1" align="left">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea
+              A workshop on UI/UX was conducted in association with "Prismatic".
+              The participants were taught to make clean looking applications.
             </Typography>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -164,12 +163,10 @@ const Timeline = () => {
             >
               WebDev 19.1
             </Typography>
-            <img src={webdev1} height="75%" width="100%" alt="workshop-6" />
+            <img src={python} height="75%" width="100%" alt="workshop-6" />
             <Typography component="p" variant="body1" align="left">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea
+              A python workshop was conducted to familiarize attendees with the basics of
+              python
             </Typography>
           </VerticalTimelineElement>
           <VerticalTimelineElement

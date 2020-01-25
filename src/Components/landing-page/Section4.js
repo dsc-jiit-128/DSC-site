@@ -26,7 +26,7 @@ const Section4 = () => {
             </a>
           </Grid>
           <Grid item data-aos="zoom-in" data-aos-duration="900">
-            <a href="/">
+            <a href="https://github.com/dsc-jiit-128">
               <img src={githubIcon} alt="github-icon" className="social-icon" />
             </a>
           </Grid>
