@@ -8,7 +8,7 @@ import webdev4 from "../../images/webdev4.jpeg";
 import webdev6 from "../../images/webdev6.jpeg";
 import python from "../../images/python.jpg";
 
-import { Typography, Box, Grid, Container, Avatar } from "@material-ui/core";
+import { Typography, Box, Grid, Container } from "@material-ui/core";
 import {
   VerticalTimeline,
   VerticalTimelineElement
@@ -145,10 +145,10 @@ const Timeline = () => {
             </Typography>
             <img src={webdev5} height="75%" width="100%" alt="workshop-5" />
             <Typography component="p" variant="body1" align="left">
-            A workshop on DOM Manipulation was conducted , the workshop was fortunate to
-            have zestful engagement from students. The leading technical facilitators looked
-            after the proper functioning and ensured that workshop led a systematised and
-            methodical way.
+              A workshop on DOM Manipulation was conducted , the workshop was
+              fortunate to have zestful engagement from students. The leading
+              technical facilitators looked after the proper functioning and
+              ensured that workshop led a systematised and methodical way.
             </Typography>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -168,8 +168,8 @@ const Timeline = () => {
             </Typography>
             <img src={webdev6} height="75%" width="100%" alt="workshop-6" />
             <Typography component="p" variant="body1" align="left">
-              A UI/UX session was conducted to familiarize attendees with the basics of
-              designing in association with Prismatics
+              A UI/UX session was conducted to familiarize attendees with the
+              basics of designing in association with Prismatics
             </Typography>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -189,10 +189,11 @@ const Timeline = () => {
             </Typography>
             <img src={python} height="75%" width="100%" alt="workshop-7" />
             <Typography component="p" variant="body1" align="left">
-              A workshop on Basic Python was conducted , the workshop was fortunate to have
-              active participation from students of all batches. The main technical coordinators
-              looked after the smooth running of and ensured that workshop followed an
-              automated process.
+              A workshop on Basic Python was conducted , the workshop was
+              fortunate to have active participation from students of all
+              batches. The main technical coordinators looked after the smooth
+              running of and ensured that workshop followed an automated
+              process.
             </Typography>
           </VerticalTimelineElement>
         </VerticalTimeline>

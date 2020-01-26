@@ -19,59 +19,49 @@ import gcp5 from "../../images/gcp/5.jpeg";
 
 const tutorialSteps = {
   gcp: [
-      {
-        label: "Google Study Jam",
-        imgPath:
-          gcp1
-      },
-      {
-        label: "Work on Cloud",
-        imgPath:
-          gcp2
-      },
-      {
-        label: "Understanding Cloud Computing",
-        imgPath:
-          gcp3
-      },
-      {
-        label: "Coordinators Managed Everything Excellently",
-        imgPath:
-          gcp4
-      },
-      {
-        label: "Enthusiasm Everywhere",
-        imgPath:
-          gcp5
-      }
-    ],
+    {
+      label: "Google Study Jam",
+      imgPath: gcp1
+    },
+    {
+      label: "Work on Cloud",
+      imgPath: gcp2
+    },
+    {
+      label: "Understanding Cloud Computing",
+      imgPath: gcp3
+    },
+    {
+      label: "Coordinators Managed Everything Excellently",
+      imgPath: gcp4
+    },
+    {
+      label: "Enthusiasm Everywhere",
+      imgPath: gcp5
+    }
+  ],
   exploreML: [
-      {
-        label: "Explore ML",
-        imgPath:
-          eML1
-      },
-      {
-        label: "Let's Start ML",
-        imgPath:
-          eML2
-      },
-      {
-        label: "Student's Enthusiasm",
-        imgPath:
-          eML3
-      },
-      {
-        label: "Perfect Explanations by our Coordinators",
-        imgPath:
-          eML4
-      },
-      {
-        label: "Let's focus on ML",
-        imgPath:
-          eML5
-      }
-    ]
+    {
+      label: "Explore ML",
+      imgPath: eML1
+    },
+    {
+      label: "Let's Start ML",
+      imgPath: eML2
+    },
+    {
+      label: "Student's Enthusiasm",
+      imgPath: eML3
+    },
+    {
+      label: "Perfect Explanations by our Coordinators",
+      imgPath: eML4
+    },
+    {
+      label: "Let's focus on ML",
+      imgPath: eML5
+    }
+  ]
 };
 
 const useStyles = makeStyles(theme => ({
@@ -96,9 +86,9 @@ export default function TextMobileStepper(props) {
   const eventName = props.name;
   const array = Object.entries(tutorialSteps);
   var images = [];
-  array.forEach(([key,value])=>{
-    if(key===eventName) {
-      images= value;
+  array.forEach(([key, value]) => {
+    if (key === eventName) {
+      images = value;
     }
   });
   const classes = useStyles();
@@ -117,17 +107,15 @@ export default function TextMobileStepper(props) {
   return (
     <div className={classes.root}>
       <Paper square elevation={0} className={classes.header}>
-        <Typography className="dsc-font">
-          {images[activeStep].label}
-        </Typography>
+        <Typography className="dsc-font">{images[activeStep].label}</Typography>
       </Paper>
       <img
+        id="carousel-img"
         className={classes.img}
         src={images[activeStep].imgPath}
         alt={images[activeStep].label}
         height="500px"
         width="880px"
-        style={{objectFit: "cover"}}
       />
       <MobileStepper
         className="dsc-font"

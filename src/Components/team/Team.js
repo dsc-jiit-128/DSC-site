@@ -4,7 +4,7 @@ import Navbar from "../common/Navbar";
 import { withRouter } from "react-router-dom";
 import Member from "./MemberCard";
 import profileIcon from "../../images/profileAvatar.jpg";
-import Img from "../import_image/importImage.js";
+// import Img from "../import_image/importImage.js";
 import {
   GroupWork,
   Android,
@@ -67,11 +67,7 @@ const Team = () => {
             ))}
             {[4].map(val => (
               <Grid>
-                <Member
-                  img={profileIcon}
-                  name="Uphaar"
-                  position="DSC Member"
-                />
+                <Member img={profileIcon} name="Uphaar" position="DSC Member" />
               </Grid>
             ))}
             {[7].map(val => (
@@ -82,7 +78,7 @@ const Team = () => {
                   position="DSC Member"
                 />
               </Grid>
-            ))} 
+            ))}
           </Grid>
         </Box>
 
