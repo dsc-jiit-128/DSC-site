@@ -160,6 +160,7 @@ body {
 .card-img {
   min-height: 270px;
   width: 100%;
+  object-fit: contain;
 }
 
 .member-card img {
@@ -193,6 +194,9 @@ h3 {
   max-height: 34.45rem;
 }
 
+#carousel-img {
+  object-fit: contain;
+}
 @media only screen and (max-width: 600px) {
   .section-4 img {
     display: block;
