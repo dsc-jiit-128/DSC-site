@@ -7,6 +7,7 @@ import webdev5 from "../../images/webdev5.jpeg";
 import webdev4 from "../../images/webdev4.jpeg";
 import webdev6 from "../../images/webdev6.jpeg";
 import python from "../../images/python.jpg";
+import progate from "../../images/progate.jpeg";
 
 import { Typography, Box, Grid, Container, Avatar } from "@material-ui/core";
 import {
@@ -193,6 +194,28 @@ const Timeline = () => {
               active participation from students of all batches. The main technical coordinators
               looked after the smooth running of and ensured that workshop followed an
               automated process.
+            </Typography>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            contentStyle={{ background: "rgb(219,68,55)", color: "#fff" }}
+            contentArrowStyle={{ borderRight: "7px solid  rgb(219,68,55)" }}
+            date="2019"
+            iconStyle={{ background: "rgb(219,68,55)", color: "#fff" }}
+            icon={<WorkIcon />}
+          >
+            <Typography
+              className="vertical-timeline-element-title"
+              component="p"
+              variant="h3"
+              align="left"
+            >
+              Progate Week Of Learning
+            </Typography>
+            <img src={progate} height="75%" width="100%" alt="workshop-7" />
+            <Typography component="p" variant="body1" align="left">
+              A workshop on Basic and Advanced Web Development was conducted by us sponsored by progate, for introducing
+              newbies to the world of Web Development and train them so that they can create their own web project
+              at the end of the Workshop.
             </Typography>
           </VerticalTimelineElement>
         </VerticalTimeline>
