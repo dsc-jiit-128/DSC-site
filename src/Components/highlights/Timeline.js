@@ -5,6 +5,7 @@ import webdev2 from "../../images/webdev2.jpeg";
 import webdev3 from "../../images/webdev3.jpg";
 import webdev5 from "../../images/webdev5.jpeg";
 import webdev6 from "../../images/webdev6.jpeg";
+import progate from "../../images/progate.jpeg";
 
 import { Typography, Box, Grid, Container, Avatar } from "@material-ui/core";
 import {
@@ -20,7 +21,6 @@ import Preface from "./Preface";
 import Carousel from "./Carousel";
 import csjBg from "../../images/csj-wallpaper.png";
 import exploreMLbg from "../../images/exploreml-wallpaper.png";
-import progate from "../../images/progate-wallpaper.jpg";
 import Section4 from "../landing-page/Section4";
 
 const Timeline = () => {
@@ -163,9 +163,9 @@ const Timeline = () => {
               variant="h3"
               align="left"
             >
-              WebDev 19.1
+              Progate Week Of Learning
             </Typography>
-            <img src={webdev1} height="75%" width="100%" alt="workshop-6" />
+            <img src={progate} height="75%" width="100%" alt="workshop-6" />
             <Typography component="p" variant="body1" align="left">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -350,22 +350,9 @@ const Timeline = () => {
               </Typography>
             </Container>
           </Box>
+          <Section4 />
         </Container>
-        <Box mt={5} pt={5}>
-          <Typography
-            id="exploreml"
-            className="dsc-font"
-            component="p"
-            variant="h3"
-            align="center"
-          >
-            Progate Week Of Learning
-          </Typography>
-        </Box>
-
-        <img src={progate} alt="progate" className="csj-bg" />
       </Box>
-      <Section4 />
     </div>
   );
 };
