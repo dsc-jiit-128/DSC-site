@@ -16,6 +16,145 @@ import {
 import Section4 from "../landing-page/Section4";
 
 const Team = () => {
+
+    const coreArr=[
+      {
+        img:"",
+        name:"Fahad Siddiqui",
+        position:"Community Lead"
+      },
+      {
+      img:"",
+      name:"Shubham Dubey",
+      position:"Management Lead"
+    },
+    {
+      img:"",
+      name:"Ayush Tiwari",
+      position:"Management Lead"
+    },
+    {
+      img:"SamarthSharma.jpg",
+      name:"Samarth Sharma",
+      position:"Technical Lead"
+    },
+    {
+      img:"ShreyanshVarshney.jpg",
+      name:"Shreyansh Varshney",
+      position:"Technical Advisior"
+    }
+  ]
+
+  const TechnicalArr=[
+    {
+      img:"",
+      name:"Jai Parakh",
+      position:"Full Stack"
+    },
+    {
+    img:"",
+    name:"Rohan Verma",
+    position:"Android"
+  },
+  {
+    img:"",
+    name:"Abhinav Verma",
+    position:"ML"
+  },
+  {
+    img:"",
+    name:"Shivam Agarwal",
+    position:"ML"
+  },
+  {
+    img:"",
+    name:"Pawan Kumar",
+    position:"Web"
+  },
+  {
+    img:"",
+    name:"Satyam Mittal",
+    position:"ML"
+  },
+  {
+    img:"",
+    name:"Abhinav Srivastva",
+    position:"Web"
+  },
+  {
+    img:"",
+    name:"Simran Shilky",
+    position:"Web"
+  },
+  {
+    img:"",
+    name:"Utkarsh Pandey",
+    position:"Web"
+  },
+  {
+    img:"",
+    name:"Shriyam Tripathi",
+    position:"Flutter"
+  },
+  {
+    img:"",
+    name:"Suyash Singh",
+    position:"Web"
+  },
+  {
+    img:"",
+    name:"Aman Jhaketiya",
+    position:"ML"
+  },
+  {
+    img:"",
+    name:"Shubhangi Agarwaal",
+    position:"Web"
+  }
+]
+const managementTeam=[
+  {
+    img:"",
+    name:"Saksham Srivastav",
+    position:"Event Manager"
+  },
+  {
+    img:"",
+    name:"Aditya Dahiya",
+    position:"PR Head"
+  },
+
+  {
+    img:"",
+    name:"Surbhi Varshney",
+    position:"Content Writing"
+  },
+  {
+    img:"",
+    name:"Megha Singhal",
+    position:"PR Member"
+  }
+
+]
+const socialMedia=[
+  {
+    img:"",
+    name:"Tanisha Srivastava",
+    position:"Social Media Head"
+  }
+]
+const photoTeam=[
+  {
+    img:"",
+    name:"Yash",
+    position:"Photography"
+  },
+  {
+    img:"",
+    name:"Saksham",
+    position:"Photography"
+  }
+]
   return (
     <div>
       <Navbar></Navbar>
