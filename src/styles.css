@@ -165,7 +165,9 @@ body {
 
 .member-card img {
   border-radius: 50%;
-  max-width: 13rem;
+  width: 13rem;
+  height: 13rem;
+  object-fit: cover;
 }
 
 .member-card {
