@@ -41,6 +41,11 @@ const Team = () => {
       img: "ShreyanshVarshney.jpg",
       name: "Shreyansh Varshney",
       position: "Technical Advisior"
+    },
+    {
+      img: "SakshamSrivastava.jpg",
+      name: "Saksham Srivastava",
+      position: "Event Manager"
     }
   ];
 
@@ -108,11 +113,6 @@ const Team = () => {
   ];
   const managementTeam = [
     {
-      img: "SakshamSrivastava.jpg",
-      name: "Saksham Srivastava",
-      position: "Event Manager"
-    },
-    {
       img: "cat2.gif",
       name: "Aditya Dahiya",
       position: "PR Head"
@@ -132,12 +132,12 @@ const Team = () => {
   ];
   const photoTeam = [
     {
-      img: "cat2.gif",
+      img: "Yash.jpg",
       name: "Yash",
       position: "Photography"
     },
     {
-      img: "cat2.gif",
+      img: "Saksham.jpg",
       name: "Saksham",
       position: "Photography"
     }
