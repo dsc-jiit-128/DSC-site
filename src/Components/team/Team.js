@@ -145,7 +145,7 @@ const Team = () => {
 
   const contentTeam = [
     {
-      img: "ShubhangiAgarwal.jpg",
+      img: "cat2.gif",
       name: "Samridhi",
       position: "Content"
     }

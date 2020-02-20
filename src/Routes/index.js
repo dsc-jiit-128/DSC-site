@@ -15,7 +15,7 @@ class Router extends Component {
             <Route path="/highlights" component={Timeline} exact />
             <Route path="/Team" component={Team} exact />
             <Route
-              path="/.well-known/acme-challenge/"
+              path="/.well-known/acme-challenge/hrGposBd8vxeSEPLLpxpnuFrolUKWai9z60E4hjywS0"
               component={Verify}
               exact
             />
