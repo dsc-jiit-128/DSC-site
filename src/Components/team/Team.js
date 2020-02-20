@@ -40,7 +40,7 @@ const Team = () => {
     {
       img: "ShreyanshVarshney.jpg",
       name: "Shreyansh Varshney",
-      position: "Technical Advisior"
+      position: "Technical Advisor"
     },
     {
       img: "SakshamSrivastava.jpg",
@@ -146,12 +146,7 @@ const Team = () => {
   const contentTeam = [
     {
       img: "ShubhangiAgarwal.jpg",
-      name: "Shubhangi Agarwal",
-      position: "Content"
-    },
-    {
-      img: "cat2.gif",
-      name: "Surbhi Varshney",
+      name: "Samridhi",
       position: "Content"
     }
   ];

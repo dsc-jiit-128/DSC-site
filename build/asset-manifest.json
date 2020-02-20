@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.f7cdd8bd.chunk.css",
-    "main.js": "/static/js/main.976666de.chunk.js",
-    "main.js.map": "/static/js/main.976666de.chunk.js.map",
+    "main.js": "/static/js/main.206d66d5.chunk.js",
+    "main.js.map": "/static/js/main.206d66d5.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.16066bf5.js",
     "runtime-main.js.map": "/static/js/runtime-main.16066bf5.js.map",
     "static/css/2.fa864577.chunk.css": "/static/css/2.fa864577.chunk.css",
     "static/js/2.15df52d7.chunk.js": "/static/js/2.15df52d7.chunk.js",
     "static/js/2.15df52d7.chunk.js.map": "/static/js/2.15df52d7.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.270c6f652d971b908229d785832c259c.js": "/precache-manifest.270c6f652d971b908229d785832c259c.js",
+    "precache-manifest.30b54a1e0e6f5af0c3fc63228f44c95b.js": "/precache-manifest.30b54a1e0e6f5af0c3fc63228f44c95b.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.fa864577.chunk.css.map": "/static/css/2.fa864577.chunk.css.map",
     "static/css/main.f7cdd8bd.chunk.css.map": "/static/css/main.f7cdd8bd.chunk.css.map",
@@ -21,13 +21,13 @@
     "static/media/5.jpeg": "/static/media/5.5d87e76b.jpeg",
     "static/media/AbhinavSrivastava.jpg": "/static/media/AbhinavSrivastava.a04f348b.jpg",
     "static/media/AbhinavVerma.jpg": "/static/media/AbhinavVerma.abfd0b0a.jpg",
-    "static/media/AmanJakhetiya.jpg": "/static/media/AmanJakhetiya.e53f7f7b.jpg",
+    "static/media/AmanJakhetiya.jpg": "/static/media/AmanJakhetiya.4538e8b2.jpg",
     "static/media/AyushTiwari.jpg": "/static/media/AyushTiwari.79d02ec9.jpg",
     "static/media/Facebook.svg": "/static/media/Facebook.37d6612c.svg",
     "static/media/FahadSiddiqui.jpg": "/static/media/FahadSiddiqui.c60944ed.jpg",
     "static/media/Github.svg": "/static/media/Github.b052b220.svg",
     "static/media/JaiParakh.jpg": "/static/media/JaiParakh.60359142.jpg",
-    "static/media/PawanKumar.jpg": "/static/media/PawanKumar.d10bd7cb.jpg",
+    "static/media/PawanKumar.jpg": "/static/media/PawanKumar.ac988f2c.jpg",
     "static/media/RohanVerma.jpg": "/static/media/RohanVerma.d8864ccf.jpg",
     "static/media/Saksham.jpg": "/static/media/Saksham.2733b450.jpg",
     "static/media/SakshamSrivastava.jpg": "/static/media/SakshamSrivastava.4974036f.jpg",
@@ -71,6 +71,6 @@
     "static/css/2.fa864577.chunk.css",
     "static/js/2.15df52d7.chunk.js",
     "static/css/main.f7cdd8bd.chunk.css",
-    "static/js/main.976666de.chunk.js"
+    "static/js/main.206d66d5.chunk.js"
   ]
 }
