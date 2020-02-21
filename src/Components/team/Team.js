@@ -121,6 +121,16 @@ const Team = () => {
       img: "cat2.gif",
       name: "Megha Singhal",
       position: "PR Member"
+    },
+    {
+      img: "Tanya.jpg",
+      name: "Tanya Rastogi",
+      position: "PR Member"
+    },
+    {
+      img: "Gaurav.jpg",
+      name: "Gaurav Sharan",
+      position: "PR Member"
     }
   ];
   const socialMedia = [
@@ -145,9 +155,9 @@ const Team = () => {
 
   const contentTeam = [
     {
-      img: "cat2.gif",
-      name: "Samridhi",
-      position: "Content"
+      img: "Samriddhi.jpg",
+      name: "Samriddhi Gupta",
+      position: "Content Creation"
     }
   ];
 
