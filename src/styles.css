@@ -193,7 +193,13 @@ h3 {
 }
 
 .landing-card {
-  max-height: 34.45rem;
+  display: flex;
+  flex-direction: column;
+  min-height: 37rem;
+}
+
+.landing-card > button {
+  flex-grow: 1;
 }
 
 #carousel-img {
@@ -204,11 +210,21 @@ h3 {
   margin-top: 5rem;
 }
 
-.hackheist img {
+/* .hackheist img {
   width: 40%;
   display: block;
-  margin: auto;
+  position: absolute;
 }
+
+.hackheist {
+  background-color: #1fc8db;
+  background-image: linear-gradient(
+    141deg,
+    #9fb8ad 0%,
+    #1fc8db 51%,
+    #2cb5e8 75%
+  );
+} */
 
 @media only screen and (max-width: 600px) {
   .section-4 img {

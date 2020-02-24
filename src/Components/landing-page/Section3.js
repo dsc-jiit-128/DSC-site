@@ -12,13 +12,14 @@ import Button from "@material-ui/core/Button";
 import StudyJamImage from "../../images/studyjam.jpeg";
 import ExploreMLImage from "../../images/exploreML.jpeg";
 import WorkshopsImage from "../../images/workshops.jpeg";
+import HackHeistImage from "../../images/hackheist/hackheist.png";
 
 const Section3 = () => {
   return (
     <Box my={8}>
       <Grid container spacing={3}>
         <Grid item sm={12} md={4} lg={4}>
-          <Card data-aos="flip-right" className="landing-card">
+          <Card data-aos="flip-up" className="landing-card">
             <CardActionArea>
               <img className="card-img" src={StudyJamImage} alt="studyjam" />
               <CardContent>
@@ -47,7 +48,7 @@ const Section3 = () => {
           </Card>
         </Grid>
         <Grid item sm={12} md={4} lg={4}>
-          <Card data-aos="flip-right" className="landing-card">
+          <Card data-aos="flip-up" className="landing-card">
             <CardActionArea>
               <CardContent>
                 <img
@@ -80,9 +81,8 @@ const Section3 = () => {
             </CardActions>
           </Card>
         </Grid>
-
         <Grid item sm={12} md={4} lg={4}>
-          <Card data-aos="flip-left" className="landing-card">
+          <Card data-aos="flip-down" className="landing-card">
             <CardActionArea>
               <img className="card-img" src={ExploreMLImage} alt="exploreml" />
               <CardContent>
@@ -111,6 +111,34 @@ const Section3 = () => {
           </Card>
         </Grid>
       </Grid>
+
+      <Box my={8} className="hackheist">
+        <Card data-aos="flip-up" className="landing-card">
+          <CardActionArea>
+            <img className="card-img" src={HackHeistImage} alt="exploreml" />
+            <CardContent>
+              <Typography component="p" variant="h4" align="center">
+                Details coming soon
+              </Typography>
+              <Typography
+                component="p"
+                variant="body1"
+                align="center"
+              ></Typography>
+            </CardContent>
+          </CardActionArea>
+          <CardActions className="section-2-paper">
+            {/* <Button
+              variant="outlined"
+              // onClick={() => {
+              //   window.location = "/highlights#exploreml";
+              // }}
+            >
+              Coming Soon
+            </Button> */}
+          </CardActions>
+        </Card>
+      </Box>
     </Box>
   );
 };

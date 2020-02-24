@@ -9,22 +9,34 @@ import {
   ExpansionPanelDetails,
   ExpansionPanelSummary
 } from "@material-ui/core";
+import Particles from "react-particles-js";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
-import Hackheist_img from "../../images/hackheist/hackheist.png";
+import Hackheist_img from "../../images/hackheist/hackheist2.png";
 import LockOpenIcon from "@material-ui/icons/LockOpen";
 import AttachMoneyOutlinedIcon from "@material-ui/icons/AttachMoneyOutlined";
 import LaptopChromebookOutlinedIcon from "@material-ui/icons/LaptopChromebookOutlined";
 import AdbOutlinedIcon from "@material-ui/icons/AdbOutlined";
 
 const Hackathon = () => {
+  let pt = {
+    particles: {
+      number: {
+        value: 450,
+        density: {
+          enable: true,
+          value_area: 2000
+        },
+        color: "#000000"
+      }
+    }
+  };
+
   return (
     <div>
       <Navbar></Navbar>
       <div>
-        <p>
-          <AdbOutlinedIcon />
-        </p>
-        <Box className="mt-9 hackheist">
+        <Box className="hackheist">
+          <Particles params={pt} />
           <img src={Hackheist_img} alt="" />
         </Box>
       </div>
