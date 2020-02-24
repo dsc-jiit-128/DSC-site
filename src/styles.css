@@ -199,6 +199,17 @@ h3 {
 #carousel-img {
   object-fit: contain;
 }
+
+.faq-section {
+  margin-top: 5rem;
+}
+
+.hackheist img {
+  width: 40%;
+  display: block;
+  margin: auto;
+}
+
 @media only screen and (max-width: 600px) {
   .section-4 img {
     display: block;

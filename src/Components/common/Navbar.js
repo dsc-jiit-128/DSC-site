@@ -17,6 +17,7 @@ import HomeIcon from "@material-ui/icons/Home";
 import EventIcon from "@material-ui/icons/Event";
 import GroupIcon from "@material-ui/icons/Group";
 import InfoIcon from "@material-ui/icons/Info";
+import EmojiEventsIcon from '@material-ui/icons/EmojiEvents';
 import workFromHome from "../../images/workfromhome.gif";
 
 const Navbar = () => {
@@ -69,8 +70,8 @@ const Navbar = () => {
             {theme.direction === "rtl" ? (
               <ChevronLeftIcon />
             ) : (
-              <ChevronRightIcon />
-            )}
+                <ChevronRightIcon />
+              )}
           </IconButton>
         </div>
         <Divider />
@@ -98,6 +99,17 @@ const Navbar = () => {
               <EventIcon />
             </ListItemIcon>
             <ListItemText primary={"Highlights"} />
+          </ListItem>
+          <ListItem
+            button
+            onClick={() => {
+              window.location = "./hackheist";
+            }}
+          >
+            <ListItemIcon>
+              <EmojiEventsIcon />
+            </ListItemIcon>
+            <ListItemText primary={"HackHeist"} />
           </ListItem>
           <ListItem
             button
