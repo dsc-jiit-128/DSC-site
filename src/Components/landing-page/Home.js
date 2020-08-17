@@ -18,9 +18,6 @@ const Home = () => {
 
       <Section2 />
 
-      <Container>
-        <Section3 />
-      </Container>
 
       <div className="mapouter">
         <div className="gmap_canvas">

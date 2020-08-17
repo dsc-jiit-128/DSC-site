@@ -13,10 +13,53 @@ import {
   Camera,
   Facebook
 } from "@material-ui/icons";
+import EmojiPeopleIcon from '@material-ui/icons/EmojiPeople';
 import Section4 from "../landing-page/Section4";
 
 const Team = () => {
   const coreArr = [
+    {
+      img: "AbhinavSrivastava.jpg",
+      name: "Abhinav Srivastava",
+      position: "Community Lead"
+    },
+    {
+      img: "Tanya.jpg",
+      name: "Tanya Rastogi",
+      position: "Management Lead"
+    },
+    {
+      img: "SimranShilky.jpg",
+      name: "Simran Shilky",
+      position: "Management Lead"
+    },
+    {
+      img: "UtkarshPandey.jpg",
+      name: "Utkarsh Pandey",
+      position: "Technical Lead"
+    },
+    {
+      img: "ShriyamTripathi.jpg",
+      name: "Shriyam Tripathi",
+      position: "Technical Advisor"
+    },
+    {
+      img: "TanishaSrivastava.jpg",
+      name: "Tanisha Srivastava",
+      position: "Social Media Lead"
+    },
+    {
+      img: "Samriddhi.jpg",
+      name: "Samriddhi Gupta",
+      position: "Content Creation Lead"
+    },
+    {
+      img: "Saksham.jpg",
+      name: "Saksham",
+      position: "Event Manager"
+    }
+  ]
+  const SeniorArr = [
     {
       img: "FahadSiddiqui.jpg",
       name: "Fahad Siddiqui",
@@ -46,10 +89,7 @@ const Team = () => {
       img: "SakshamSrivastava.jpg",
       name: "Saksham Srivastava",
       position: "Event Manager"
-    }
-  ];
-
-  const TechnicalArr = [
+    },
     {
       img: "JaiParakh.jpg",
       name: "Jai Parakh",
@@ -79,27 +119,10 @@ const Team = () => {
       img: "SatyamMittal.jpg",
       name: "Satyam Mittal",
       position: "ML"
-    },
-    {
-      img: "AbhinavSrivastava.jpg",
-      name: "Abhinav Srivastava",
-      position: "Web"
-    },
-    {
-      img: "SimranShilky.jpg",
-      name: "Simran Shilky",
-      position: "Web"
-    },
-    {
-      img: "UtkarshPandey.jpg",
-      name: "Utkarsh Pandey",
-      position: "Web"
-    },
-    {
-      img: "ShriyamTripathi.jpg",
-      name: "Shriyam Tripathi",
-      position: "Web"
-    },
+    }
+  ];
+
+  const TechnicalArr = [
     {
       img: "SuyashSingh.jpg",
       name: "Suyash Singh",
@@ -123,11 +146,6 @@ const Team = () => {
       position: "PR Member"
     },
     {
-      img: "Tanya.jpg",
-      name: "Tanya Rastogi",
-      position: "PR Member"
-    },
-    {
       img: "Gaurav.jpg",
       name: "Gaurav Sharan",
       position: "PR Member"
@@ -137,18 +155,13 @@ const Team = () => {
     {
       img: "TanishaSrivastava.jpg",
       name: "Tanisha Srivastava",
-      position: "Social Media Head"
+      position: "Social Media Lead"
     }
   ];
   const photoTeam = [
     {
       img: "Yash.jpg",
       name: "Yash",
-      position: "Photography"
-    },
-    {
-      img: "Saksham.jpg",
-      name: "Saksham",
       position: "Photography"
     }
   ];
@@ -157,7 +170,7 @@ const Team = () => {
     {
       img: "Samriddhi.jpg",
       name: "Samriddhi Gupta",
-      position: "Content Creation"
+      position: "Content Creation Lead"
     }
   ];
 
@@ -318,6 +331,32 @@ const Team = () => {
           alignItems="center"
         >
           {socialMedia.map(val => (
+            <Grid>
+              <Member img={val.img} name={val.name} position={val.position} />
+            </Grid>
+          ))}
+        </Grid>
+        <Box className="team-sections">
+          <Typography
+            variant="h3"
+            align="center"
+            component="p"
+            className="dsc-font"
+            data-aos="flip-right"
+          >
+            <span>
+              Previous Team{" "}
+              <EmojiPeopleIcon className="color-primary" fontSize="large" />
+            </span>
+          </Typography>
+        </Box>
+        <Grid
+          container
+          direction="row"
+          justify="space-around"
+          alignItems="center"
+        >
+          {SeniorArr.map(val => (
             <Grid>
               <Member img={val.img} name={val.name} position={val.position} />
             </Grid>

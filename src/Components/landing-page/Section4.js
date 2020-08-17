@@ -21,7 +21,7 @@ const Section4 = () => {
         </Typography>
         <Grid container justify="center">
           <Grid item data-aos="zoom-in" data-aos-duration="500">
-            <a href="/">
+            <a href="https://facebook.com/dscjiitnoida">
               <img src={fbIcon} alt="fb-icon" className="social-icon" />
             </a>
           </Grid>
@@ -32,18 +32,8 @@ const Section4 = () => {
           </Grid>
 
           <Grid item data-aos="zoom-in" data-aos-duration="1300">
-            <a href="/">
+            <a href="mailto:dscjiit128@gmail.com">
               <img src={googleIcon} alt="github-icon" className="social-icon" />
-            </a>
-          </Grid>
-
-          <Grid item data-aos="zoom-in" data-aos-duration="1700">
-            <a href="/">
-              <img
-                src={discordIcon}
-                alt="github-icon"
-                className="social-icon"
-              />
             </a>
           </Grid>
         </Grid>
