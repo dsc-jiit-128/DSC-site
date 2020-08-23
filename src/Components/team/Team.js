@@ -24,7 +24,7 @@ const Team = () => {
       position: "Community Lead"
     },
     {
-      img: "Tanya.jpg",
+      img: "Tanya.jpeg",
       name: "Tanya Rastogi",
       position: "Management Lead"
     },
@@ -146,7 +146,7 @@ const Team = () => {
       position: "PR Member"
     },
     {
-      img: "Gaurav.jpg",
+      img: "Gaurav.jpeg",
       name: "Gaurav Sharan",
       position: "PR Member"
     }

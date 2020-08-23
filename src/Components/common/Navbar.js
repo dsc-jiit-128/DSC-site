@@ -81,7 +81,7 @@ const Navbar = () => {
           <ListItem
             button
             onClick={() => {
-              window.location = "./";
+              window.location = "#/";
             }}
           >
             <ListItemIcon>
@@ -92,7 +92,7 @@ const Navbar = () => {
           <ListItem
             button
             onClick={() => {
-              window.location = "./highlights";
+              window.location = "#/highlights";
             }}
           >
             <ListItemIcon>
@@ -114,7 +114,7 @@ const Navbar = () => {
           <ListItem
             button
             onClick={() => {
-              window.location = "./team";
+              window.location = "#/team";
             }}
           >
             <ListItemIcon>

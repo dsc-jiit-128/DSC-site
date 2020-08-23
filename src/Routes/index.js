@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 
 import Home from "../Components/landing-page/Home";
 import Timeline from "../Components/highlights/Timeline";
@@ -10,7 +10,7 @@ import Hackathon from "../Components/hackheist/Hackathon";
 class Router extends Component {
   render() {
     return (
-      <BrowserRouter>
+      <HashRouter basename="/">
         <div>
           <Switch>
             <Route path="/" component={Home} exact />
@@ -22,9 +22,10 @@ class Router extends Component {
               component={Verify}
               exact
             />
+            <Route path="/*" component={Home} exact />
           </Switch>
         </div>
-      </BrowserRouter>
+      </HashRouter>
     );
   }
 }
