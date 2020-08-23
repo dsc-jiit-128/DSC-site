@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { HashRouter as BrowserRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import Home from "../Components/landing-page/Home";
 import Timeline from "../Components/highlights/Timeline";
