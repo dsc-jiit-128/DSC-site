@@ -42,7 +42,7 @@ const Navbar = () => {
               <Box
                 display="flex"
                 onClick={() => {
-                  window.location = "/";
+                  window.location = "#/";
                 }}
               >
                 <img className="dsc-logo" src={dscIcon} alt="logo"></img>

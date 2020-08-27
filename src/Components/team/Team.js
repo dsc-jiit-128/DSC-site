@@ -63,7 +63,7 @@ const Team = () => {
     {
       img: "FahadSiddiqui.jpg",
       name: "Fahad Siddiqui",
-      position: "Community Lead"
+      position: "Ex DSC Lead"
     },
     {
       img: "ShubhamDubey.jpg",
@@ -135,16 +135,16 @@ const Team = () => {
     }
   ];
   const managementTeam = [
-    {
-      img: "cat2.gif",
-      name: "Aditya Dahiya",
-      position: "PR Head"
-    },
-    {
-      img: "cat2.gif",
-      name: "Megha Singhal",
-      position: "PR Member"
-    },
+    // {
+    //   img: "cat2.gif",
+    //   name: "Aditya Dahiya",
+    //   position: "PR Head"
+    // },
+    // {
+    //   img: "cat2.gif",
+    //   name: "Megha Singhal",
+    //   position: "PR Member"
+    // },
     {
       img: "Gaurav.jpeg",
       name: "Gaurav Sharan",
@@ -257,7 +257,7 @@ const Team = () => {
           </Grid>
         </Box>
 
-        <Box className="team-sections">
+        {/* <Box className="team-sections">
           <Typography
             variant="h3"
             align="center"
@@ -282,9 +282,9 @@ const Team = () => {
               </Grid>
             ))}
           </Grid>
-        </Box>
+        </Box> */}
 
-        <Box className="team-sections">
+        {/* <Box className="team-sections">
           <Typography
             variant="h3"
             align="center"
@@ -308,9 +308,9 @@ const Team = () => {
               </Grid>
             ))}
           </Grid>
-        </Box>
+        </Box> */}
 
-        <Box className="team-sections">
+        {/* <Box className="team-sections">
           <Typography
             variant="h3"
             align="center"
@@ -335,7 +335,7 @@ const Team = () => {
               <Member img={val.img} name={val.name} position={val.position} />
             </Grid>
           ))}
-        </Grid>
+        </Grid> */}
         <Box className="team-sections">
           <Typography
             variant="h3"
@@ -345,7 +345,7 @@ const Team = () => {
             data-aos="flip-right"
           >
             <span>
-              Previous Team{" "}
+              Our Mentors{" "}
               <EmojiPeopleIcon className="color-primary" fontSize="large" />
             </span>
           </Typography>
