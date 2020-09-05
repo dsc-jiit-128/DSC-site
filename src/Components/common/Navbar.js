@@ -122,18 +122,7 @@ const Navbar = () => {
             </ListItemIcon>
             <ListItemText primary={"Team"} />
           </ListItem>
-          <ListItem
-            button
-            onClick={() => {
-              window.location = "/#contact";
-            }}
-          >
-            <ListItemIcon>
-              <InfoIcon />
-            </ListItemIcon>
-            <ListItemText primary={"Contact Us"} />
-          </ListItem>
-        </List>
+</List>
       </Drawer>
     </div>
   );
