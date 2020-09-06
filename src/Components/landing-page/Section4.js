@@ -6,6 +6,8 @@ import fbIcon from "../../images/Facebook.svg";
 import githubIcon from "../../images/Github.svg";
 import googleIcon from "../../images/google-plus.svg";
 import discordIcon from "../../images/discord.svg";
+import twitterIcon from "../../images/twitter.svg";
+import instagramIcon from "../../images/instagram.svg";
 
 const Section4 = () => {
   return (
@@ -33,7 +35,19 @@ const Section4 = () => {
 
           <Grid item data-aos="zoom-in" data-aos-duration="1300">
             <a href="mailto:dscjiit128@gmail.com">
-              <img src={googleIcon} alt="github-icon" className="social-icon" />
+              <img src={googleIcon} alt="google-icon" className="social-icon" />
+            </a>
+          </Grid>
+
+          <Grid item data-aos="zoom-in" data-aos-duration="1700">
+            <a href="https://twitter.com/Dsc128">
+              <img src={twitterIcon} alt="twitter-icon" className="social-icon" />
+            </a>
+          </Grid>
+
+          <Grid item data-aos="zoom-in" data-aos-duration="2100">
+            <a href="https://www.instagram.com/dscj128/">
+              <img src={instagramIcon} alt="instagram-icon" className="social-icon" />
             </a>
           </Grid>
         </Grid>
