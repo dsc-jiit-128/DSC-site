@@ -5,7 +5,9 @@ import { Typography, Grid } from "@material-ui/core";
 import fbIcon from "../../images/Facebook.svg";
 import githubIcon from "../../images/Github.svg";
 import googleIcon from "../../images/google-plus.svg";
+import TwitterIcon from "../../images/Twitter.svg";
 import discordIcon from "../../images/discord.svg";
+import InstagramIcon from "../../images/Instagram.svg";
 
 const Section4 = () => {
   return (
@@ -34,6 +36,18 @@ const Section4 = () => {
           <Grid item data-aos="zoom-in" data-aos-duration="1300">
             <a href="mailto:dscjiit128@gmail.com">
               <img src={googleIcon} alt="github-icon" className="social-icon" />
+            </a>
+          </Grid>
+
+          <Grid item data-aos="zoom-in" data-aos-duration="1300">
+            <a href="https://twitter.com/Dsc128">
+              <img src={TwitterIcon} alt="github-icon" className="social-icon" />
+            </a>
+          </Grid>
+
+          <Grid item data-aos="zoom-in" data-aos-duration="1300">
+            <a href="https://www.instagram.com/dscj128/?hl=en">
+              <img src={InstagramIcon} alt="github-icon" className="social-icon" />
             </a>
           </Grid>
         </Grid>
