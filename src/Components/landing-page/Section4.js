@@ -5,9 +5,9 @@ import { Typography, Grid } from "@material-ui/core";
 import fbIcon from "../../images/Facebook.svg";
 import githubIcon from "../../images/Github.svg";
 import googleIcon from "../../images/google-plus.svg";
-import TwitterIcon from "../../images/Twitter.svg";
+import twitterIcon from "../../images/Twitter.svg";
 import discordIcon from "../../images/discord.svg";
-import InstagramIcon from "../../images/Instagram.svg";
+import instagramIcon from "../../images/Instagram.svg";
 
 const Section4 = () => {
   return (
@@ -39,15 +39,15 @@ const Section4 = () => {
             </a>
           </Grid>
 
-          <Grid item data-aos="zoom-in" data-aos-duration="1300">
+          <Grid item data-aos="zoom-in" data-aos-duration="1700">
             <a href="https://twitter.com/Dsc128">
-              <img src={TwitterIcon} alt="github-icon" className="social-icon" />
+              <img src={twitterIcon} alt="github-icon" className="social-icon" />
             </a>
           </Grid>
 
-          <Grid item data-aos="zoom-in" data-aos-duration="1300">
+          <Grid item data-aos="zoom-in" data-aos-duration="2100">
             <a href="https://www.instagram.com/dscj128/?hl=en">
-              <img src={InstagramIcon} alt="github-icon" className="social-icon" />
+              <img src={instagramIcon} alt="github-icon" className="social-icon" />
             </a>
           </Grid>
         </Grid>
