@@ -29,8 +29,8 @@ const Team = () => {
       position: "Management Lead"
     },
     {
-      img: "SimranShilky.jpg",
-      name: "Simran Shilky",
+      img: "AbhinavJha.jpg",
+      name: "Abhinav Jha",
       position: "Management Lead"
     },
     {
@@ -132,6 +132,87 @@ const Team = () => {
       img: "AmanJakhetiya.jpg",
       name: "Aman Jakhetiya",
       position: "ML"
+    },
+    {
+      img: "SimranBhardwaj.jpg",
+      name: "Simran Bhardwaj",
+      position: "Web"
+    },
+    {
+      img: "ShobhitGarg.jpeg",
+      name: "Shobhit Garg",
+      position: "Web"
+    },
+    {
+      img: "ShikharSharma.jpeg",
+      name: "Shikhar Sharma",
+      position: "Web"
+    },
+    {
+      img: "AbhirRajShrivastava.png",
+      name: "Abhir Raj Shrivastava",
+      position: "Web"
+    },
+    {
+      img: "AditriSrivastava.jpg",
+      name: "Aditri Srivastava",
+      position: "Web"
+    },
+    {
+      img: "SomyaGupta.jpg",
+      name: "Somya Gupta",
+      position: "Web"
+    },
+    {
+      img: "AnmolGupta.jpeg",
+      name: "Anmol Gupta",
+      position: "ML"
+    },
+    {
+      img: "VineetJain.jpg",
+      name: "Vineet Jain",
+      position: "ML"
+    },
+    {
+      img: "ManasDalakoti.jpeg",
+      name: "Manas Dalakoti",
+      position: "ML"
+    },
+    {
+      img: "VedanshSharma.jpg",
+      name: "Vedansh Sharma",
+      position: "ML"
+    },
+    {
+      img: "BhanutejaG.jpg",
+      name: "Bhanuteja G",
+      position: "Mobile"
+    }
+    ,
+    {
+      img: "AshutoshAgarwal.jpg",
+      name: "Ashutosh Agarwal",
+      position: "Mobile"
+    },
+    {
+      img: "HarshitGarg.jpg",
+      name: "Harshit Garg",
+      position: "CP"
+    },
+    {
+      img: "TusharGoyal.jpg",
+      name: "Tushar Goyal",
+      position: "CP"
+    },
+    {
+      img: "AnishKhare.jpg",
+      name: "Anish Khare",
+      position: "Cyber Security"
+    },
+    {
+      img: "HardikAgarwal.jpg",
+      name: "Hardik Agarwal",
+      position: "UI/UX Design"
     }
   ];
   const managementTeam = [
@@ -149,28 +230,54 @@ const Team = () => {
       img: "Gaurav.jpeg",
       name: "Gaurav Sharan",
       position: "PR Member"
+    },
+    {
+      img: "Ishanjain.jpg",
+      name: "Ishan Jain",
+      position: "Event Manager"
+    },
+    {
+      img: "ShriyanshiSrivastava.jpg",
+      name: "Shriyanshi Srivastava",
+      position: "Event Manager"
+    },
+    {
+      img: "AnishKhare.jpg",
+      name: "Anish Khare",
+      position: "Event Manager"
     }
+    
   ];
   const socialMedia = [
     {
-      img: "TanishaSrivastava.jpg",
-      name: "Tanisha Srivastava",
-      position: "Social Media Lead"
+      img: "ShikharGupta.jpg",
+      name: "Shikhar Gupta",
+      position: "Social Media Manager"
+    },
+    {
+      img: "AdityaSingh.jpg",
+      name: "Aditya Singh",
+      position: "Social Media Manager"
     }
   ];
   const photoTeam = [
     {
-      img: "Yash.jpg",
-      name: "Yash",
+      img: "ShantanuGoyal.jpg",
+      name: "Shantanu Goyal",
       position: "Photography"
     }
   ];
 
   const contentTeam = [
     {
-      img: "Samriddhi.jpg",
-      name: "Samriddhi Gupta",
-      position: "Content Creation Lead"
+      img: "AryamanKumar.jpeg",
+      name: "Aryaman Kumar",
+      position: "Content Writer"
+    },
+    {
+      img: "AbhirRajShrivastava.png",
+      name: "Abhir Raj Shrivastava",
+      position: "Content Writer"
     }
   ];
 
@@ -257,7 +364,7 @@ const Team = () => {
           </Grid>
         </Box>
 
-        {/* <Box className="team-sections">
+        <Box className="team-sections">
           <Typography
             variant="h3"
             align="center"
@@ -282,9 +389,9 @@ const Team = () => {
               </Grid>
             ))}
           </Grid>
-        </Box> */}
+        </Box>
 
-        {/* <Box className="team-sections">
+        <Box className="team-sections">
           <Typography
             variant="h3"
             align="center"
@@ -308,9 +415,9 @@ const Team = () => {
               </Grid>
             ))}
           </Grid>
-        </Box> */}
+        </Box>
 
-        {/* <Box className="team-sections">
+        <Box className="team-sections">
           <Typography
             variant="h3"
             align="center"
@@ -335,7 +442,7 @@ const Team = () => {
               <Member img={val.img} name={val.name} position={val.position} />
             </Grid>
           ))}
-        </Grid> */}
+        </Grid>
         <Box className="team-sections">
           <Typography
             variant="h3"
