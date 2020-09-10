@@ -24,6 +24,11 @@ const Team = () => {
       position: "Community Lead"
     },
     {
+      img: "UtkarshPandey.jpg",
+      name: "Utkarsh Pandey",
+      position: "Technical Lead"
+    },
+    {
       img: "Tanya.jpeg",
       name: "Tanya Rastogi",
       position: "Management Lead"
@@ -34,9 +39,9 @@ const Team = () => {
       position: "Management Lead"
     },
     {
-      img: "UtkarshPandey.jpg",
-      name: "Utkarsh Pandey",
-      position: "Technical Lead"
+      img: "SimranShilky.jpg",
+      name: "Simran Shilky",
+      position: "Design Lead"
     },
     {
       img: "ShriyamTripathi.jpg",
