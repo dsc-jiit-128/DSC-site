@@ -60,7 +60,7 @@ const Team = () => {
     },
     {
       img: "Saksham.jpg",
-      name: "Saksham Goel",
+      name: "Saksham",
       position: "Event Manager"
     }
   ]
