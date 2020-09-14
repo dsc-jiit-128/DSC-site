@@ -24,10 +24,11 @@ const Team = () => {
       position: "Community Lead"
     },
     {
-      img: "UtkarshPandey.jpg",
-      name: "Utkarsh Pandey",
-      position: "Technical Lead"
+      img: "SimranShilky.jpg",
+      name: "Simran Shilky",
+      position: "Design Lead"
     },
+   
     {
       img: "Tanya.jpeg",
       name: "Tanya Rastogi",
@@ -39,10 +40,11 @@ const Team = () => {
       position: "Management Lead"
     },
     {
-      img: "SimranShilky.jpg",
-      name: "Simran Shilky",
-      position: "Design Lead"
+      img: "UtkarshPandey.jpg",
+      name: "Utkarsh Pandey",
+      position: "Technical Lead"
     },
+   
     {
       img: "ShriyamTripathi.jpg",
       name: "Shriyam Tripathi",
@@ -60,7 +62,7 @@ const Team = () => {
     },
     {
       img: "Saksham.jpg",
-      name: "Saksham",
+      name: "Saksham Goel",
       position: "Event Manager"
     }
   ]
@@ -265,13 +267,13 @@ const Team = () => {
       position: "Social Media Manager"
     }
   ];
-  const photoTeam = [
-    {
-      img: "ShantanuGoyal.jpg",
-      name: "Shantanu Goyal",
-      position: "Photography"
-    }
-  ];
+  // const photoTeam = [
+  //   {
+  //     img: "ShantanuGoyal.jpg",
+  //     name: "Shantanu Goyal",
+  //     position: "Photography"
+  //   }
+  // ];
 
   const contentTeam = [
     {
@@ -396,7 +398,7 @@ const Team = () => {
           </Grid>
         </Box>
 
-        <Box className="team-sections">
+        {/* <Box className="team-sections">
           <Typography
             variant="h3"
             align="center"
@@ -420,7 +422,7 @@ const Team = () => {
               </Grid>
             ))}
           </Grid>
-        </Box>
+        </Box> */}
 
         <Box className="team-sections">
           <Typography
