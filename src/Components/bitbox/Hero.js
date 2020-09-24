@@ -27,18 +27,22 @@ export default function Hero() {
         BITBOX
       </Typography>
       <div fixed className='hero-btn-container' >
-      <Button
+       <Button
             data-aos="fade-right"
             className='mt-9 hero-btn register-btn'
             variant='contained'
             color='primary'
             style={{ background: '#4285F4', margin: '2rem auto', display:'block' }}
           >
-            Register
+            Coming Soon !!
           </Button>
           <Button
             data-aos="fade-left"
             className='mt-9 hero-btn mentor-btn'
+            onClick={(e) => {
+              e.preventDefault();
+              window.location.href='mailto:dscjiit128@gmail.com';
+              }}
             variant='contained'
             color='primary'
             style={{ background: '#35A853', margin: '2rem auto', display:'block' }}
