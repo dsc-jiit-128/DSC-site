@@ -100,17 +100,17 @@ const Navbar = () => {
             </ListItemIcon>
             <ListItemText primary={"Highlights"} />
           </ListItem>
-          {/* <ListItem
+          <ListItem
             button
             onClick={() => {
-              window.location = "./hackheist";
+              window.location = "#/bitbox";
             }}
           >
             <ListItemIcon>
               <EmojiEventsIcon />
             </ListItemIcon>
-            <ListItemText primary={"HackHeist"} />
-          </ListItem> */}
+            <ListItemText primary={"BitBox"} />
+          </ListItem>
           <ListItem
             button
             onClick={() => {
