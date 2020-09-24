@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/DSC-site/static/css/main.33100a2a.chunk.css",
-    "main.js": "/DSC-site/static/js/main.523422f0.chunk.js",
-    "main.js.map": "/DSC-site/static/js/main.523422f0.chunk.js.map",
+    "main.css": "/DSC-site/static/css/main.a2a6e348.chunk.css",
+    "main.js": "/DSC-site/static/js/main.03871a17.chunk.js",
+    "main.js.map": "/DSC-site/static/js/main.03871a17.chunk.js.map",
     "runtime-main.js": "/DSC-site/static/js/runtime-main.7d859886.js",
     "runtime-main.js.map": "/DSC-site/static/js/runtime-main.7d859886.js.map",
     "static/css/2.8464621f.chunk.css": "/DSC-site/static/css/2.8464621f.chunk.css",
-    "static/js/2.81ea947c.chunk.js": "/DSC-site/static/js/2.81ea947c.chunk.js",
-    "static/js/2.81ea947c.chunk.js.map": "/DSC-site/static/js/2.81ea947c.chunk.js.map",
+    "static/js/2.d9ad2073.chunk.js": "/DSC-site/static/js/2.d9ad2073.chunk.js",
+    "static/js/2.d9ad2073.chunk.js.map": "/DSC-site/static/js/2.d9ad2073.chunk.js.map",
     "index.html": "/DSC-site/index.html",
-    "precache-manifest.c8fea9e64769dc79ecfa62b79d239cb0.js": "/DSC-site/precache-manifest.c8fea9e64769dc79ecfa62b79d239cb0.js",
+    "precache-manifest.f45a641fa52f97acfc41c153a67b756e.js": "/DSC-site/precache-manifest.f45a641fa52f97acfc41c153a67b756e.js",
     "service-worker.js": "/DSC-site/service-worker.js",
     "static/css/2.8464621f.chunk.css.map": "/DSC-site/static/css/2.8464621f.chunk.css.map",
-    "static/css/main.33100a2a.chunk.css.map": "/DSC-site/static/css/main.33100a2a.chunk.css.map",
-    "static/js/2.81ea947c.chunk.js.LICENSE.txt": "/DSC-site/static/js/2.81ea947c.chunk.js.LICENSE.txt",
+    "static/css/main.a2a6e348.chunk.css.map": "/DSC-site/static/css/main.a2a6e348.chunk.css.map",
+    "static/js/2.d9ad2073.chunk.js.LICENSE.txt": "/DSC-site/static/js/2.d9ad2073.chunk.js.LICENSE.txt",
     "static/media/1.jpeg": "/DSC-site/static/media/1.ff5ca210.jpeg",
     "static/media/2.jpeg": "/DSC-site/static/media/2.cfa67b7b.jpeg",
     "static/media/3.jpeg": "/DSC-site/static/media/3.96083ee9.jpeg",
@@ -72,6 +72,7 @@
     "static/media/VedanshSharma.jpg": "/DSC-site/static/media/VedanshSharma.40cd4093.jpg",
     "static/media/VineetJain.jpg": "/DSC-site/static/media/VineetJain.bbb43ab5.jpg",
     "static/media/Yash.jpg": "/DSC-site/static/media/Yash.751e0e02.jpg",
+    "static/media/styles.css": "/DSC-site/static/media/boxonbox.11d377ba.woff2",
     "static/media/cat2.gif": "/DSC-site/static/media/cat2.ece250f4.gif",
     "static/media/cosmic.gif": "/DSC-site/static/media/cosmic.47e58ff1.gif",
     "static/media/csj-wallpaper.png": "/DSC-site/static/media/csj-wallpaper.edda0922.png",
@@ -85,6 +86,7 @@
     "static/media/hackheist.png": "/DSC-site/static/media/hackheist.e2069f60.png",
     "static/media/hackheist2.png": "/DSC-site/static/media/hackheist2.e8f6509d.png",
     "static/media/logo.svg": "/DSC-site/static/media/logo.6f833833.svg",
+    "static/media/plan.mp4": "/DSC-site/static/media/plan.2d946c5c.mp4",
     "static/media/python.jpg": "/DSC-site/static/media/python.faac1028.jpg",
     "static/media/question.jpg": "/DSC-site/static/media/question.b45c878f.jpg",
     "static/media/studyjam.jpeg": "/DSC-site/static/media/studyjam.a759507c.jpeg",
@@ -100,8 +102,8 @@
   "entrypoints": [
     "static/js/runtime-main.7d859886.js",
     "static/css/2.8464621f.chunk.css",
-    "static/js/2.81ea947c.chunk.js",
-    "static/css/main.33100a2a.chunk.css",
-    "static/js/main.523422f0.chunk.js"
+    "static/js/2.d9ad2073.chunk.js",
+    "static/css/main.a2a6e348.chunk.css",
+    "static/js/main.03871a17.chunk.js"
   ]
 }
