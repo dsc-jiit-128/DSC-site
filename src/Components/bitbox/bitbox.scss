@@ -1,0 +1,75 @@
+.kaleidoscope {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+#hero-section {
+  position: relative;
+  .hero-container {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    z-index: 10;
+    transform: translate(-50%, -50%);
+    h1 {
+      font-size: 15rem;
+      color: #292929;
+    }
+    .register-btn{
+        font-size: 2rem;
+    }
+    .mentor-btn{
+        font-size: 1.5rem;
+    }
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  #hero-section {
+    .hero-container {
+      h1 {
+        font-size: 7rem;
+      }
+      .register-btn{
+        font-size: 1rem;
+    }
+    .mentor-btn{
+        font-size: 0.7rem;
+    }
+    }
+    
+  }
+}
+
+@media screen and (min-width:600px) and (max-width: 800px) {
+    #hero-section {
+      .hero-container {
+        h1 {
+          font-size: 10rem;
+        }
+        .register-btn{
+            font-size: 1.5rem;
+        }
+        .mentor-btn{
+            font-size: 1rem;
+        }
+      }
+    }
+  }
+
+
+.temp-video{
+    // position: absolute;
+    width: 100%;
+    max-height: 40rem ;
+    opacity: 0.15;
+    z-index: -1;
+    .planning{
+        width:100%;
+        max-height: 40rem ;
+    }
+}
