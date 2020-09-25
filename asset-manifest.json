@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/DSC-site/static/css/main.a2a6e348.chunk.css",
-    "main.js": "/DSC-site/static/js/main.03871a17.chunk.js",
-    "main.js.map": "/DSC-site/static/js/main.03871a17.chunk.js.map",
+    "main.js": "/DSC-site/static/js/main.5a57a702.chunk.js",
+    "main.js.map": "/DSC-site/static/js/main.5a57a702.chunk.js.map",
     "runtime-main.js": "/DSC-site/static/js/runtime-main.7d859886.js",
     "runtime-main.js.map": "/DSC-site/static/js/runtime-main.7d859886.js.map",
     "static/css/2.8464621f.chunk.css": "/DSC-site/static/css/2.8464621f.chunk.css",
     "static/js/2.d9ad2073.chunk.js": "/DSC-site/static/js/2.d9ad2073.chunk.js",
     "static/js/2.d9ad2073.chunk.js.map": "/DSC-site/static/js/2.d9ad2073.chunk.js.map",
     "index.html": "/DSC-site/index.html",
-    "precache-manifest.f45a641fa52f97acfc41c153a67b756e.js": "/DSC-site/precache-manifest.f45a641fa52f97acfc41c153a67b756e.js",
+    "precache-manifest.9775010930f2557b488e83240deaa109.js": "/DSC-site/precache-manifest.9775010930f2557b488e83240deaa109.js",
     "service-worker.js": "/DSC-site/service-worker.js",
     "static/css/2.8464621f.chunk.css.map": "/DSC-site/static/css/2.8464621f.chunk.css.map",
     "static/css/main.a2a6e348.chunk.css.map": "/DSC-site/static/css/main.a2a6e348.chunk.css.map",
@@ -104,6 +104,6 @@
     "static/css/2.8464621f.chunk.css",
     "static/js/2.d9ad2073.chunk.js",
     "static/css/main.a2a6e348.chunk.css",
-    "static/js/main.03871a17.chunk.js"
+    "static/js/main.5a57a702.chunk.js"
   ]
 }
