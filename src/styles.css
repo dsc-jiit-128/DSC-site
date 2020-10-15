@@ -25,6 +25,25 @@ body {
   top: 0;
 }
 
+.navbar::after {
+  content: '';
+  height: 6px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ed8034+0,ed8034+33,feb123+33,feb123+66,2184cd+66,2184cd+100 */
+  background: rgb(237, 128, 52);
+  /* Old browsers */
+  background: -moz-linear-gradient(to right, rgb(247 14 3) 0%, rgb(255 105 0) 25%, rgb(255 237 27) 50%, rgb(242 246 11) 66%, rgb(23 226 61) 75%, rgb(33 134 205) 100%, rgb(0 38 200)100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(to right, rgb(247 14 3) 0%, rgb(255 105 0) 25%, rgb(255 237 27) 50%, rgb(242 246 11) 66%, rgb(23 226 61) 75%, rgb(33 134 205) 100%, rgb(0 38 200)100%);
+  background: linear-gradient(to right, rgb(247 14 3) 0%, rgb(255 105 0) 25%, rgb(255 237 27) 50%, rgb(242 246 11) 66%, rgb(23 226 61) 75%, rgb(33 134 205) 100%, rgb(0 38 200)100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ed8034', endColorstr='#2184cd', GradientType=1);
+  /* IE6-9 */
+}
+
 .dsc-logo {
   width: 3rem;
   cursor: pointer;
@@ -144,6 +163,7 @@ body {
   height: 500px;
   width: 100%;
 }
+
 .gmap_canvas {
   overflow: hidden;
   background: none !important;
@@ -220,7 +240,7 @@ h3 {
   min-height: 37rem;
 }
 
-.landing-card > button {
+.landing-card>button {
   flex-grow: 1;
 }
 
