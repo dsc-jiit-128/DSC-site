@@ -19,6 +19,7 @@ import GroupIcon from "@material-ui/icons/Group";
 import InfoIcon from "@material-ui/icons/Info";
 import EmojiEventsIcon from "@material-ui/icons/EmojiEvents";
 import workFromHome from "../../images/workfromhome.gif";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [open, setOpen] = React.useState(false);
@@ -51,6 +52,9 @@ const Navbar = () => {
                 </p>
               </Box>
             </Grid>
+<Button>
+<a target="_blank" href="https://dsc.community.dev/jaypee-institute-of-information-technology-sec-128/">Join Us Today!</a>
+</Button>
             <Grid item>
               <Button
                 aria-controls="fade-menu"
