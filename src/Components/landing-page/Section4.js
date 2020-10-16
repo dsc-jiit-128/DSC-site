@@ -6,7 +6,7 @@ import fbIcon from "../../images/Facebook.svg";
 import githubIcon from "../../images/Github.svg";
 import googleIcon from "../../images/google-plus.svg";
 import twitterIcon from "../../images/Twitter.svg";
-import discordIcon from "../../images/discord.svg";
+import YouTubeIcon from "../../images/youtube-play.png";
 import instagramIcon from "../../images/Instagram.svg";
 
 const Section4 = () => {
@@ -48,6 +48,11 @@ const Section4 = () => {
           <Grid item data-aos="zoom-in" data-aos-duration="2100">
             <a href="https://www.instagram.com/dscj128/?hl=en">
               <img src={instagramIcon} alt="github-icon" className="social-icon" />
+            </a>
+            </Grid>
+          <Grid item data-aos="zoom-in" data-aos-duration="2100">
+            <a href="https://www.youtube.com/channel/UCsq-cbi1tZStoem3KVQVjCg">
+              <img src={YouTubeIcon} alt="github-icon" className="social-icon" />
             </a>
           </Grid>
         </Grid>

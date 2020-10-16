@@ -4,6 +4,7 @@ import Grid from "@material-ui/core/Grid";
 import Box from "@material-ui/core/Box";
 import { Typography } from "@material-ui/core";
 import question from "../../images/question.jpg";
+
 const Section2 = () => {
   return (
     <Box my={8} p={5}>
@@ -119,7 +120,9 @@ const Section2 = () => {
               </Typography>
             </Grid>
           </Grid>
+          
         </Container>
+          {/* <a className ="color-primary" className="dsc-font">Join us today.</a> */}
       </Box>
     </Box>
   );
