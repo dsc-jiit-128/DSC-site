@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "../common/Navbar";
 import Container from "@material-ui/core/Container";
 import { withRouter } from "react-router-dom";
 import {
@@ -35,7 +34,6 @@ const Hackathon = () => {
 
   return (
     <div>
-      <Navbar></Navbar>
       <div>
         <Box className="hackheist">
           <Particles params={pt} />

@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "../common/Navbar";
 import Section1 from "./Section1";
 import Section2 from "./Section2";
 import Section3 from "./Section3";
@@ -11,7 +10,6 @@ import { withRouter } from "react-router-dom";
 const Home = () => {
   return (
     <div>
-      <Navbar></Navbar>
       <Container>
         <Section1 />
       </Container>

@@ -7,12 +7,17 @@ import Team from "../Components/team/Team";
 import Verify from "../Components/verification/Verify";
 import Hackathon from "../Components/hackheist/Hackathon";
 import Bitbox from "../Components/bitbox/BitBox"
+import Navbar from "../Components/common/Navbar";
 
 class Router extends Component {
+  constructor(props){
+    super();
+  }
   render() {
     return (
       <HashRouter basename="/">
         <div>
+          <Navbar turnDark={this.props.turnDark} isDark={this.props.isDark}/>
           <Switch>
             <Route path="/" component={Home} exact />
             <Route path="/highlights" component={Timeline} exact />

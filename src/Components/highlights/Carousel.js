@@ -106,7 +106,7 @@ export default function TextMobileStepper(props) {
 
   return (
     <div className={classes.root}>
-      <Paper square elevation={0} className={classes.header}>
+      <Paper square elevation={0} className={`${classes.header} highlight-heading`}>
         <Typography className="dsc-font">{images[activeStep].label}</Typography>
       </Paper>
       <img
@@ -118,7 +118,7 @@ export default function TextMobileStepper(props) {
         width="880px"
       />
       <MobileStepper
-        className="dsc-font"
+        className="dsc-font highlight-heading"
         steps={maxSteps}
         position="static"
         variant="text"
@@ -128,6 +128,7 @@ export default function TextMobileStepper(props) {
             size="small"
             onClick={handleNext}
             disabled={activeStep === maxSteps - 1}
+            className="highlight-heading"
           >
             Next
             {theme.direction === "rtl" ? (
@@ -138,7 +139,7 @@ export default function TextMobileStepper(props) {
           </Button>
         }
         backButton={
-          <Button size="small" onClick={handleBack} disabled={activeStep === 0}>
+          <Button size="small" onClick={handleBack} disabled={activeStep === 0} className="highlight-heading">
             {theme.direction === "rtl" ? (
               <KeyboardArrowRight />
             ) : (

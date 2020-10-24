@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "../common/Navbar";
 import webdev1 from "../../images/webdev1.jpeg";
 import webdev2 from "../../images/webdev2.jpeg";
 import webdev3 from "../../images/webdev3.jpg";
@@ -27,7 +26,6 @@ import Section4 from "../landing-page/Section4";
 const Timeline = () => {
   return (
     <div>
-      <Navbar></Navbar>
       <Box className="mt-9">
         <Preface />
         <Typography

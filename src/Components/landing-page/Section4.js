@@ -29,25 +29,25 @@ const Section4 = () => {
           </Grid>
           <Grid item data-aos="zoom-in" data-aos-duration="900">
             <a href="https://github.com/dsc-jiit-128">
-              <img src={githubIcon} alt="github-icon" className="social-icon" />
+              <img src={githubIcon} alt="github-icon" className="social-icon"/>
             </a>
           </Grid>
 
           <Grid item data-aos="zoom-in" data-aos-duration="1300">
             <a href="mailto:dscjiit128@gmail.com">
-              <img src={googleIcon} alt="github-icon" className="social-icon" />
+              <img src={googleIcon} alt="google-icon" className="social-icon" />
             </a>
           </Grid>
 
           <Grid item data-aos="zoom-in" data-aos-duration="1700">
             <a href="https://twitter.com/Dsc128">
-              <img src={twitterIcon} alt="github-icon" className="social-icon" />
+              <img src={twitterIcon} alt="twitter-icon" className="social-icon" />
             </a>
           </Grid>
 
           <Grid item data-aos="zoom-in" data-aos-duration="2100">
             <a href="https://www.instagram.com/dscj128/?hl=en">
-              <img src={instagramIcon} alt="github-icon" className="social-icon" />
+              <img src={instagramIcon} alt="instagram-icon" className="social-icon" />
             </a>
           </Grid>
         </Grid>
