@@ -14,7 +14,7 @@ export default function Schedule() {
           Schedule
         </Typography>
         <div className='temp-video'>
-            <video className='planning' autoPlay >
+            <video className='planning' autoPlay muted>
                 <source src={plan} type="video/mp4"></source>
             </video>
         </div>

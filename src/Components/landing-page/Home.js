@@ -7,11 +7,11 @@ import Section4 from "./Section4";
 import Container from "@material-ui/core/Container";
 import { withRouter } from "react-router-dom";
 
-const Home = () => {
+const Home = ({isDark}) => {
   return (
     <div>
       <Container>
-        <Section1 />
+        <Section1 isDark={isDark}/>
       </Container>
 
       <Section2 />
@@ -34,7 +34,7 @@ const Home = () => {
       </div>
 
       <Container id="contact">
-        <Section4 />
+        <Section4 isDark={isDark}/>
       </Container>
     </div>
   );

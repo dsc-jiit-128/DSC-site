@@ -1,4 +1,5 @@
 import React from "react";
+import dscjiitDark from "../../images/dscjiit-dark.png";
 import dscjiit from "../../images/dscjiit.png";
 import Box from "@material-ui/core/Box";
 import { Typography, Grid } from "@material-ui/core";
@@ -9,7 +10,7 @@ import twitterIcon from "../../images/Twitter.svg";
 import discordIcon from "../../images/discord.svg";
 import instagramIcon from "../../images/Instagram.svg";
 
-const Section4 = () => {
+const Section4 = ({isDark}) => {
   return (
     <div>
       <Box mt={10} mb={2} className="section-4">
@@ -61,7 +62,9 @@ const Section4 = () => {
           >
             Made with ❤ by
           </Typography>
-          <img src={dscjiit} alt="logo"></img>
+          <img 
+          src={isDark?dscjiitDark:dscjiit} 
+          alt="logo" />
         </Box>
       </Box>
     </div>

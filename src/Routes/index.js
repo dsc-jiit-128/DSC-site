@@ -19,7 +19,7 @@ class Router extends Component {
         <div>
           <Navbar turnDark={this.props.turnDark} isDark={this.props.isDark}/>
           <Switch>
-            <Route path="/" component={Home} exact />
+            <Route path="/" render={()=><Home isDark={this.props.isDark}/>} exact />
             <Route path="/highlights" component={Timeline} exact />
             <Route path="/Team" component={Team} exact />
             <Route path="/hackheist" component={Hackathon} exact />
@@ -29,7 +29,7 @@ class Router extends Component {
               component={Verify}
               exact
             />
-            <Route path="/*" component={Home} exact />
+            <Route path="/*" render={()=><Home isDark={this.props.isDark}/>} exact />
           </Switch>
         </div>
       </HashRouter>
