@@ -23,7 +23,7 @@ import csjBg from "../../images/csj-wallpaper.png";
 import exploreMLbg from "../../images/exploreml-wallpaper.png";
 import Section4 from "../landing-page/Section4";
 
-const Timeline = () => {
+const Timeline = ({isDark}) => {
   return (
     <div>
       <Box className="mt-9">
@@ -329,7 +329,7 @@ const Timeline = () => {
               </Typography>
             </Container>
           </Box>
-          <Section4 />
+          <Section4 isDark={isDark}/>
         </Container>
       </Box>
     </div>

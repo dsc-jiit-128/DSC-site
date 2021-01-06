@@ -1,12 +1,13 @@
 import React from "react";
 import Container from "@material-ui/core/Container";
 import Grid from "@material-ui/core/Grid";
-import cosmic from "../../images/cosmic2.gif";
+import cosmic from "../../images/cosmic-noBG.gif";
 import dscjiit from "../../images/dscjiit.png";
+import dscjiitDark from "../../images/dscjiit-dark.png";
 import Box from "@material-ui/core/Box";
 import { Typography } from "@material-ui/core";
 
-const Section1 = () => {
+const Section1 = ({isDark}) => {
   return (
     <div>
       <Box className="mt-9">
@@ -23,7 +24,7 @@ const Section1 = () => {
             <Box mt={8}>
               <img
                 className="first-image"
-                src={dscjiit}
+                src={isDark?dscjiitDark:dscjiit}
                 alt="dscjiitlogo"
               ></img>
               <Box mt={2}>
