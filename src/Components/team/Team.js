@@ -1,6 +1,5 @@
 import React from "react";
 import { Typography, Container, Box, Grid } from "@material-ui/core";
-import Navbar from "../common/Navbar";
 import { withRouter } from "react-router-dom";
 import Member from "./MemberCard";
 // import profileIcon from "../../images/profileAvatar.jpg";
@@ -290,7 +289,6 @@ const Team = () => {
 
   return (
     <div>
-      <Navbar></Navbar>
       <Container className="mt-9">
         <Box className="team-sections">
           <Typography

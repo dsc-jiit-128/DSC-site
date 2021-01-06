@@ -1,3 +1,82 @@
+.lightmode{
+  --nav-back: white;
+  --dsc-logo-text: #6f7277;
+  --section2-btn-text: white;
+  --section2-btn-back: rgb(52, 109, 241);
+  --section2-btn-border: rgb(52, 109, 241);
+  --section2-btn-text-hover: white;
+  --section2-btn-back-hover: rgb(28, 85, 218);
+  --section2-btn-border-hover:rgb(28, 85, 218);
+  --primary-text: #4285f4;
+  --warning-text: #ffba00;
+  --danger-text: #fe2c25;
+  --success-text: #00a050;
+  --vertical-timeline: #535353;
+  --success-back: rgba(11, 184, 83, 0.15);
+  --danger-back:rgba(223, 77, 19, 0.15);
+  --warning-back: rgba(247, 212, 17, 0.15);
+  --primary-back: rgba(12, 80, 182, 0.15);
+  --faq-back: white;
+}
+
+.darkmode{
+  --nav-back: #222;
+  --dsc-logo-text: #d1d6dd;
+  --section2-btn-text: white;
+  --section2-btn-back: rgb(52, 109, 241);
+  --section2-btn-border: rgb(52, 109, 241);
+  --section2-btn-text-hover: white;
+  --section2-btn-back-hover: rgb(28, 85, 218);
+  --section2-btn-border-hover:rgb(28, 85, 218);
+  --primary-text: #4285f4;
+  --warning-text: #ffba00;
+  --danger-text: #fe2c25;
+  --success-text: #00a050;
+  --vertical-timeline: #535353;
+  --success-back: rgba(11, 184, 83, 0.15);
+  --danger-back:rgba(223, 77, 19, 0.15);
+  --warning-back: rgba(247, 212, 17, 0.15);
+  --primary-back: rgba(12, 80, 182, 0.15);
+  --faq-back: #444;
+}
+
+.darkmode [alt="github-icon"]{
+  filter: invert(1) !important;
+}
+
+.MuiPaper-root.MuiAccordion-root.MuiAccordion-rounded.MuiPaper-elevation1.MuiPaper-rounded{
+  border: none !important;
+  background: var(--faq-back);
+}
+
+.MuiPaper-root.MuiDrawer-paper.MuiDrawer-paperAnchorRight.MuiDrawer-paperAnchorDockedRight.MuiPaper-elevation0{
+  background: var(--nav-back);
+}
+
+.MuiButtonBase-root.MuiListItem-root.MuiListItem-gutters.MuiListItem-button{
+  color: var(--dsc-logo-text);
+}
+
+.darkmode .drawer-btn{
+  color: var(--dsc-logo-text);
+}
+
+.darkmode .highlight-heading{
+  background: var(--nav-back);
+  color: var(--dsc-logo-text);
+}
+.darkmode .highlight-heading:disabled{
+  background: var(--nav-back);
+  color: var(--dsc-logo-text);
+  opacity: .6;
+}
+
+.darkMode-switch{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @font-face {
   font-family: "dsc-font";
   src: url("./fonts/dsc-font.woff2") format("woff2");
@@ -12,15 +91,17 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
   margin: 0;
 }
 
+
 .navbar {
   padding: 0.25rem 1rem;
-  background-color: white !important;
+  background-color: var(--nav-back) !important;
   position: fixed !important;
   top: 0;
 }
@@ -31,11 +112,255 @@ body {
 }
 
 .dsc-logo-text {
-  color: #6f7277;
+  color: var(--dsc-logo-text);
   font-family: "dsc-font";
   font-size: 1.25rem;
   font-weight: 500;
   cursor: pointer;
+}
+
+.dsc-college-name {
+  font-weight: 600;
+}
+
+.first-image {
+  width: 100%;
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+
+.dsc-font {
+  font-family: "dsc-font" !important;
+  margin: 1rem 0 !important;
+}
+
+.box-font {
+  font-family: "box-on-box" !important;
+  margin: 1rem 0 !important;
+}
+
+.nav-icons {
+  display: block !important;
+  margin: 5rem auto !important;
+}
+
+.section-2-paper,
+.darken {
+  padding: 1rem 2rem;
+}
+
+.section-2-paper p {
+  font-family: "dsc-font" !important;
+  margin: 1rem 0;
+}
+
+.section-2-paper button {
+  color: var(--section2-btn-text);
+  background: var(--section2-btn-back);
+  border: 2px solid var(--section2-btn-border);
+}
+
+.section-2-paper button:hover {
+  color: var(--section2-btn-text-hover);
+  background: var(--section2-btn-back-hover);
+  border: 2px solid var(--section2-btn-border-hover);
+}
+
+.color-primary {
+  color: var(--primary-text);
+}
+
+.color-warning {
+  color: var(--warning-text);
+}
+
+.color-danger {
+  color: var(--danger-text);
+}
+
+.color-success {
+  color: var(--success-text);
+}
+
+.section-4 img {
+  display: block;
+  width: 25%;
+  margin: auto;
+}
+
+.social-icon {
+  width: 3rem !important;
+  margin: 1rem !important;
+}
+
+.vertical-timeline::before {
+  background: var(--vertical-timeline) !important;
+}
+
+.top-bar {
+  position: fixed;
+}
+
+.mt-3 {
+  margin-top: 3rem;
+}
+
+.mb-3 {
+  margin-bottom: 3rem;
+}
+
+.mt-5 {
+  margin-top: 5rem;
+}
+
+.mt-9 {
+  margin-top: 9rem;
+}
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 500px;
+  width: 100%;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 500px;
+  width: 100%;
+}
+
+.bg-success {
+
+  background-color: var(--success-back);
+  padding: 0.5rem 0.25rem;
+  border-radius: 5px;
+}
+
+.bg-danger {
+  background-color: var(--danger-back);
+  padding: 0.5rem 0.25rem;
+  border-radius: 5px;
+}
+
+.bg-warning {
+  background-color: var(--warning-back);
+  padding: 0.5rem 0.25rem;
+  border-radius: 5px;
+}
+
+.bg-primary {
+  background-color: var(--primary-back);
+  padding: 0.5rem 0.25rem;
+  border-radius: 5px;
+}
+
+.slider-img {
+  width: 15rem;
+}
+
+.card-img {
+  min-height: 270px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.member-card img {
+  border-radius: 50%;
+  width: 13rem;
+  height: 13rem;
+  object-fit: cover;
+}
+
+.member-card {
+  padding: 3rem;
+}
+
+.member-card p,
+h3 {
+  text-align: center;
+}
+
+.section-2-paper button {
+  margin: auto;
+  margin-bottom: 0.5rem;
+}
+
+.csj-bg {
+  width: 100%;
+}
+
+.carousel {
+  width: 100%;
+}
+
+.landing-card {
+  display: flex;
+  flex-direction: column;
+  min-height: 37rem;
+}
+
+.landing-card > button {
+  flex-grow: 1;
+}
+
+#carousel-img {
+  object-fit: contain;
+}
+
+.faq-section {
+  margin-top: 5rem;
+}
+
+/* .hackheist img {
+  width: 40%;
+  display: block;
+  position: absolute;
+}
+
+.hackheist {
+  background-color: #1fc8db;
+  background-image: linear-gradient(
+    141deg,
+    #9fb8ad 0%,
+    #1fc8db 51%,
+    #2cb5e8 75%
+  );
+} */
+
+@media only screen and (max-width: 600px) {
+  .section-4 img {
+    display: block;
+    width: 100%;
+    margin: auto;
+  }
+
+  .card-img {
+    min-height: auto;
+  }
+}
+
+/* Dark mode stuff */
+
+/* :root{
+  --dark-color: rgb(41, 41, 41);
+  --dark-background: rgb(31, 31, 31);
+
+}
+
+.darkEnabled .navbar {
+  background-color: rgb(41, 41, 41) !important;
+}
+
+.dsc-logo {
+  width: 3rem;
+  cursor: pointer;
+}
+
+.darkEnabled .dsc-logo-text {
+  color: #a9afb8;
 }
 
 .dsc-college-name {
@@ -230,32 +555,4 @@ h3 {
 
 .faq-section {
   margin-top: 5rem;
-}
-
-/* .hackheist img {
-  width: 40%;
-  display: block;
-  position: absolute;
-}
-
-.hackheist {
-  background-color: #1fc8db;
-  background-image: linear-gradient(
-    141deg,
-    #9fb8ad 0%,
-    #1fc8db 51%,
-    #2cb5e8 75%
-  );
 } */
-
-@media only screen and (max-width: 600px) {
-  .section-4 img {
-    display: block;
-    width: 100%;
-    margin: auto;
-  }
-
-  .card-img {
-    min-height: auto;
-  }
-}

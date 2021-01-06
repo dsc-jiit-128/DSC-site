@@ -123,7 +123,7 @@ export default function FAQ() {
                 <AccordionSummary
                   aria-controls='panel1d-content'
                   id='panel1d-header'
-                  style={{borderLeft:`5px solid ${color}`, color:`${expanded=== `panel${idx+1}`?color:'#000'}`}}
+                  style={{borderLeft:`5px solid ${color}`, color:`${expanded=== `panel${idx+1}`?color:(localStorage.getItem('isDark')==="true"?'#fff':'#000')}`}}
                   
                 >
                   <Typography>{faq.Q}</Typography>

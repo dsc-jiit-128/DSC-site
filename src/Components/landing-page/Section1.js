@@ -1,7 +1,7 @@
 import React from "react";
 import Container from "@material-ui/core/Container";
 import Grid from "@material-ui/core/Grid";
-import cosmic from "../../images/cosmic.gif";
+import cosmic from "../../images/cosmic2.gif";
 import dscjiit from "../../images/dscjiit.png";
 import Box from "@material-ui/core/Box";
 import { Typography } from "@material-ui/core";
