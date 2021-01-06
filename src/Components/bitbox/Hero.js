@@ -3,7 +3,7 @@ import Kaleidoscope from 'ak-kaleidoscope';
 import { Typography, Container, Button } from '@material-ui/core';
 
 
-export default function Hero() {
+export default function Hero({isDark}) {
   useEffect(() => {
     new Kaleidoscope({
       selector: '#kaleidoscope',
@@ -21,6 +21,7 @@ export default function Hero() {
         variant='h1'
         component='h1'
         className='box-font'
+        style={isDark?{color:'#fff'}:{}}
         align='center'
         data-aos="zoom-in-up"
       >

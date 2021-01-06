@@ -20,10 +20,10 @@ class Router extends Component {
           <Navbar turnDark={this.props.turnDark} isDark={this.props.isDark}/>
           <Switch>
             <Route path="/" render={()=><Home isDark={this.props.isDark}/>} exact />
-            <Route path="/highlights" component={Timeline} exact />
-            <Route path="/Team" component={Team} exact />
-            <Route path="/hackheist" component={Hackathon} exact />
-            <Route path="/bitbox" component={Bitbox} exact />
+            <Route path="/highlights" render={()=><Timeline isDark={this.props.isDark}/>} exact />
+            <Route path="/Team" render={()=><Team isDark={this.props.isDark}/>} exact />
+            {/* <Route path="/hackheist" render={()=><Hackathon isDark={this.props.isDark}/>} component={Hackathon} exact /> */}
+            <Route path="/bitbox" render={()=><Bitbox isDark={this.props.isDark}/>} exact />
             <Route
               path="/.well-known/acme-challenge/hrGposBd8vxeSEPLLpxpnuFrolUKWai9z60E4hjywS0"
               component={Verify}

@@ -1,6 +1,8 @@
 import React from 'react'
 import { Typography } from '@material-ui/core'
-import plan from '../../images/bitbox/plan.mp4'
+// import plan from '../../images/bitbox/plan.mp4'
+import plan from '../../images/plan.gif'
+
 export default function Schedule() {
     return (
         <div style={{position:'relative'}}>
@@ -14,9 +16,10 @@ export default function Schedule() {
           Schedule
         </Typography>
         <div className='temp-video'>
-            <video className='planning' autoPlay muted>
-                <source src={plan} type="video/mp4"></source>
-            </video>
+            {/* <video className='planning' autoPlay muted> */}
+            <img className='planning' src={plan} autoPlay muted />
+                {/* <source src={plan} type="video/mp4"></source> */}
+            {/* </video> */}
         </div>
         <Typography
           data-aos="flip-up"
