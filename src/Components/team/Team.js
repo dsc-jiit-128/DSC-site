@@ -188,11 +188,6 @@ const Team = ({isDark}) => {
       img: "VedanshSharma.jpg",
       name: "Vedansh Sharma",
       position: "ML"
-    },
-    {
-      img: "BhanutejaG.jpg",
-      name: "Bhanuteja G",
-      position: "Mobile"
     }
     ,
     {
