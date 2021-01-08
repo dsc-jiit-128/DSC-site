@@ -342,6 +342,10 @@ h3 {
   }
 }
 
+.eventsectionDark {
+  background: #000 !important;
+}
+
 /* Dark mode stuff */
 
 /* :root{

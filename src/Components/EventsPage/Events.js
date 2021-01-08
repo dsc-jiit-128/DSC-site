@@ -57,7 +57,7 @@ async function getData() {
 
 const url = "https://dsc.community.dev/jaypee-institute-of-information-technology-sec-128/";
 
-const EventsPage = (props)=>{
+const EventsPage = ({isDark})=>{
     const [pastData, setpastData] = useState();
     const [upcomingData, setupcomingData] = useState();
     useEffect(()=>{
@@ -69,7 +69,7 @@ const EventsPage = (props)=>{
         })
     }, []);
     return (
-        <div id="events">
+        <div id="events" class={isDark ? "eventsectionDark" : "pageEvent"}>
             <div className="eventsection">
                 <h1>Upcoming Events</h1>
                 <div className="cards">
