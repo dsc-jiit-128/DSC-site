@@ -9,6 +9,8 @@ import googleIcon from "../../images/google-plus.svg";
 import twitterIcon from "../../images/Twitter.svg";
 import discordIcon from "../../images/discord.svg";
 import instagramIcon from "../../images/Instagram.svg";
+import youtubeIcon from "../../images/YouTube.svg";
+
 
 const Section4 = ({isDark}) => {
   return (
@@ -49,6 +51,12 @@ const Section4 = ({isDark}) => {
           <Grid item data-aos="zoom-in" data-aos-duration="2100">
             <a href="https://www.instagram.com/dscj128/?hl=en">
               <img src={instagramIcon} alt="instagram-icon" className="social-icon" />
+            </a>
+          </Grid>
+
+          <Grid item data-aos="zoom-in" data-aos-duration="2500">
+            <a href="https://www.youtube.com/channel/UCsq-cbi1tZStoem3KVQVjCg">
+              <img src={youtubeIcon} alt="youtube-icon" className="social-icon" />
             </a>
           </Grid>
         </Grid>
