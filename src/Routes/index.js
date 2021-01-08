@@ -25,6 +25,7 @@ class Router extends Component {
             <Route path="/Team" render={()=><Team isDark={this.props.isDark}/>} exact />
             {/* <Route path="/hackheist" render={()=><Hackathon isDark={this.props.isDark}/>} component={Hackathon} exact /> */}
             <Route path="/bitbox" render={()=><Bitbox isDark={this.props.isDark}/>} exact />
+            <Route path="/events" component={EventPage} exact />
             <Route
               path="/.well-known/acme-challenge/hrGposBd8vxeSEPLLpxpnuFrolUKWai9z60E4hjywS0"
               component={Verify}

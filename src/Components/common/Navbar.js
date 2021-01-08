@@ -23,6 +23,7 @@ import WbSunnyIcon from '@material-ui/icons/WbSunny';
 import InfoIcon from "@material-ui/icons/Info";
 import EmojiEventsIcon from "@material-ui/icons/EmojiEvents";
 import workFromHome from "../../images/workfromhome.gif";
+import EventAvailableIcon from '@material-ui/icons/EventAvailable';
 
 const Navbar = (props) => {
   const [open, setOpen] = React.useState(false);
@@ -153,6 +154,18 @@ const Navbar = (props) => {
             </ListItemIcon>
             <ListItemText primary={"Team"} />
           </ListItem>
+          <ListItem
+            button
+            onClick={() => {
+              window.location = "#/events";
+            }}
+          >
+            <ListItemIcon>
+              <EventAvailableIcon className="drawer-btn" />
+            </ListItemIcon>
+            <ListItemText primary={"Events"} />
+          </ListItem>
+          
 </List>
       </Drawer>
     </div>
