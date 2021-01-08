@@ -7,7 +7,7 @@ const EventsPage = (props)=>{
     const [pastData, setpastData] = useState();
     const [upcomingData, setupcomingData] = useState();
     useEffect(()=>{
-        axios.get("http://localhost:9000/data").then((res)=>{
+        axios.get("https://dsc-data.herokuapp.com/data").then((res)=>{
             setpastData(res.data.past);
             setupcomingData(res.data.upcoming);
         }).catch((err)=>{
