@@ -1,0 +1,39 @@
+
+#events{
+    background: white;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 5rem;
+}
+
+#events .eventsection{
+    padding: 0 6rem;
+}
+#events .eventsection h1{
+    margin: 3rem 1rem;
+    font-size: 36px;
+    font-weight: 400;
+}
+#events .eventsection .cards{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+@media only screen and (max-width: 980px) {
+    #events .eventsection .cards{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    #events .eventsection{
+        padding: 0 2rem;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    #events .eventsection h1{
+        text-align: center;
+    }
+    #events .eventsection .cards{
+        display: grid;
+        grid-template-columns: auto;
+    }
+}

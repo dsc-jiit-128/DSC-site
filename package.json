@@ -8,6 +8,7 @@
     "@material-ui/icons": "^4.5.1",
     "ak-kaleidoscope": "^1.0.0",
     "aos": "^2.3.4",
+    "axios": "^0.21.1",
     "node-sass": "^4.14.1",
     "react": "^16.11.0",
     "react-countup": "^4.3.1",

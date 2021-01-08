@@ -8,6 +8,7 @@ import Verify from "../Components/verification/Verify";
 import Hackathon from "../Components/hackheist/Hackathon";
 import Bitbox from "../Components/bitbox/BitBox"
 import Navbar from "../Components/common/Navbar";
+import EventPage from "../Components/EventsPage/Events";
 
 class Router extends Component {
   constructor(props){
@@ -24,6 +25,7 @@ class Router extends Component {
             <Route path="/Team" component={Team} exact />
             <Route path="/hackheist" component={Hackathon} exact />
             <Route path="/bitbox" component={Bitbox} exact />
+            <Route path="/events" component={EventPage} exact />
             <Route
               path="/.well-known/acme-challenge/hrGposBd8vxeSEPLLpxpnuFrolUKWai9z60E4hjywS0"
               component={Verify}
