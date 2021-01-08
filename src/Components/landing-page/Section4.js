@@ -1,4 +1,5 @@
 import React from "react";
+import dscjiitDark from "../../images/dscjiit-dark.png";
 import dscjiit from "../../images/dscjiit.png";
 import Box from "@material-ui/core/Box";
 import { Typography, Grid } from "@material-ui/core";
@@ -8,8 +9,10 @@ import googleIcon from "../../images/google-plus.svg";
 import twitterIcon from "../../images/Twitter.svg";
 import discordIcon from "../../images/discord.svg";
 import instagramIcon from "../../images/Instagram.svg";
+import youtubeIcon from "../../images/YouTube.svg";
 
-const Section4 = () => {
+
+const Section4 = ({isDark}) => {
   return (
     <div>
       <Box mt={10} mb={2} className="section-4">
@@ -50,6 +53,12 @@ const Section4 = () => {
               <img src={instagramIcon} alt="instagram-icon" className="social-icon" />
             </a>
           </Grid>
+
+          <Grid item data-aos="zoom-in" data-aos-duration="2500">
+            <a href="https://www.youtube.com/channel/UCsq-cbi1tZStoem3KVQVjCg">
+              <img src={youtubeIcon} alt="youtube-icon" className="social-icon" />
+            </a>
+          </Grid>
         </Grid>
 
         <Box mt={10}>
@@ -61,7 +70,9 @@ const Section4 = () => {
           >
             Made with ❤ by
           </Typography>
-          <img src={dscjiit} alt="logo"></img>
+          <img 
+          src={isDark?dscjiitDark:dscjiit} 
+          alt="logo" />
         </Box>
       </Box>
     </div>

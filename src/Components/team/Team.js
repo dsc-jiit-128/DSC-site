@@ -15,7 +15,7 @@ import {
 import EmojiPeopleIcon from '@material-ui/icons/EmojiPeople';
 import Section4 from "../landing-page/Section4";
 
-const Team = () => {
+const Team = ({isDark}) => {
   const coreArr = [
     {
       img: "AbhinavSrivastava.jpg",
@@ -188,11 +188,6 @@ const Team = () => {
       img: "VedanshSharma.jpg",
       name: "Vedansh Sharma",
       position: "ML"
-    },
-    {
-      img: "BhanutejaG.jpg",
-      name: "Bhanuteja G",
-      position: "Mobile"
     }
     ,
     {
@@ -474,7 +469,7 @@ const Team = () => {
             </Grid>
           ))}
         </Grid>
-        <Section4 />
+        <Section4 isDark={isDark}/>
       </Container>
     </div>
   );

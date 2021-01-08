@@ -18,6 +18,8 @@ import ListItemText from "@material-ui/core/ListItemText";
 import HomeIcon from "@material-ui/icons/Home";
 import EventIcon from "@material-ui/icons/Event";
 import GroupIcon from "@material-ui/icons/Group";
+import NightsStayIcon from '@material-ui/icons/NightsStay';
+import WbSunnyIcon from '@material-ui/icons/WbSunny';
 import InfoIcon from "@material-ui/icons/Info";
 import EmojiEventsIcon from "@material-ui/icons/EmojiEvents";
 import workFromHome from "../../images/workfromhome.gif";
@@ -60,17 +62,22 @@ const Navbar = (props) => {
             </Grid>
 
             <div className="darkMode-switch">
-              <Typography variant="h6" component="p" style={{color: `${props.isDark ? "#eee": "#111"}`}}>
-                Dark Mode
+              <Typography variant="h6" component="p" style={{color: `${props.isDark ? "#f4eabe": "#111"}`, position: 'relative', top:'5px'}}>
+                {/* Dark Mode */}
+                <WbSunnyIcon/>
               </Typography>
               <Switch
                 checked={props.isDark}
                 onChange={handleSwitch}
                 color="secondary"
-                
+                thumbComponent={NightsStayIcon}
                 name="checkedB"
                 inputProps={{ 'aria-label': 'primary checkbox' }}
               />
+              <Typography variant="h6" component="p" style={{color: `${props.isDark ? "#4285F4": "#111"}`, position: 'relative', top:'5px'}}>
+                {/* Dark Mode */}
+                <NightsStayIcon/>
+              </Typography>
               <Grid item>
                 <Button
                   aria-controls="fade-menu"

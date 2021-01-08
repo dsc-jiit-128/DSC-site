@@ -69,7 +69,9 @@
     opacity: 0.15;
     z-index: -1;
     .planning{
-        width:100%;
+        // width:100%;
+        display: block;
+        margin: 0 auto 0 auto;
         max-height: 40rem ;
     }
 }

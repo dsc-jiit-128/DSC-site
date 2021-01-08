@@ -7,15 +7,15 @@ import Schedule from './Schedule'
 import Sponsor from './Sponsor'
 import './bitbox.scss'
 
-export default function BitBox() {
+export default function BitBox({isDark}) {
     return (
         <div>
-            <Hero/>
+            <Hero isDark={isDark}/>
             <FAQ/>
             <Sponsor/>
             <Schedule/>
             <Container id="contact">
-                <Section4 />
+            <Section4 isDark={isDark}/>
             </Container>
         </div>
     )
