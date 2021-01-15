@@ -63,7 +63,9 @@ const EventsPage = ({isDark})=>{
     useEffect(()=>{
         getData().then(()=>{
             setpastData(pastEvents);
-            setupcomingData(upcommingEvents);
+            if(upcommingEvents[0].id) {
+                setupcomingData(upcommingEvents);
+            }
         }).catch((err)=>{
             console.log(err);
         })
@@ -82,7 +84,7 @@ const EventsPage = ({isDark})=>{
                                 title={event.title}
                                 imgsrc={event.image}
                             />
-                        }) : null
+                        }) : "There are no upcomming Events right now!!!"
                     }
                 </div>
             </div>
