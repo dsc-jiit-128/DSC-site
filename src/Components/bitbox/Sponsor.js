@@ -1,12 +1,14 @@
 import React from 'react';
-import { Typography, Button, Container } from '@material-ui/core';
+import { Typography, Button, Container, Box } from '@material-ui/core';
 import { Link, useHistory } from 'react-router-dom';
+import SponsorCard from './SponsorCard';
 
-export default function Sponsor() {
+
+export default function Sponsor(props) {
   let history = useHistory();
 
   return (
-    <div className='mb-3'>
+    <div className='sponsors'>
       <Typography
       data-aos="flip-down"
         variant='h3'
@@ -14,22 +16,34 @@ export default function Sponsor() {
         className='dsc-font'
         align='center'
       >
-        Sponsors
+        Our Proud Sponsors
       </Typography>
-      <Container fixed>
-        <a href='mailto:dscjiit128@gmail.com' style={{ textDecoration: 'none' }}>
-          <Button
-      data-aos="zoom-out"
-
-            className='mt-9'
-            variant='contained'
-            color='primary'
-            style={{ background: '#35A853', margin: '2rem auto', display:'block' }}
-          >
-            Wanna Sponsor Us?
-          </Button>
-        </a>
-      </Container>
+      <Typography
+        data-aos="flip-down"
+        variant='h5'
+        component='p'
+        className='dsc-font'
+        align='center'
+      >
+        Associate Sponsors
+      </Typography>
+      <div className="sponsor-container">
+        <SponsorCard key="0" src={require('../../images/sponsors/devfolio-light.png')} />
+      </div>
+      <Typography
+        data-aos="flip-down"
+        variant='h5'
+        component='p'
+        className='dsc-font'
+        align='center'
+      >
+        Co-Sponsors
+      </Typography>
+      <div className="sponsor-container">
+        <SponsorCard key="0" src={require('../../images/sponsors/matic-light.png')} />
+        <SponsorCard key="1" src={require('../../images/sponsors/tezos-light.png')} />
+        <SponsorCard key="2" src={require('../../images/sponsors/portis-light.png')} />
+      </div>
     </div>
   );
 }
