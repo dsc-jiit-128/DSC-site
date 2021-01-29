@@ -31,11 +31,11 @@ export default function Hero({isDark}) {
         <Box style={{height:"100px", width:"100%", display:"flex", alignItems:"center", justifyContent:"center"}}>
           {/* TODO:: change the slug */}
             <div 
-            className="apply-button" 
-            data-hackathon-slug="YOUR-HACKATHON-SLUG" 
-            data-button-theme= "light"
-            style={{height: "44px", width: "312px"}}
-            ></div>
+              className="apply-button" 
+              data-hackathon-slug="YOUR-HACKATHON-SLUG" 
+              data-button-theme= "light"
+              style={{height: "44px", width: "312px"}}
+             />
         </Box>
           {/* <Button
             data-aos="fade-left"

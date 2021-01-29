@@ -345,3 +345,16 @@ h3 {
 .eventsectionDark {
   background: #000 !important;
 }
+
+.handles {
+  text-align: center;
+}
+.sizing {
+  font-size: 50px !important;
+}
+.color-pink {
+  color: #929
+}
+.color-blue {
+  color: blue
+}

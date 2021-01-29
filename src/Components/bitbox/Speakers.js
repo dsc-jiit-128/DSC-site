@@ -9,7 +9,12 @@ export default function Speakers() {
         {
             img: "UtkarshPandey.jpg",
             name: "Utkarsh Pandey",
-            position: "Technical Lead"
+            position: "Technical Lead",
+            social: {
+                facebook: "https://www.facebook.com/utkarsh.pandey.1000",
+                insta: "https://www.instagram.com",
+                linkedin: "https://www.linkedin.com/in/NeoAnoman/"
+            }
         }
     ]
 
@@ -34,11 +39,20 @@ export default function Speakers() {
                         justify="space-around"
                         alignItems="center"
                     >
-                        {speakerArr.map(val => (
+                        {/* {speakerArr.map(val => (
                             <Grid>
-                                <Member img={val.img} name={val.name} position={val.position} />
+                                <Member img={val.img} name={val.name} position={val.position} social={val.social} />
                             </Grid>
-                        ))}
+                        ))} */}
+                        <Typography
+                        variant="h5"
+                        align="center"
+                        component="p"
+                        className="dsc-font"
+                        data-aos="flip-left"
+                    >
+                        Coming Soon...
+                    </Typography>
                     </Grid>
                 </Box>
             </Container>
