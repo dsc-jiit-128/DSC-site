@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import Kaleidoscope from 'ak-kaleidoscope';
-import { Typography, Container, Button } from '@material-ui/core';
+import { Typography, Container, Button, Box } from '@material-ui/core';
 
 
 export default function Hero({isDark}) {
@@ -28,15 +28,15 @@ export default function Hero({isDark}) {
         BITBOX
       </Typography>
       <div fixed className='hero-btn-container' >
-       <Button
-            data-aos="fade-right"
-            className='mt-9 hero-btn register-btn'
-            variant='contained'
-            color='primary'
-            style={{ background: '#4285F4', margin: '2rem auto', display:'block' }}
-          >
-            Coming Soon !!
-          </Button>
+        <Box style={{height:"100px", width:"100%", display:"flex", alignItems:"center", justifyContent:"center"}}>
+          {/* TODO:: change the slug */}
+            <div 
+            class="apply-button" 
+            data-hackathon-slug="YOUR-HACKATHON-SLUG" 
+            data-button-theme= "light"
+            style={{height: "44px", width: "312px"}}
+            ></div>
+        </Box>
           {/* <Button
             data-aos="fade-left"
             className='mt-9 hero-btn mentor-btn'
