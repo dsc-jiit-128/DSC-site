@@ -5,12 +5,14 @@ import FAQ from './FAQ'
 import Hero from './Hero'
 import Schedule from './Schedule'
 import Sponsor from './Sponsor'
+import Speakers from './Speakers'
 import './bitbox.scss'
 
 export default function BitBox({isDark}) {
     return (
         <div>
             <Hero isDark={isDark}/>
+            <Speakers isDark={isDark} />
             <FAQ/>
             <Sponsor/>
             <Schedule/>

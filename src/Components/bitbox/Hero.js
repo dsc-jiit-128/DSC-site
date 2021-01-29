@@ -37,7 +37,7 @@ export default function Hero({isDark}) {
           >
             Coming Soon !!
           </Button>
-          <Button
+          {/* <Button
             data-aos="fade-left"
             className='mt-9 hero-btn mentor-btn'
             onClick={(e) => {
@@ -49,7 +49,7 @@ export default function Hero({isDark}) {
             style={{ background: '#35A853', margin: '2rem auto', display:'block' }}
           >
             Become A Mentor
-          </Button>
+          </Button> */}
       </div>
       </Container>
     </div>
