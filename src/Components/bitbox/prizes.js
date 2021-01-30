@@ -60,9 +60,10 @@ export default function Prizes() {
                 direction="row"
                 justify="space-around"
                 alignItems="center"
+                alignContent="center"
             >
                 {prizeArr.map(val => (
-                    <Grid xs={4} className="speaker-grid">
+                    <Grid xs={12} md={4} className="margintop">
                         <Prizecard image={val.image} head={val.heading} desc={val.desc} />
                     </Grid>
                 ))}

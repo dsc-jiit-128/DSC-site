@@ -94,13 +94,11 @@ const Speaker = ({ dark }) => {
                     <Grid
                         container
                         direction="row"
-                        justify="center"
+                        justify="space-around"
                         alignItems="center"
-                        xs="5"
-                        className="speaker-sect"
                     >
                         {speakerArr.map(val => (
-                            <Grid xs={12} className="speaker-grid">
+                            <Grid className="speaker-grid">
                                 <Member img={val.img} name={val.name} position={val.position} social={val.social} webinar={val.webinar} dark={dark} />
                             </Grid>
                         ))}

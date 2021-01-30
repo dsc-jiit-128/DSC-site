@@ -438,3 +438,10 @@ h3 {
 .margintop {
   margin-top: 50px
 }
+
+@media (max-width:600px) {
+  .speaker-grid {
+    max-height: 320px;
+    transform: scale(0.5);
+  } 
+}
