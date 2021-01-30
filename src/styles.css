@@ -377,6 +377,15 @@ h3 {
   height: 500px;
 }
 
+.member-card-s-d {
+  padding: 3rem;
+  background: url('./images/speakers/speaker-back-dark.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 500px;
+}
+
 .member-card-s h3 {
   color: #2485fc;
   font-size: 40px;
@@ -408,4 +417,24 @@ h3 {
   position: absolute;
   top: 2%;
   left: 34%;
+}
+
+.prizediv {
+  height: 70px;
+  border-radius: 100px;
+  width: 70px;
+  border: 1px solid rgb(70, 70, 70, 0.2);
+  margin-top: -35px;
+  margin-left: 36%;
+  background: #fff;
+  text-align: center;
+}
+.prizediv img {
+  height: 50px;
+  width: 50px;
+  margin-top: 10px;
+}
+
+.margintop {
+  margin-top: 50px
 }

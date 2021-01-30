@@ -4,7 +4,7 @@ import Member from "./MemberCard";
 // import profileIcon from "../../images/profileAvatar.jpg";
 // import Img from "../import_image/importImage.js";
 
-export default function Speakers() {
+const Speaker = ({ dark }) => {
     const speakerArr = [
         {
             img: "UtkarshPandey.jpg",
@@ -101,7 +101,7 @@ export default function Speakers() {
                     >
                         {speakerArr.map(val => (
                             <Grid xs={12} className="speaker-grid">
-                                <Member img={val.img} name={val.name} position={val.position} social={val.social} webinar={val.webinar} />
+                                <Member img={val.img} name={val.name} position={val.position} social={val.social} webinar={val.webinar} dark={dark} />
                             </Grid>
                         ))}
                         {/* <Typography
@@ -119,3 +119,4 @@ export default function Speakers() {
     );
 };
 
+export default Speaker;

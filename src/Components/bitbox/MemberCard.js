@@ -3,8 +3,8 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import FacebookIcon from '@material-ui/icons/Facebook';
 
-const Member = ({ img, name, position, social, webinar }) => {
-    console.log(`../../images/member_pic/${img}`);
+const Member = ({ img, name, position, social, webinar, dark }) => {
+    // console.log(`../../images/member_pic/${img}`);
     return (
         <div className="member-card-s" data-aos="zoom-out">
             <img src={require(`../../images/member_pic/${img}`)} alt="profile" />
