@@ -346,9 +346,7 @@ h3 {
   background: #000 !important;
 }
 
-.handles {
-  text-align: center;
-}
+
 .sizing {
   font-size: 50px !important;
 }
@@ -357,4 +355,57 @@ h3 {
 }
 .color-blue {
   color: blue
+}
+
+
+.member-card-s img {
+  border-radius: 50%;
+  width: 9rem;
+  height: 9rem;
+  object-fit: cover;
+  margin-top: -26px;
+  margin-left: -26px;
+  position: absolute;
+}
+
+.member-card-s {
+  padding: 3rem;
+  background: url('./images/speakers/speaker-back.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 500px;
+}
+
+.member-card-s h3 {
+  color: #2485fc;
+  font-size: 40px;
+  font-weight: bolder;
+  margin-left: 20% !important;
+}
+.member-card-s .webinar {
+  color: #000;
+  font-size: 30px;
+  font-weight: bolder;
+  margin-left: 32% !important;
+}
+
+.member-card-s p {
+  font-size: 20px;
+  color: rgb(85, 85, 85);
+  margin-left: 35% !important;
+  margin-top: -20px !important;
+}
+
+.speaker-grid {
+  margin-top: 20px;
+}
+.speaker-sect {
+  margin-left: 15%;
+}
+
+.handles {
+  position: absolute;
+  top: 2%;
+  left: 34%;
 }

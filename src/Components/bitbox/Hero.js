@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import Kaleidoscope from 'ak-kaleidoscope';
-import { Typography, Container, Button, Box } from '@material-ui/core';
+import { Typography, Container, Box } from '@material-ui/core';
 
 
 export default function Hero({isDark}) {
@@ -37,19 +37,6 @@ export default function Hero({isDark}) {
               style={{height: "44px", width: "312px"}}
              />
         </Box>
-          {/* <Button
-            data-aos="fade-left"
-            className='mt-9 hero-btn mentor-btn'
-            onClick={(e) => {
-              e.preventDefault();
-              window.location.href='mailto:dscjiit128@gmail.com';
-              }}
-            variant='contained'
-            color='primary'
-            style={{ background: '#35A853', margin: '2rem auto', display:'block' }}
-          >
-            Become A Mentor
-          </Button> */}
       </div>
       </Container>
     </div>
