@@ -96,6 +96,7 @@ const Speaker = ({ dark }) => {
                         direction="row"
                         justify="space-around"
                         alignItems="center"
+                        spacing={10}
                     >
                         {speakerArr.map(val => (
                             <Grid className="speaker-grid">

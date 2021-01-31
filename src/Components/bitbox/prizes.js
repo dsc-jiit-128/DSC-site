@@ -63,7 +63,12 @@ export default function Prizes() {
                 alignContent="center"
             >
                 {prizeArr.map(val => (
-                    <Grid xs={12} md={4} className="margintop">
+                    <Grid xs={12} md={4} 
+                        direction="row"
+                        justify="center"
+                        alignItems="center"
+                        alignContent="center"
+                        spacing={10} className="margintop flexdisp">
                         <Prizecard image={val.image} head={val.heading} desc={val.desc} />
                     </Grid>
                 ))}

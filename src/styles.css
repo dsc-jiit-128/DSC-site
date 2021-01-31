@@ -354,7 +354,7 @@ h3 {
   color: #929
 }
 .color-blue {
-  color: blue
+  color: #0e76a8
 }
 
 
@@ -437,6 +437,12 @@ h3 {
 
 .margintop {
   margin-top: 50px
+}
+.align-c {
+  align-items: center;
+}
+.flexdisp {
+  display: flex;;
 }
 
 @media (max-width:600px) {
