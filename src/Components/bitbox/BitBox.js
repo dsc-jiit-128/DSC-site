@@ -16,7 +16,7 @@ export default function BitBox({isDark}) {
             <Speakers dark={isDark} />
             <FAQ/>
             <Sponsor/>
-            <Schedule/>
+            <Schedule isDark={isDark}/>
             <Prizes/>
             <Container id="contact">
             <Section4 isDark={isDark}/>
