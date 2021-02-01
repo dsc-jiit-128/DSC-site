@@ -15,7 +15,7 @@ export default function Hero({isDark}) {
     });
   });
   return (
-    <div id='hero-section' className='' style={{ height: '100vh' }}>
+    <div id='hero-section' className='' style={{ height: '150vh' }}>
       <canvas id='kaleidoscope' ></canvas>
         <Container fixed className='hero-container'>
       <Typography
