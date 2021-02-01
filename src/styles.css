@@ -447,6 +447,9 @@ h3 {
 .flexdisp {
   display: flex;;
 }
+.margintopmax {
+  margin-top: 200px !important;
+}
 
 .countdown {
   font-weight: bold;
