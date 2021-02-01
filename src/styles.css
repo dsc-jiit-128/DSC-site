@@ -441,8 +441,54 @@ h3 {
 .align-c {
   align-items: center;
 }
+.align-t-c {
+  text-align: center;
+}
 .flexdisp {
   display: flex;;
+}
+
+.countdown {
+  font-weight: bold;
+}
+.countdown .card {
+  background: rgb(209, 209, 209);
+  display: inline-block;
+  margin: 10px;
+  min-width: 100px;
+  padding: 20px 0;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.countdown .card .countdown-value {
+  color: #000;
+  font-size: 2rem;
+  margin-bottom: 10px
+}
+
+.countdown .card .countdown-unit {
+  text-transform: capitalize
+}
+
+.countdown-d .card {
+  background: #333;
+  display: inline-block;
+  margin: 10px;
+  min-width: 100px;
+  padding: 20px 0;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.countdown-d .card .countdown-value {
+  color: #0fc;
+  font-size: 2rem;
+  margin-bottom: 10px
+}
+
+.countdown-d .card .countdown-unit {
+  text-transform: capitalize
 }
 
 @media (max-width:600px) {
@@ -451,3 +497,4 @@ h3 {
     transform: scale(0.5);
   } 
 }
+

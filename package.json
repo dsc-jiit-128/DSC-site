@@ -18,7 +18,8 @@
     "react-particles-js": "^2.7.1",
     "react-router-dom": "^5.1.2",
     "react-scripts": "^3.4.3",
-    "react-vertical-timeline-component": "^2.5.0"
+    "react-vertical-timeline-component": "^2.5.0",
+    "moment": "^2.27.0"
   },
   "scripts": {
     "start": "react-scripts start",

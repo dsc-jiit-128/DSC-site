@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import Kaleidoscope from 'ak-kaleidoscope';
 import { Typography, Container, Box } from '@material-ui/core';
+import Countdown from './countdown'
 
 
 export default function Hero({isDark}) {
@@ -27,6 +28,7 @@ export default function Hero({isDark}) {
       >
         BITBOX
       </Typography>
+      <Countdown isDark={isDark}/>
       <div fixed className='hero-btn-container' >
         <Box style={{height:"100px", width:"100%", display:"flex", alignItems:"center", justifyContent:"center"}}>
           {/* TODO:: change the slug */}
