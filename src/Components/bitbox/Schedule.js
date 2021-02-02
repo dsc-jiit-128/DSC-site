@@ -191,7 +191,7 @@ export default function Schedule({isDark}) {
           icon={el.icon}
         >
           <h3 className="vertical-timeline-element-title">{el.eventName}</h3>
-          <h4 className="vertical-timeline-element-subtitle" style={{textAlign:'right'}}>{el.speaker}</h4>
+          {/* <h4 className="vertical-timeline-element-subtitle" style={{textAlign:'right'}}>{el.speaker}</h4> */}
           {/* <p>
             {el.desc}
           </p> */}
