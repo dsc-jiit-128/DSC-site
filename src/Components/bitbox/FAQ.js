@@ -59,37 +59,45 @@ export default function FAQ() {
   const colors = ['#4285F4','#EA4335','#F8BC06', '#35A853']
   const faqArr = [
     {
-      Q: 'Whats a hackathon?',
+      Q: 'What is a hackathon?',
       ans:
-        'A hackathon is social coding event where programmers, designers and developers collaborate to solve a problem and compete for cash prizes. It’s one part party, one part work-your-butt-off overnight battle against the clock and the competition.',
+        'A hackathon is social coding event where programmers, designers and developers collaborate to solve a problem and compete for cash prizes. Hackathons are a super-condensed learning experience and the time constraint helps you to break your shell to build something from the ground up with teamwork and harmony. BIT BOX aims to bring together the coding community under one roof to put their minds and skills towards a shared goal and to create new and innovative solutions',
     },
     {
-      Q: 'Why should I participate?',
+      Q: 'Why would someone participate in a hackathon?',
       ans:
-        'People participate in hackathons for lots of reason: the challenge, the creative outlet, the community collaboration, the networking, the swag…',
+        'People participate in hackathons for lots of reasons: the challenge, the creative outlet, the community collaboration, the networking, and swags. The plethora of problem statements act as a juggernaut for participants and keeps them on the edge of their seats.',
     },
     {
       Q: 'Who is this event for?',
       ans:
-        'This event is open to both participants and spectators from the community who want to cheer them on and see what the hackathon is all about.',
+        'Students with a passion to make something innovative with teamwork and who can solve problems in an efficient ingenious way.',
+    },
+    {
+      Q: 'Is the event open to all ages?',
+      ans:
+      'Yes, however you need to be enrolled in an undergraduate program.',
     },
     {
       Q: 'Who can participate? Are there any prerequisites or required skills?',
-      ans:
-        'Anyone is welcome to participate in this event. While experience coding and programming is a huge plus, teams will also need people with strong presentation skills and brilliant ideas.',
+      ans: 'We welcome and encourage anyone with ideas, programming skills, and enthusiasm to participate in this event!',
     },
     {
-      Q: 'Will there be training?',
-      ans: 'There is no pre event training.',
+        Q: 'Do I need a team?',
+        ans: 'Yes, you do need a team to participate in this event. A maximum of 4 team members and a minimum of 2 members is allowed.'
     },
     {
-        Q: 'Is there anything I need to prepare?',
-        ans: 'Other than finding fellow brilliant minds with complimentary skills to team up with, there is nothing that you need to prepare in advance.'
+        Q: 'Is there anything that i need to prep?.',
+        ans: 'Yes, you need to have an idea for your project. You can begin your project as soon as you register'
     },
-    {
-        Q: 'How much does it costs?',
-        ans: 'Nothing, Zero, Its Free!!!'
-    }
+   {Q: 'How much does it cost?',
+    ans: 'Free! It’s absolutely free of cost'},
+    
+    {Q:'Does one have to be online and available for the entire duration of the Hackathon?',
+    ans:'Essentially from the 14th of March until the Hackathon ends i.e., 28th of March 6 o\'clock.'},
+    
+    {Q:'Since there is no specific technology mentioned, are there any restrictions on using number of pre-built libraries?',
+    ans: 'No restrictions are there, do check out all the available resources present in the FAQ doc which can be found on https://linktr.ee/dsc128. FAQ doc of the solution challenge can be used as a resource.'}
   ];
   const classes = useStyles();
 

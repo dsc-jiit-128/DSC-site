@@ -27,6 +27,32 @@
   }
 }
 
+.sponsors .sponsor-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+.sponsorCard {
+  margin: 0 2rem;
+  height: 100px;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sponsorCard img{
+  height: 80%;
+  width: auto;
+}
+
+@media only screen and (max-width: 980px) {
+  .sponsors .sponsor-container{
+    flex-direction: column;
+  }
+}
 
 @media screen and (max-width: 600px) {
   #hero-section {
@@ -74,4 +100,16 @@
         margin: 0 auto 0 auto;
         max-height: 40rem ;
     }
+}
+
+.vertical-timeline-element-date{
+  color: black;
+}
+
+.vertical-timeline-element-content{
+  border-radius: 7px;
+}
+
+.dark-timeline .vertical-timeline-element-date{
+  color: white;
 }

@@ -346,217 +346,158 @@ h3 {
   background: #000 !important;
 }
 
-/* Dark mode stuff */
 
-/* :root{
-  --dark-color: rgb(41, 41, 41);
-  --dark-background: rgb(31, 31, 31);
-
+.sizing {
+  font-size: 50px !important;
+}
+.color-pink {
+  color: #929
+}
+.color-blue {
+  color: #0e76a8
 }
 
-.darkEnabled .navbar {
-  background-color: rgb(41, 41, 41) !important;
-}
 
-.dsc-logo {
-  width: 3rem;
-  cursor: pointer;
-}
-
-.darkEnabled .dsc-logo-text {
-  color: #a9afb8;
-}
-
-.dsc-college-name {
-  font-weight: 600;
-}
-
-.first-image {
-  width: 100%;
-}
-
-.montserrat {
-  font-family: "Montserrat", sans-serif;
-}
-
-.dsc-font {
-  font-family: "dsc-font" !important;
-  margin: 1rem 0 !important;
-}
-
-.box-font {
-  font-family: "box-on-box" !important;
-  margin: 1rem 0 !important;
-}
-
-.nav-icons {
-  display: block !important;
-  margin: 5rem auto !important;
-}
-
-.section-2-paper,
-.darken {
-  padding: 1rem 2rem;
-}
-
-.section-2-paper p {
-  font-family: "dsc-font" !important;
-  margin: 1rem 0;
-}
-
-.section-2-paper button {
-  color: white;
-  background: rgb(52, 109, 241);
-  border: 2px solid rgb(52, 109, 241);
-}
-
-.section-2-paper button:hover {
-  color: white;
-  background: rgb(28, 85, 218);
-  border: 2px solid rgb(28, 85, 218);
-}
-
-.color-primary {
-  color: #4285f4;
-}
-
-.color-warning {
-  color: #ffba00;
-}
-
-.color-danger {
-  color: #fe2c25;
-}
-
-.color-success {
-  color: #00a050;
-}
-
-.section-4 img {
-  display: block;
-  width: 25%;
-  margin: auto;
-}
-
-.social-icon {
-  width: 3rem !important;
-  margin: 1rem !important;
-}
-
-.vertical-timeline::before {
-  background: #535353 !important;
-}
-
-.top-bar {
-  position: fixed;
-}
-
-.mt-3 {
-  margin-top: 3rem;
-}
-
-.mb-3 {
-  margin-bottom: 3rem;
-}
-
-.mt-5 {
-  margin-top: 5rem;
-}
-
-.mt-9 {
-  margin-top: 9rem;
-}
-
-.mapouter {
-  position: relative;
-  text-align: right;
-  height: 500px;
-  width: 100%;
-}
-.gmap_canvas {
-  overflow: hidden;
-  background: none !important;
-  height: 500px;
-  width: 100%;
-}
-
-.bg-success {
-  background-color: rgba(11, 184, 83, 0.15);
-  padding: 0.5rem 0.25rem;
-  border-radius: 5px;
-}
-
-.bg-danger {
-  background-color: rgba(223, 77, 19, 0.15);
-  padding: 0.5rem 0.25rem;
-  border-radius: 5px;
-}
-
-.bg-warning {
-  background-color: rgba(247, 212, 17, 0.15);
-  padding: 0.5rem 0.25rem;
-  border-radius: 5px;
-}
-
-.bg-primary {
-  background-color: rgba(12, 80, 182, 0.15);
-  padding: 0.5rem 0.25rem;
-  border-radius: 5px;
-}
-
-.slider-img {
-  width: 15rem;
-}
-
-.card-img {
-  min-height: 270px;
-  width: 100%;
-  object-fit: contain;
-}
-
-.member-card img {
+.member-card-s img {
   border-radius: 50%;
-  width: 13rem;
-  height: 13rem;
+  width: 9rem;
+  height: 9rem;
   object-fit: cover;
+  margin-top: -26px;
+  margin-left: -26px;
+  position: absolute;
 }
 
-.member-card {
+.member-card-s {
   padding: 3rem;
+  background: url('./images/speakers/speaker-back.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 500px;
 }
 
-.member-card p,
-h3 {
+.member-card-s-d {
+  padding: 3rem;
+  background: url('./images/speakers/speaker-back-dark.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 500px;
+}
+
+.member-card-s h3 {
+  color: #2485fc;
+  font-size: 40px;
+  font-weight: bolder;
+  margin-left: 20% !important;
+}
+.member-card-s .webinar {
+  color: #000;
+  font-size: 30px;
+  font-weight: bolder;
+  margin-left: 32% !important;
+}
+
+.member-card-s p {
+  font-size: 20px;
+  color: rgb(85, 85, 85);
+  margin-left: 35% !important;
+  margin-top: -20px !important;
+}
+
+.speaker-grid {
+  margin-top: 20px;
+}
+.speaker-sect {
+  margin-left: 15%;
+}
+
+.handles {
+  position: absolute;
+  top: 2%;
+  left: 34%;
+}
+
+.prizediv {
+  height: 70px;
+  border-radius: 100px;
+  width: 70px;
+  border: 1px solid rgb(70, 70, 70, 0.2);
+  margin-top: -35px;
+  margin-left: 36%;
+  background: #fff;
   text-align: center;
 }
-
-.section-2-paper button {
-  margin: auto;
-  margin-bottom: 0.5rem;
+.prizediv img {
+  height: 50px;
+  width: 50px;
+  margin-top: 10px;
 }
 
-.csj-bg {
-  width: 100%;
+.margintop {
+  margin-top: 50px
+}
+.align-c {
+  align-items: center;
+}
+.align-t-c {
+  text-align: center;
+}
+.flexdisp {
+  display: flex;;
+}
+.margintopmax {
+  margin-top: 200px !important;
 }
 
-.carousel {
-  width: 100%;
+.countdown {
+  font-weight: bold;
+}
+.countdown .card {
+  background: rgb(209, 209, 209);
+  display: inline-block;
+  margin: 10px;
+  min-width: 100px;
+  padding: 20px 0;
+  text-align: center;
+  border-radius: 20px;
 }
 
-.landing-card {
-  display: flex;
-  flex-direction: column;
-  min-height: 37rem;
+.countdown .card .countdown-value {
+  color: #000;
+  font-size: 2rem;
+  margin-bottom: 10px
 }
 
-.landing-card > button {
-  flex-grow: 1;
+.countdown .card .countdown-unit {
+  text-transform: capitalize
 }
 
-#carousel-img {
-  object-fit: contain;
+.countdown-d .card {
+  background: #333;
+  display: inline-block;
+  margin: 10px;
+  min-width: 100px;
+  padding: 20px 0;
+  text-align: center;
+  border-radius: 20px;
 }
 
-.faq-section {
-  margin-top: 5rem;
-} */
+.countdown-d .card .countdown-value {
+  color: #0fc;
+  font-size: 2rem;
+  margin-bottom: 10px
+}
+
+.countdown-d .card .countdown-unit {
+  text-transform: capitalize
+}
+
+@media (max-width:600px) {
+  .speaker-grid {
+    max-height: 320px;
+    transform: scale(0.5);
+  } 
+}
+
