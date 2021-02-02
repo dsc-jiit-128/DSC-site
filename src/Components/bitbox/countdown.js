@@ -102,7 +102,7 @@ class Countdown extends React.Component {
 //   }
 
   componentDidMount() {
-    this.handleStart('02-03-2021','6:00','pm'); //MM-DD-YYYY, HH:MM, 'am/pm'
+    this.handleStart('03-26-2021','6:00','pm'); //MM-DD-YYYY, HH:MM, 'am/pm'
     this.startCountdown(this.renderCountdownDate());
   }
 

@@ -62,7 +62,7 @@ export default function Prizes() {
                 alignItems="center"
                 alignContent="center"
             >
-                {prizeArr.map(val => (
+                {/* {prizeArr.map(val => (
                     <Grid xs={12} md={4} 
                         direction="row"
                         justify="center"
@@ -71,7 +71,17 @@ export default function Prizes() {
                         spacing={10} className="margintop flexdisp">
                         <Prizecard image={val.image} head={val.heading} desc={val.desc} />
                     </Grid>
-                ))}
+                ))} */}
+                <Typography
+                    variant="h5"
+                    align="center"
+                    component="p"
+                    className="dsc-font"
+                    data-aos="flip-left"
+                    style={{padding: "50px 0px"}}
+                    >
+                        Comming Soon
+                </Typography>
             </Grid>
         </div>
     );

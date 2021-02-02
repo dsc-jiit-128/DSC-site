@@ -6,61 +6,7 @@ import Member from "./MemberCard";
 
 const Speaker = ({ dark }) => {
     const speakerArr = [
-        {
-            img: "UtkarshPandey.jpg",
-            name: "Utkarsh Pandey",
-            position: "Technical Lead",
-            social: {
-                facebook: "https://www.facebook.com/utkarsh.pandey.1000",
-                insta: "https://www.instagram.com",
-                linkedin: "https://www.linkedin.com/in/NeoAnoman/"
-            },
-            webinar: "Some Webinar info here..."
-        },
-        {
-            img: "UtkarshPandey.jpg",
-            name: "Utkarsh Pandey",
-            position: "Technical Lead",
-            social: {
-                facebook: "https://www.facebook.com/utkarsh.pandey.1000",
-                insta: "https://www.instagram.com",
-                linkedin: "https://www.linkedin.com/in/NeoAnoman/"
-            },
-            webinar: "Some Webinar info here..."
-        },
-        {
-            img: "UtkarshPandey.jpg",
-            name: "Utkarsh Pandey",
-            position: "Technical Lead",
-            social: {
-                facebook: "https://www.facebook.com/utkarsh.pandey.1000",
-                insta: "https://www.instagram.com",
-                linkedin: "https://www.linkedin.com/in/NeoAnoman/"
-            },
-            webinar: "Some Webinar info here..."
-        },
-        {
-            img: "UtkarshPandey.jpg",
-            name: "Utkarsh Pandey",
-            position: "Technical Lead",
-            social: {
-                facebook: "https://www.facebook.com/utkarsh.pandey.1000",
-                insta: "https://www.instagram.com",
-                linkedin: "https://www.linkedin.com/in/NeoAnoman/"
-            },
-            webinar: "Some Webinar info here..."
-        },
-        {
-            img: "UtkarshPandey.jpg",
-            name: "Utkarsh Pandey",
-            position: "Technical Lead",
-            social: {
-                facebook: "https://www.facebook.com/utkarsh.pandey.1000",
-                insta: "https://www.instagram.com",
-                linkedin: "https://www.linkedin.com/in/NeoAnoman/"
-            },
-            webinar: "Some Webinar info here..."
-        }
+        
     ]
 
     return (
@@ -98,19 +44,22 @@ const Speaker = ({ dark }) => {
                         alignItems="center"
                         spacing={10}
                     >
-                        {speakerArr.map(val => (
+                        {/* {
+                        speakerArr.map(val => (
                             <Grid className="speaker-grid">
                                 <Member img={val.img} name={val.name} position={val.position} social={val.social} webinar={val.webinar} dark={dark} />
                             </Grid>
-                        ))}
-                        {/* <Typography
+                        ))} */}
+                        <Typography
                         variant="h5"
                         align="center"
                         component="p"
                         className="dsc-font"
                         data-aos="flip-left"
-                    >
-                    </Typography> */}
+                        style={{padding: "50px 0px"}}
+                        >
+                            Comming Soon
+                        </Typography>
                     </Grid>
                 </Box>
             </Container>
