@@ -34,7 +34,7 @@ export default function Hero({isDark}) {
           {/* TODO:: change the slug */}
             <div 
               className="apply-button" 
-              data-hackathon-slug="YOUR-HACKATHON-SLUG" 
+              data-hackathon-slug="bitbox" 
               data-button-theme= "light"
               style={{height: "44px", width: "312px"}}
              />
