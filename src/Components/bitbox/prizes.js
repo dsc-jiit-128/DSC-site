@@ -81,7 +81,7 @@ export default function Prizes() {
                     data-aos="flip-left"
                     style={{padding: "50px 0px"}}
                     >
-                        Comming Soon
+                        Coming Soon
                 </Typography>
             </Grid>
         </div>

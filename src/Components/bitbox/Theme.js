@@ -5,7 +5,8 @@ import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles({
     image: {
-        maxWidth: "80%"
+        maxWidth: "80%",
+        marginBottom: '3rem'
     },
     para: {
         fontSize: 20,
