@@ -12,7 +12,20 @@ const Speaker = ({ dark }) => {
     return (
         <div>
             <Container className="mt-9">
-                <Button
+            <Button
+                data-aos="fade-left"
+                className='mt-9 hero-btn mentor-btn'
+                onClick={(e) => {
+                e.preventDefault();
+                    window.location.href ='https://discord.gg/Dy3MVM2';
+                }}
+                variant='contained'
+                color='primary'
+                style={{ background: '#7289da', margin: '2rem auto', display:'block' }}
+            >
+                Join our Discord Server
+            </Button>
+            <Button
                 data-aos="fade-left"
                 className='mt-9 hero-btn mentor-btn'
                 onClick={(e) => {

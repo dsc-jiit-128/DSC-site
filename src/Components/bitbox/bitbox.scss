@@ -26,6 +26,33 @@
     }
   }
 }
+#devfolio-apply-now {
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+  align-items: center;
+  background-color: #3770FF;
+  border-radius: 3px;
+  border: none;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  font-size: 18px;
+  font-weight: 600;
+  padding: 12px 20px;
+  text-align: center;
+  text-transform: lowercase;
+}
+
+#devfolio-apply-now:not([disabled]) {
+  cursor: pointer;
+}
+
+#devfolio-apply-now:hover {
+  background-color: #2954BF !important;
+}
 
 .sponsors .sponsor-container{
   display: flex;
@@ -46,6 +73,23 @@
 .sponsorCard img{
   height: 80%;
   width: auto;
+  border-radius: 1rem;
+}
+
+.communityCard {
+  margin: 1rem 2rem;
+  height: 15rem;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.communityCard img{
+  height: 80%;
+  width: auto;
+  border: 2px dashed white;
+  border-radius: 1rem;
 }
 
 @media only screen and (max-width: 980px) {

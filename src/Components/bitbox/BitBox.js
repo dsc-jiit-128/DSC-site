@@ -8,6 +8,8 @@ import Sponsor from './Sponsor'
 import Speakers from './Speakers'
 import Prizes from './prizes'
 import Theme from './Theme'
+import SponsorUs from './SponsorUs';
+import CommunityPartners from './CommunityPartners';
 import './bitbox.scss'
 
 export default function BitBox({isDark}) {
@@ -20,6 +22,8 @@ export default function BitBox({isDark}) {
             <Theme />
             <Sponsor/>
             <FAQ/>
+            <CommunityPartners />
+            <SponsorUs />
             <Container id="contact">
             <Section4 isDark={isDark}/>
             </Container>

@@ -5,7 +5,7 @@ import cosmic from "../../images/cosmic-noBG.gif";
 import dscjiit from "../../images/dscjiit.png";
 import dscjiitDark from "../../images/dscjiit-dark.png";
 import Box from "@material-ui/core/Box";
-import { Typography } from "@material-ui/core";
+import { Typography, Button } from "@material-ui/core";
 
 const Section1 = ({isDark}) => {
   return (
@@ -34,6 +34,19 @@ const Section1 = ({isDark}) => {
                     Open to any student, ranging from novice developers who are just starting, to advanced developers who want to further enhance their skills, we provide a platform for students to learn and collaborate in solving problems around them with the help of technology.
 
                   </Typography>
+                  <Button
+                    data-aos="fade-up"
+                    className='mt-9 hero-btn mentor-btn'
+                    onClick={(e) => {
+                        e.preventDefault();
+                        window.location = "#/bitbox";
+                    }}
+                    variant='contained'
+                    color='primary'
+                    style={{ background: '#35A853', margin: '2rem 4rem 2rem 0', display:'block' }}
+                >
+                    Register for Bitbox
+                </Button>
                 </Container>
               </Box>
             </Box>
