@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "./static/css/main.25ee061c.chunk.css",
-    "main.js": "./static/js/main.bf2bf38f.chunk.js",
-    "main.js.map": "./static/js/main.bf2bf38f.chunk.js.map",
+    "main.css": "./static/css/main.200d75f5.chunk.css",
+    "main.js": "./static/js/main.cccc7721.chunk.js",
+    "main.js.map": "./static/js/main.cccc7721.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.c62d6f90.js",
     "runtime-main.js.map": "./static/js/runtime-main.c62d6f90.js.map",
     "static/css/2.e0f123b0.chunk.css": "./static/css/2.e0f123b0.chunk.css",
-    "static/js/2.b3d35f89.chunk.js": "./static/js/2.b3d35f89.chunk.js",
-    "static/js/2.b3d35f89.chunk.js.map": "./static/js/2.b3d35f89.chunk.js.map",
+    "static/js/2.fb2d5495.chunk.js": "./static/js/2.fb2d5495.chunk.js",
+    "static/js/2.fb2d5495.chunk.js.map": "./static/js/2.fb2d5495.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.67809a94f7d984051ae8d2cfe4e23fd5.js": "./precache-manifest.67809a94f7d984051ae8d2cfe4e23fd5.js",
+    "precache-manifest.381d368972befc76561568f82824c635.js": "./precache-manifest.381d368972befc76561568f82824c635.js",
     "service-worker.js": "./service-worker.js",
     "static/css/2.e0f123b0.chunk.css.map": "./static/css/2.e0f123b0.chunk.css.map",
-    "static/css/main.25ee061c.chunk.css.map": "./static/css/main.25ee061c.chunk.css.map",
-    "static/js/2.b3d35f89.chunk.js.LICENSE.txt": "./static/js/2.b3d35f89.chunk.js.LICENSE.txt",
+    "static/css/main.200d75f5.chunk.css.map": "./static/css/main.200d75f5.chunk.css.map",
+    "static/js/2.fb2d5495.chunk.js.LICENSE.txt": "./static/js/2.fb2d5495.chunk.js.LICENSE.txt",
     "static/media/1.jpeg": "./static/media/1.ff5ca210.jpeg",
     "static/media/1.jpg": "./static/media/1.b3140a59.jpg",
     "static/media/2.jpg": "./static/media/2.2c66a5db.jpg",
@@ -23,7 +23,8 @@
     "static/media/4.jpeg": "./static/media/4.0c602b84.jpeg",
     "static/media/5.jpeg": "./static/media/5.5d87e76b.jpeg",
     "static/media/AbhinavJha.jpg": "./static/media/AbhinavJha.d425f156.jpg",
-    "static/media/AbhinavSrivastava.jpg": "./static/media/AbhinavSrivastava.75f430c7.jpg",
+    "static/media/AbhinavSrivastava-old.jpg": "./static/media/AbhinavSrivastava-old.75f430c7.jpg",
+    "static/media/AbhinavSrivastava.png": "./static/media/AbhinavSrivastava.a8b1ed1a.png",
     "static/media/AbhinavVerma.jpg": "./static/media/AbhinavVerma.abfd0b0a.jpg",
     "static/media/AbhirRajShrivastava.png": "./static/media/AbhirRajShrivastava.5793dbf1.png",
     "static/media/AditriSrivastava.jpg": "./static/media/AditriSrivastava.2af7b916.jpg",
@@ -96,6 +97,7 @@
     "static/media/python.jpg": "./static/media/python.faac1028.jpg",
     "static/media/question.png": "./static/media/question.58fa13bb.png",
     "static/media/studyjam.jpeg": "./static/media/studyjam.a759507c.jpeg",
+    "static/media/theme.png": "./static/media/theme.5b45d9f1.png",
     "static/media/webdev1.jpeg": "./static/media/webdev1.79d113de.jpeg",
     "static/media/webdev2.jpeg": "./static/media/webdev2.aaaa4c4a.jpeg",
     "static/media/webdev3.jpg": "./static/media/webdev3.33481626.jpg",
@@ -108,8 +110,8 @@
   "entrypoints": [
     "static/js/runtime-main.c62d6f90.js",
     "static/css/2.e0f123b0.chunk.css",
-    "static/js/2.b3d35f89.chunk.js",
-    "static/css/main.25ee061c.chunk.css",
-    "static/js/main.bf2bf38f.chunk.js"
+    "static/js/2.fb2d5495.chunk.js",
+    "static/css/main.200d75f5.chunk.css",
+    "static/js/main.cccc7721.chunk.js"
   ]
 }
