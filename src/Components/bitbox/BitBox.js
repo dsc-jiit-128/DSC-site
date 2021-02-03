@@ -7,6 +7,7 @@ import Schedule from './Schedule'
 import Sponsor from './Sponsor'
 import Speakers from './Speakers'
 import Prizes from './prizes'
+import Theme from './Theme'
 import './bitbox.scss'
 
 export default function BitBox({isDark}) {
@@ -14,10 +15,11 @@ export default function BitBox({isDark}) {
         <div>
             <Hero isDark={isDark}/>
             <Speakers dark={isDark} />
-            <FAQ/>
-            <Sponsor/>
             <Schedule isDark={isDark}/>
             <Prizes/>
+            <Theme />
+            <Sponsor/>
+            <FAQ/>
             <Container id="contact">
             <Section4 isDark={isDark}/>
             </Container>

@@ -450,6 +450,9 @@ h3 {
 .margintopmax {
   margin-top: 200px !important;
 }
+.padupbottom {
+  padding: 5% 0;
+}
 
 .countdown {
   font-weight: bold;

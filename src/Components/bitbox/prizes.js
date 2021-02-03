@@ -61,6 +61,7 @@ export default function Prizes() {
                 justify="space-around"
                 alignItems="center"
                 alignContent="center"
+                data-aos="flip-up"
             >
                 {/* {prizeArr.map(val => (
                     <Grid xs={12} md={4} 

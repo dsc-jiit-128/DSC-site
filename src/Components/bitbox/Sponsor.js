@@ -28,7 +28,7 @@ export default function Sponsor(props) {
         Associate Sponsors
       </Typography>
       <div className="sponsor-container">
-        <SponsorCard key="0" src={require('../../images/sponsors/devfolio-light.png')} />
+        <SponsorCard key="0" src={require('../../images/sponsors/devfolio-light.png')} link="https://devfolio.co" />
       </div>
       <Typography
         data-aos="flip-down"
@@ -40,9 +40,9 @@ export default function Sponsor(props) {
         Co-Sponsors
       </Typography>
       <div className="sponsor-container">
-        <SponsorCard key="0" src={require('../../images/sponsors/matic-light.png')} />
-        <SponsorCard key="1" src={require('../../images/sponsors/tezos-light.png')} />
-        <SponsorCard key="2" src={require('../../images/sponsors/portis-light.png')} />
+        <SponsorCard key="0" src={require('../../images/sponsors/matic-light.png')} link="https://matic.network" />
+        <SponsorCard key="1" src={require('../../images/sponsors/tezos-light.png')} link="https://tezos.com" />
+        <SponsorCard key="2" src={require('../../images/sponsors/portis-light.png')} link="https://www.portis.io/" />
       </div>
     </div>
   );

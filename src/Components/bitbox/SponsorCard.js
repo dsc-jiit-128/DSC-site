@@ -3,7 +3,9 @@ import React from 'react';
 const SponsorCard = (props)=>{
     return (
         <div className="sponsorCard">
-            <img src={props.src} alt="Img not found"/>
+            <a href={props.link} target="_blank">
+                <img src={props.src} alt="sponsors"/>
+            </a>
         </div>
     );
 }
