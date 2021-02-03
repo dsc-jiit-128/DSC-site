@@ -47,4 +47,26 @@
   </body>
   <script src="https://cdn.rawgit.com/progers/pathseg/master/pathseg.js"></script>
   <script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+    let devfolioOptions = {
+        buttonSelector: '#devfolio-apply-now',
+          key: 'bitbox',
+      }
+
+      let script = document.createElement('script');
+      script.src = "https://apply.devfolio.co";
+      document.head.append(script);
+
+      script.onload = function () {
+          new Devfolio(devfolioOptions);
+      }
+
+      script.onerror = function () {
+          document.querySelector(devfolioOptions.buttonSelector).addEventListener('click', function () {
+              window.location.href = 'https://devfolio.co/external-apply/' + devfolioOptions.key;
+          });
+      }
+  });
+  </script>
 </html>

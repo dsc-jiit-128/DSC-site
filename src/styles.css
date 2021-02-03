@@ -92,6 +92,7 @@
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
+  font-family: "dsc-font";
 }
 
 body {

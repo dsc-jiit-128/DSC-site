@@ -123,7 +123,7 @@ export default function FAQ() {
             {   
                 const color = colors[Math.floor(Math.random() * colors.length)];
                 // const color = colors[idx%4];
-                return (<Grid item xs={12} md={6} data-aos="zoom-in-down">
+                return (<Grid item xs={12} md={6} data-aos="zoom-in-down" key={idx}>
               <Accordion
                 expanded={expanded === `panel${idx+1}`}
                 onChange={handleChange(`panel${idx+1}`)}
