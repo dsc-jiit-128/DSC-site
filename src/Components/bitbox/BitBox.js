@@ -21,9 +21,9 @@ export default function BitBox({isDark}) {
             <Prizes/>
             <Theme />
             <Sponsor/>
-            <FAQ/>
-            <CommunityPartners />
             <SponsorUs />
+            <CommunityPartners />
+            <FAQ/>
             <Container id="contact">
             <Section4 isDark={isDark}/>
             </Container>

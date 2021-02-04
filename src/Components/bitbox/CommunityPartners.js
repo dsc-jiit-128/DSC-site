@@ -17,7 +17,13 @@ export default function CommunityPartners(props) {
         Community Partners
       </Typography>
 
-      <a href="#fewf" target="_blank" style={{color: "inherit", textDecoration: "none"}}> 
+      
+      <div className="sponsor-container">
+        <CommunityCard key="0" src={require('../../images/sponsors/dscLogo.png')} link="https://linktr.ee/developer_student_community" />
+        <CommunityCard key="0" src={require('../../images/sponsors/codingculture.jpg')} link=" http://thecodingculture.com/" />
+      </div>
+
+      <a href="https://forms.gle/CexfaeJN6Mx6jQNr6" target="_blank" style={{color: "inherit", textDecoration: "none"}}> 
         <Button
             data-aos="fade-up"
             className='mt-9 hero-btn mentor-btn'
@@ -28,10 +34,6 @@ export default function CommunityPartners(props) {
         Become a Community Partner
         </Button>
         </a>
-      <div className="sponsor-container">
-        <CommunityCard key="0" src={require('../../images/sponsors/dscLogo.png')} link="https://linktr.ee/developer_student_community" />
-        <CommunityCard key="0" src={require('../../images/sponsors/codingculture.jpg')} link=" http://thecodingculture.com/" />
-      </div>
     </div>
   );
 }
