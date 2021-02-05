@@ -10,16 +10,18 @@
     "aos": "^2.3.4",
     "axios": "^0.21.1",
     "cheerio": "^1.0.0-rc.5",
+    "merge-images": "^2.0.0",
+    "moment": "^2.27.0",
     "node-sass": "^4.14.1",
     "react": "^16.11.0",
     "react-countup": "^4.3.1",
     "react-dom": "^16.11.0",
     "react-icons": "^4.1.0",
+    "react-image-file-resizer": "^0.4.0",
     "react-particles-js": "^2.7.1",
     "react-router-dom": "^5.1.2",
     "react-scripts": "^3.4.3",
-    "react-vertical-timeline-component": "^2.5.0",
-    "moment": "^2.27.0"
+    "react-vertical-timeline-component": "^2.5.0"
   },
   "scripts": {
     "start": "react-scripts start",
