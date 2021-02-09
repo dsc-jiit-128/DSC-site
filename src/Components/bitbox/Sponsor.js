@@ -29,6 +29,7 @@ export default function Sponsor(props) {
       </Typography>
       <div className="sponsor-container">
         <SponsorCard key="0" src={require('../../images/sponsors/devfolio-light.png')} link="https://devfolio.co" />
+        <SponsorCard key="0" src={require('../../images/sponsors/echoAR - Logo 2020 - Background.png')} link="https://console.echoar.xyz/#/auth/register-hackathon?code=BitBox" />
       </div>
       <Typography
         data-aos="flip-down"
