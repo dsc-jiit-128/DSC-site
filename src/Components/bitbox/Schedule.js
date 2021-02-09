@@ -80,12 +80,9 @@ const scheduleDetails =
   },
   {
     eventName: "Idea submission opens",
-    date: "1st March 2021 5:00PM",
-    speaker: "Some Cool Guy",
+    date: "1st March 2021",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in pulvinar leo. Nam vel mattis sem, eget condimentum eros. Sed condimentum molestie semper. ",
-    icon: <HiOutlineLightBulb/>,
-    link: 'https://www.youtube.com/channel/UCsq-cbi1tZStoem3KVQVjCg',
-    releaseDate: '02/27/2021 17:00'
+    icon: <HiOutlineLightBulb/>
   },
   {
     eventName: "Webinar: Tensorflow",
