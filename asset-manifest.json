@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "./static/css/main.1be58e33.chunk.css",
-    "main.js": "./static/js/main.0a6a4daf.chunk.js",
-    "main.js.map": "./static/js/main.0a6a4daf.chunk.js.map",
+    "main.css": "./static/css/main.5afb5391.chunk.css",
+    "main.js": "./static/js/main.78cf4031.chunk.js",
+    "main.js.map": "./static/js/main.78cf4031.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.c62d6f90.js",
     "runtime-main.js.map": "./static/js/runtime-main.c62d6f90.js.map",
     "static/css/2.e0f123b0.chunk.css": "./static/css/2.e0f123b0.chunk.css",
-    "static/js/2.4826a096.chunk.js": "./static/js/2.4826a096.chunk.js",
-    "static/js/2.4826a096.chunk.js.map": "./static/js/2.4826a096.chunk.js.map",
+    "static/js/2.f2bdee2d.chunk.js": "./static/js/2.f2bdee2d.chunk.js",
+    "static/js/2.f2bdee2d.chunk.js.map": "./static/js/2.f2bdee2d.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.77a740703037777b2bdea78c4c52d893.js": "./precache-manifest.77a740703037777b2bdea78c4c52d893.js",
+    "precache-manifest.a39a1d5cf4bb70834e5fa55e68a91e91.js": "./precache-manifest.a39a1d5cf4bb70834e5fa55e68a91e91.js",
     "service-worker.js": "./service-worker.js",
     "static/css/2.e0f123b0.chunk.css.map": "./static/css/2.e0f123b0.chunk.css.map",
-    "static/css/main.1be58e33.chunk.css.map": "./static/css/main.1be58e33.chunk.css.map",
-    "static/js/2.4826a096.chunk.js.LICENSE.txt": "./static/js/2.4826a096.chunk.js.LICENSE.txt",
+    "static/css/main.5afb5391.chunk.css.map": "./static/css/main.5afb5391.chunk.css.map",
+    "static/js/2.f2bdee2d.chunk.js.LICENSE.txt": "./static/js/2.f2bdee2d.chunk.js.LICENSE.txt",
     "static/media/1.jpeg": "./static/media/1.ff5ca210.jpeg",
     "static/media/1.jpg": "./static/media/1.b3140a59.jpg",
     "static/media/2.jpg": "./static/media/2.2c66a5db.jpg",
@@ -38,7 +38,7 @@
     "static/media/BhanutejaG.jpg": "./static/media/BhanutejaG.b580bf8b.jpg",
     "static/media/Facebook.svg": "./static/media/Facebook.feeab85a.svg",
     "static/media/FahadSiddiqui.jpg": "./static/media/FahadSiddiqui.c60944ed.jpg",
-    "static/media/GMC_logo.png": "./static/media/GMC_logo.471790c5.png",
+    "static/media/GMC_logo.png": "./static/media/GMC_logo.25053ecd.png",
     "static/media/Gaurav-min.jpeg": "./static/media/Gaurav-min.ae7017b5.jpeg",
     "static/media/Gaurav.jpeg": "./static/media/Gaurav.55356b0d.jpeg",
     "static/media/Github.svg": "./static/media/Github.8705a95e.svg",
@@ -117,8 +117,8 @@
   "entrypoints": [
     "static/js/runtime-main.c62d6f90.js",
     "static/css/2.e0f123b0.chunk.css",
-    "static/js/2.4826a096.chunk.js",
-    "static/css/main.1be58e33.chunk.css",
-    "static/js/main.0a6a4daf.chunk.js"
+    "static/js/2.f2bdee2d.chunk.js",
+    "static/css/main.5afb5391.chunk.css",
+    "static/js/main.78cf4031.chunk.js"
   ]
 }
