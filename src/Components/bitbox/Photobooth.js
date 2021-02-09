@@ -101,21 +101,19 @@ const Photobooth = () => {
       <Grid container style={{  padding: '10px' }} spacing={3} alignItems="flex-end">
         {/* <Grid item sm={12} xs={12} /> */}
         <Grid item xs={12} style={{display:'flex', justifyContent:'center', alignItems: 'center'}}>
-        <img alt='bitbox' src={Logo} style={{ width: '100px', height: '100px',display: 'inline-block' }} />
+        <img alt='bitbox' src={Logo} style={{ width: '100px', height: '100px',display: 'inline-block', marginRight: "1rem", borderRadius: "50%" }} />
         <h1 style={{ textAlign: 'center', display:'inline-block' }}>BitBox | Photobooth</h1>
         </Grid>
 
-        <Grid item style={{display:'flex', justifyContent:'center'}} sm={6} xs={12}>
+        <div id="photobooth-buttons">
           <TextField type='text' placeholder="Enter Participant's Name" id='participant-name' value={name} onChange={(e) => setName(e.target.value)} label="Name" variant="outlined" style={{width: isXS?'80%':''}}/>
-        </Grid>
-        <Grid item style={{display:'flex', justifyContent:'center'}}  sm={6} xs={12}> 
           <input style={{ display: 'none' }} id="contained-button-file" type='file' name='uploaded-image' accept='image/*' onChange={imageHandler} />
           <label htmlFor="contained-button-file" style={{display:isXS?'block':'',marginLeft:isXS?'':'20px',width: isXS?'80%':''}}>
             <Button variant="contained" color="primary" component="span" style={{width:'100%'}}>
             Upload your <pre> </pre><PhotoCamera />
             </Button>
           </label>
-        </Grid>
+        </div>
 
 
         <Grid item sm={3} />

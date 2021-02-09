@@ -2,7 +2,6 @@ import React, { useEffect} from 'react';
 import Kaleidoscope from 'ak-kaleidoscope';
 import { Typography, Container, Box } from '@material-ui/core';
 import Button from '@material-ui/core/Button'
-
 import Countdown from './countdown'
 
 export default function Hero({isDark}) {

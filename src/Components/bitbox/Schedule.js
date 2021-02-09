@@ -11,6 +11,7 @@ import {SiFlutter} from 'react-icons/si'
 import {SiTensorflow} from 'react-icons/si'
 import {SiFirebase} from 'react-icons/si'
 import {SiKotlin} from 'react-icons/si'
+import {HiOutlineLightBulb} from 'react-icons/hi';
 import {GiBladeBite} from 'react-icons/gi'
 import {GiBoneGnawer} from 'react-icons/gi'
 import {GiGlassCelebration} from 'react-icons/gi'
@@ -60,15 +61,6 @@ const scheduleDetails =
     releaseDate: '02/07/2021 17:00'
   },
   {
-    eventName: "Webinar: Flutter",
-    date: "13 Feb 2021 5:00PM",
-    speaker: "Some Cool Guy",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in pulvinar leo. Nam vel mattis sem, eget condimentum eros. Sed condimentum molestie semper. ",
-    icon: <SiFlutter/>,
-    link: 'https://www.youtube.com/channel/UCsq-cbi1tZStoem3KVQVjCg',
-    releaseDate: '02/13/2021 17:00'
-  },
-  {
     eventName: "Webinar: Kotlin",
     date: "20 Feb 2021 5:00PM",
     speaker: "Some Cool Guy",
@@ -83,6 +75,15 @@ const scheduleDetails =
     speaker: "Some Cool Guy",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in pulvinar leo. Nam vel mattis sem, eget condimentum eros. Sed condimentum molestie semper. ",
     icon: <SiFirebase/>,
+    link: 'https://www.youtube.com/channel/UCsq-cbi1tZStoem3KVQVjCg',
+    releaseDate: '02/27/2021 17:00'
+  },
+  {
+    eventName: "Idea submission opens",
+    date: "1st March 2021 5:00PM",
+    speaker: "Some Cool Guy",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in pulvinar leo. Nam vel mattis sem, eget condimentum eros. Sed condimentum molestie semper. ",
+    icon: <HiOutlineLightBulb/>,
     link: 'https://www.youtube.com/channel/UCsq-cbi1tZStoem3KVQVjCg',
     releaseDate: '02/27/2021 17:00'
   },
@@ -121,15 +122,6 @@ const scheduleDetails =
     date: "14 - 26 March 2021",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in pulvinar leo. Nam vel mattis sem, eget condimentum eros. Sed condimentum molestie semper. ",
     icon: <FaDiscord/>,
-  },
-  {
-    eventName: "Webinar: Actions on Google",
-    date: "20 March 2021 5:00PM",
-    speaker: "Some Cool Guy",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in pulvinar leo. Nam vel mattis sem, eget condimentum eros. Sed condimentum molestie semper. ",
-    icon: <FaGoogle/>,
-    link: 'https://www.youtube.com/channel/UCsq-cbi1tZStoem3KVQVjCg',
-    releaseDate: '03/20/2021 17:00'
   },
   {
     eventName: "Hack Begins",

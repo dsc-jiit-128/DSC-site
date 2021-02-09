@@ -92,6 +92,29 @@
   border-radius: 1rem;
 }
 
+#participant-name{
+  background: #eee;
+  border: 2px dashed #3f51b5;
+}
+#participant-name-label{
+  background: #3f51b5;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 4px;
+  transform: translate(10px, -8px);
+}
+
+#photobooth-buttons{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary{
+    margin: 1rem 0;
+  }
+}
+
 @media only screen and (max-width: 980px) {
   .sponsors .sponsor-container{
     flex-direction: column;
@@ -99,6 +122,12 @@
 }
 
 @media screen and (max-width: 600px) {
+  #photobooth-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+  }
   #hero-section {
     .hero-container {
       h1 {

@@ -97,7 +97,13 @@ export default function FAQ() {
     ans:'Essentially from the 14th of March until the Hackathon ends i.e., 28th of March 6 o\'clock.'},
     
     {Q:'Since there is no specific technology mentioned, are there any restrictions on using number of pre-built libraries?',
-    ans: 'No restrictions are there, do check out all the available resources present in the FAQ doc which can be found on https://linktr.ee/dsc128. FAQ doc of the solution challenge can be used as a resource.'}
+    ans: 'No restrictions are there, do check out all the available resources present in the FAQ doc which can be found on https://linktr.ee/dsc128. FAQ doc of the solution challenge can be used as a resource.'},
+
+    {Q:'Will I get participation certificate?',
+    ans:'Yes, all participants will get a participation certificate.'},
+
+    {Q:'Can I team up with students of different colleges',
+    ans:'Yes, you can team with any student!'}
   ];
   const classes = useStyles();
 
