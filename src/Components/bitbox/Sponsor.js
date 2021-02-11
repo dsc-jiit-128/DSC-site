@@ -50,6 +50,7 @@ export default function Sponsor(props) {
         <SponsorCard key="1" src={require('../../images/sponsors/tezos-light.png')} link="https://tezos.com" />
         <SponsorCard key="2" src={require('../../images/sponsors/portis-light.png')} link="https://www.portis.io/" />
         <SponsorCard key="2" src={require('../../images/sponsors/GMC_logo.png')} link="http://givemycertificate.com/" />
+        <SponsorCard key="2" src={require('../../images/sponsors/CodeChef-UNACADEMY - AUG-01.png')} link="https://www.codechef.com/" />
       </Grid>
       <Typography
         data-aos="flip-down"
