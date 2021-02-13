@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "./static/css/main.5afb5391.chunk.css",
-    "main.js": "./static/js/main.bbdc3fd5.chunk.js",
-    "main.js.map": "./static/js/main.bbdc3fd5.chunk.js.map",
+    "main.js": "./static/js/main.70e166fd.chunk.js",
+    "main.js.map": "./static/js/main.70e166fd.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.c62d6f90.js",
     "runtime-main.js.map": "./static/js/runtime-main.c62d6f90.js.map",
     "static/css/2.e0f123b0.chunk.css": "./static/css/2.e0f123b0.chunk.css",
-    "static/js/2.b54f5817.chunk.js": "./static/js/2.b54f5817.chunk.js",
-    "static/js/2.b54f5817.chunk.js.map": "./static/js/2.b54f5817.chunk.js.map",
+    "static/js/2.d3ff7098.chunk.js": "./static/js/2.d3ff7098.chunk.js",
+    "static/js/2.d3ff7098.chunk.js.map": "./static/js/2.d3ff7098.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.5f5540b8104c759aaf3fea33ce1ae59b.js": "./precache-manifest.5f5540b8104c759aaf3fea33ce1ae59b.js",
+    "precache-manifest.68a53f6edcca51421cc9fafdb688d9e5.js": "./precache-manifest.68a53f6edcca51421cc9fafdb688d9e5.js",
     "service-worker.js": "./service-worker.js",
     "static/css/2.e0f123b0.chunk.css.map": "./static/css/2.e0f123b0.chunk.css.map",
     "static/css/main.5afb5391.chunk.css.map": "./static/css/main.5afb5391.chunk.css.map",
-    "static/js/2.b54f5817.chunk.js.LICENSE.txt": "./static/js/2.b54f5817.chunk.js.LICENSE.txt",
+    "static/js/2.d3ff7098.chunk.js.LICENSE.txt": "./static/js/2.d3ff7098.chunk.js.LICENSE.txt",
     "static/media/1.jpeg": "./static/media/1.ff5ca210.jpeg",
     "static/media/1.jpg": "./static/media/1.b3140a59.jpg",
     "static/media/2.jpg": "./static/media/2.2c66a5db.jpg",
@@ -70,6 +70,7 @@
     "static/media/SimranBhardwaj.jpg": "./static/media/SimranBhardwaj.be9e6118.jpg",
     "static/media/SimranShilky.jpg": "./static/media/SimranShilky.0374963f.jpg",
     "static/media/SomyaGupta.jpg": "./static/media/SomyaGupta.2b388e81.jpg",
+    "static/media/StreamYard - Horz.png": "./static/media/StreamYard - Horz.e26e9adf.png",
     "static/media/SuyashSingh.jpg": "./static/media/SuyashSingh.d073307f.jpg",
     "static/media/TanishaSrivastava.jpg": "./static/media/TanishaSrivastava.530889cb.jpg",
     "static/media/Tanya.jpeg": "./static/media/Tanya.c831d6a9.jpeg",
@@ -119,8 +120,8 @@
   "entrypoints": [
     "static/js/runtime-main.c62d6f90.js",
     "static/css/2.e0f123b0.chunk.css",
-    "static/js/2.b54f5817.chunk.js",
+    "static/js/2.d3ff7098.chunk.js",
     "static/css/main.5afb5391.chunk.css",
-    "static/js/main.bbdc3fd5.chunk.js"
+    "static/js/main.70e166fd.chunk.js"
   ]
 }
