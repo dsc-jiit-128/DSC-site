@@ -22,7 +22,7 @@ export default function BitBox({isDark}) {
             <Theme />
             <Sponsor/>
             <SponsorUs />
-            <CommunityPartners />
+            <CommunityPartners isDark={isDark} />
             <FAQ/>
             <Container id="contact">
             <Section4 isDark={isDark}/>

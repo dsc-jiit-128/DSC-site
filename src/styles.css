@@ -437,7 +437,7 @@ h3 {
 }
 
 .margintop {
-  margin-top: 50px
+  margin-top: 50px !important;
 }
 .align-c {
   align-items: center;

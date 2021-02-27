@@ -22,20 +22,20 @@ export default function Sponsor(props) {
         data-aos="flip-down"
         variant='h5'
         component='p'
-        className='dsc-font'
+        className='dsc-font margintop'
         align='center'
       >
         Associate Sponsors
       </Typography>
       <div className="sponsor-container">
         <SponsorCard key="0" src={require('../../images/sponsors/devfolio-light.png')} link="https://devfolio.co" />
-        <SponsorCard key="0" src={require('../../images/sponsors/echoAR - Logo 2020 - Background.png')} link="https://console.echoar.xyz/#/auth/register-hackathon?code=BitBox" />
+        <SponsorCard key="1" src={require('../../images/sponsors/echoAR - Logo 2020 - Background.png')} link="https://console.echoar.xyz/#/auth/register-hackathon?code=BitBox" />
       </div>
       <Typography
         data-aos="flip-down"
         variant='h5'
         component='p'
-        className='dsc-font'
+        className='dsc-font margintop'
         align='center'
       >
         Co-Sponsors
@@ -45,6 +45,7 @@ export default function Sponsor(props) {
           direction="row"
           justify="space-around"
           alignItems="center"
+
       >
         <SponsorCard key="0" src={require('../../images/sponsors/matic-light.png')} link="https://matic.network" />
         <SponsorCard key="1" src={require('../../images/sponsors/tezos-light.png')} link="https://tezos.com" />
@@ -57,7 +58,7 @@ export default function Sponsor(props) {
         data-aos="flip-down"
         variant='h5'
         component='p'
-        className='dsc-font'
+        className='dsc-font margintop'
         align='center'
       >
         Sponsors
@@ -69,6 +70,9 @@ export default function Sponsor(props) {
           alignItems="center"
       >
         <SponsorCard key="0" src={require('../../images/sponsors/taskade-meta.png')} link="https://www.taskade.com/" />
+        <SponsorCard key="1" src={require('../../images/sponsors/interview.png')} link="https://www.interviewcake.com/" />
+        <SponsorCard key="2" src={require('../../images/sponsors/Axure_logo_400@1x.png')} link="https://www.axure.com/" />
+        <SponsorCard key="3" src={require('../../images/sponsors/wolfram.PNG')} link="http://wolfram.com/" />
       </Grid>
     </div>
   );

@@ -9,7 +9,7 @@ import {FaGoogle} from 'react-icons/fa'
 import {FaDiscord} from 'react-icons/fa'
 import {SiFlutter} from 'react-icons/si'
 import {SiTensorflow} from 'react-icons/si'
-import {SiFirebase} from 'react-icons/si'
+import {SiBitcoin} from 'react-icons/si'
 import {SiKotlin} from 'react-icons/si'
 import {HiOutlineLightBulb} from 'react-icons/hi';
 import {GiBladeBite} from 'react-icons/gi'
@@ -70,13 +70,13 @@ const scheduleDetails =
     releaseDate: '02/20/2021 17:00'
   },
   {
-    eventName: "Webinar: Firebase",
-    date: "27 Feb 2021 5:00PM",
+    eventName: "Webinar: Blockchain",
+    date: "1st March 2021 5:00PM",
     speaker: "Some Cool Guy",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in pulvinar leo. Nam vel mattis sem, eget condimentum eros. Sed condimentum molestie semper. ",
-    icon: <SiFirebase/>,
+    icon: <SiBitcoin/>,
     link: 'https://www.youtube.com/channel/UCsq-cbi1tZStoem3KVQVjCg',
-    releaseDate: '02/27/2021 17:00'
+    releaseDate: '03/01/2021 17:00'
   },
   {
     eventName: "Idea submission opens",
