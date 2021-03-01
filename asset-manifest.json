@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "./static/css/main.c1d96f73.chunk.css",
-    "main.js": "./static/js/main.d04b2b7f.chunk.js",
-    "main.js.map": "./static/js/main.d04b2b7f.chunk.js.map",
+    "main.css": "./static/css/main.509b646a.chunk.css",
+    "main.js": "./static/js/main.173f4fd6.chunk.js",
+    "main.js.map": "./static/js/main.173f4fd6.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.c62d6f90.js",
     "runtime-main.js.map": "./static/js/runtime-main.c62d6f90.js.map",
     "static/css/2.e0f123b0.chunk.css": "./static/css/2.e0f123b0.chunk.css",
     "static/js/2.64765935.chunk.js": "./static/js/2.64765935.chunk.js",
     "static/js/2.64765935.chunk.js.map": "./static/js/2.64765935.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.f7002a83d8148564d8ab870f38dfbd4b.js": "./precache-manifest.f7002a83d8148564d8ab870f38dfbd4b.js",
+    "precache-manifest.bfef0483f7e89e1afef4d174dd44f3b2.js": "./precache-manifest.bfef0483f7e89e1afef4d174dd44f3b2.js",
     "service-worker.js": "./service-worker.js",
     "static/css/2.e0f123b0.chunk.css.map": "./static/css/2.e0f123b0.chunk.css.map",
-    "static/css/main.c1d96f73.chunk.css.map": "./static/css/main.c1d96f73.chunk.css.map",
+    "static/css/main.509b646a.chunk.css.map": "./static/css/main.509b646a.chunk.css.map",
     "static/js/2.64765935.chunk.js.LICENSE.txt": "./static/js/2.64765935.chunk.js.LICENSE.txt",
     "static/media/1.jpeg": "./static/media/1.ff5ca210.jpeg",
     "static/media/1.jpg": "./static/media/1.b3140a59.jpg",
@@ -41,7 +41,7 @@
     "static/media/CodeChef-UNACADEMY - AUG-01.png": "./static/media/CodeChef-UNACADEMY - AUG-01.4316691e.png",
     "static/media/Facebook.svg": "./static/media/Facebook.feeab85a.svg",
     "static/media/FahadSiddiqui.jpg": "./static/media/FahadSiddiqui.c60944ed.jpg",
-    "static/media/GMC_logo.png": "./static/media/GMC_logo.25053ecd.png",
+    "static/media/GMC_logo.png": "./static/media/GMC_logo.e965f920.png",
     "static/media/Gaurav-min.jpeg": "./static/media/Gaurav-min.ae7017b5.jpeg",
     "static/media/Gaurav.jpeg": "./static/media/Gaurav.55356b0d.jpeg",
     "static/media/Github.svg": "./static/media/Github.8705a95e.svg",
@@ -72,7 +72,7 @@
     "static/media/SimranBhardwaj.jpg": "./static/media/SimranBhardwaj.be9e6118.jpg",
     "static/media/SimranShilky.jpg": "./static/media/SimranShilky.0374963f.jpg",
     "static/media/SomyaGupta.jpg": "./static/media/SomyaGupta.2b388e81.jpg",
-    "static/media/StreamYard - Horz.png": "./static/media/StreamYard - Horz.e26e9adf.png",
+    "static/media/StreamYard - Horz.png": "./static/media/StreamYard - Horz.1f09c231.png",
     "static/media/SuyashSingh.jpg": "./static/media/SuyashSingh.d073307f.jpg",
     "static/media/TanishaSrivastava.jpg": "./static/media/TanishaSrivastava.530889cb.jpg",
     "static/media/Tanya.jpeg": "./static/media/Tanya.c831d6a9.jpeg",
@@ -106,6 +106,7 @@
     "static/media/hackheist.png": "./static/media/hackheist.e2069f60.png",
     "static/media/hackheist2.png": "./static/media/hackheist2.e8f6509d.png",
     "static/media/idea.jpg": "./static/media/idea.a41ece43.jpg",
+    "static/media/interview.png": "./static/media/interview.29b4ecd5.png",
     "static/media/logo.svg": "./static/media/logo.7015c057.svg",
     "static/media/python.jpg": "./static/media/python.faac1028.jpg",
     "static/media/question.png": "./static/media/question.58fa13bb.png",
@@ -119,7 +120,7 @@
     "static/media/webdev4.jpeg": "./static/media/webdev4.d3cbac61.jpeg",
     "static/media/webdev5.jpeg": "./static/media/webdev5.9acee463.jpeg",
     "static/media/webdev6.jpeg": "./static/media/webdev6.3f84aa32.jpeg",
-    "static/media/wolfram.png": "./static/media/wolfram.88c18312.png",
+    "static/media/wolfram2.png": "./static/media/wolfram2.565879d3.png",
     "static/media/workfromhome.gif": "./static/media/workfromhome.093f1861.gif",
     "static/media/workshops.jpeg": "./static/media/workshops.c795d1ad.jpeg"
   },
@@ -127,7 +128,7 @@
     "static/js/runtime-main.c62d6f90.js",
     "static/css/2.e0f123b0.chunk.css",
     "static/js/2.64765935.chunk.js",
-    "static/css/main.c1d96f73.chunk.css",
-    "static/js/main.d04b2b7f.chunk.js"
+    "static/css/main.509b646a.chunk.css",
+    "static/js/main.173f4fd6.chunk.js"
   ]
 }
