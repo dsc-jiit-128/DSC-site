@@ -6,7 +6,27 @@ import Member from "./MemberCard";
 
 const Speaker = ({ dark }) => {
     const speakerArr = [
-        
+        {
+            img: 'Vrijraj Singh GDE.jpg',
+            name: 'Vrijraj Singh',
+            position: 'Organizer, GDG Jalandhar | GDE for Web & Firebase',
+            social: 'https://www.linkedin.com/in/vrijrajsingh',
+            webinar: 'Web Technologies'
+        },
+        {
+            img: 'Chintan.jpg',
+            name: 'Chintan Parmar',
+            position: 'Android Developer | Organizer, Kotlin Mumbai',
+            social: 'https://www.linkedin.com/in/chintanrparmar/',
+            webinar: 'Kotlin'
+        },
+        {
+            img: 'Akhil.jpg',
+            name: 'Akhil Bharati',
+            position: 'Senior Software Engineer, Tezos India',
+            social: 'https://www.linkedin.com/in/akhil-bharti-17161272/',
+            webinar: 'Blockchain'
+        }
     ]
 
     return (
@@ -55,14 +75,15 @@ const Speaker = ({ dark }) => {
                         direction="row"
                         justify="space-around"
                         alignItems="center"
+                        className="marginTop"
                         spacing={10}
                     >
-                        {/* {
+                        {
                         speakerArr.map(val => (
-                            <Grid className="speaker-grid">
+                            <Grid className="speaker-grid" data-aos="zoom-out">
                                 <Member img={val.img} name={val.name} position={val.position} social={val.social} webinar={val.webinar} dark={dark} />
                             </Grid>
-                        ))} */}
+                        ))}
                         <Typography
                         variant="h5"
                         align="center"
