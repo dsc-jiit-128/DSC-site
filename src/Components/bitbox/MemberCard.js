@@ -10,7 +10,7 @@ const Member = ({ img, name, position, social, webinar, dark }) => {
             <p className="dsc-font">{position}</p>
             <h3 className="webinar">{webinar}</h3>
             <div className="handles">
-                <a href={social.linkedin} rel="noopener noreferrer" target="_blank">
+                <a href={social} rel="noopener noreferrer" target="_blank">
                     <LinkedInIcon className="color-blue sizing" />
                 </a>
             </div>
