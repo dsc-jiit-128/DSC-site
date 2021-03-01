@@ -383,8 +383,8 @@ h3 {
   background: url('./images/speakers/speaker-back-dark.png');
   background-size: contain;
   background-repeat: no-repeat;
-  width: 500px;
-  height: 500px;
+  width: 550px;
+  height: 550px;
 }
 
 .member-card-s h3 {
@@ -396,6 +396,12 @@ h3 {
 }
 .member-card-s .webinar {
   color: #000;
+  font-size: 30px;
+  margin-top: 50px;
+  font-weight: bolder;
+}
+.member-card-s-d .webinar {
+  color: #FFF;
   font-size: 30px;
   margin-top: 50px;
   font-weight: bolder;
