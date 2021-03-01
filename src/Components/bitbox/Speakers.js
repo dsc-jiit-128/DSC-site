@@ -75,7 +75,7 @@ const Speaker = ({ dark }) => {
                         direction="row"
                         justify="space-around"
                         alignItems="center"
-                        className="marginTop"
+                        className="marginTop padB"
                         spacing={10}
                     >
                         {

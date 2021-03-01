@@ -498,10 +498,17 @@ h3 {
   text-transform: capitalize
 }
 
+.communityCard img {
+  max-width: 100%;
+}
+
 @media (max-width:600px) {
   .speaker-grid {
     max-height: 320px;
-    transform: scale(0.5);
+    transform: scale(0.5) !important;
   } 
+  .padB {
+    padding-bottom: 80px;
+  }
 }
 
