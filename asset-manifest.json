@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "./static/css/main.509b646a.chunk.css",
-    "main.js": "./static/js/main.173f4fd6.chunk.js",
-    "main.js.map": "./static/js/main.173f4fd6.chunk.js.map",
+    "main.css": "./static/css/main.4a1f4325.chunk.css",
+    "main.js": "./static/js/main.e4b7e80d.chunk.js",
+    "main.js.map": "./static/js/main.e4b7e80d.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.c62d6f90.js",
     "runtime-main.js.map": "./static/js/runtime-main.c62d6f90.js.map",
     "static/css/2.e0f123b0.chunk.css": "./static/css/2.e0f123b0.chunk.css",
     "static/js/2.64765935.chunk.js": "./static/js/2.64765935.chunk.js",
     "static/js/2.64765935.chunk.js.map": "./static/js/2.64765935.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.bfef0483f7e89e1afef4d174dd44f3b2.js": "./precache-manifest.bfef0483f7e89e1afef4d174dd44f3b2.js",
+    "precache-manifest.1b06acfd4c2aa6ad0c805de4e14a75e0.js": "./precache-manifest.1b06acfd4c2aa6ad0c805de4e14a75e0.js",
     "service-worker.js": "./service-worker.js",
     "static/css/2.e0f123b0.chunk.css.map": "./static/css/2.e0f123b0.chunk.css.map",
-    "static/css/main.509b646a.chunk.css.map": "./static/css/main.509b646a.chunk.css.map",
+    "static/css/main.4a1f4325.chunk.css.map": "./static/css/main.4a1f4325.chunk.css.map",
     "static/js/2.64765935.chunk.js.LICENSE.txt": "./static/js/2.64765935.chunk.js.LICENSE.txt",
     "static/media/1.jpeg": "./static/media/1.ff5ca210.jpeg",
     "static/media/1.jpg": "./static/media/1.b3140a59.jpg",
@@ -37,7 +37,7 @@
     "static/media/AshutoshAgarwal.jpg": "./static/media/AshutoshAgarwal.9f40e539.jpg",
     "static/media/AyushTiwari.jpg": "./static/media/AyushTiwari.79d02ec9.jpg",
     "static/media/BhanutejaG.jpg": "./static/media/BhanutejaG.b580bf8b.jpg",
-    "static/media/Chintan.jpg": "./static/media/Chintan.2e11aad6.jpg",
+    "static/media/Chintan.jpg": "./static/media/Chintan.de2965a7.jpg",
     "static/media/CodeChef-UNACADEMY - AUG-01.png": "./static/media/CodeChef-UNACADEMY - AUG-01.4316691e.png",
     "static/media/Facebook.svg": "./static/media/Facebook.feeab85a.svg",
     "static/media/FahadSiddiqui.jpg": "./static/media/FahadSiddiqui.c60944ed.jpg",
@@ -72,7 +72,7 @@
     "static/media/SimranBhardwaj.jpg": "./static/media/SimranBhardwaj.be9e6118.jpg",
     "static/media/SimranShilky.jpg": "./static/media/SimranShilky.0374963f.jpg",
     "static/media/SomyaGupta.jpg": "./static/media/SomyaGupta.2b388e81.jpg",
-    "static/media/StreamYard - Horz.png": "./static/media/StreamYard - Horz.1f09c231.png",
+    "static/media/StreamYard - Horz.png": "./static/media/StreamYard - Horz.e26e9adf.png",
     "static/media/SuyashSingh.jpg": "./static/media/SuyashSingh.d073307f.jpg",
     "static/media/TanishaSrivastava.jpg": "./static/media/TanishaSrivastava.530889cb.jpg",
     "static/media/Tanya.jpeg": "./static/media/Tanya.c831d6a9.jpeg",
@@ -128,7 +128,7 @@
     "static/js/runtime-main.c62d6f90.js",
     "static/css/2.e0f123b0.chunk.css",
     "static/js/2.64765935.chunk.js",
-    "static/css/main.509b646a.chunk.css",
-    "static/js/main.173f4fd6.chunk.js"
+    "static/css/main.4a1f4325.chunk.css",
+    "static/js/main.e4b7e80d.chunk.js"
   ]
 }
