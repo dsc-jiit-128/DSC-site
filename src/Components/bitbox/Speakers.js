@@ -84,7 +84,7 @@ const Speaker = ({ dark }) => {
                                 <Member img={val.img} name={val.name} position={val.position} social={val.social} webinar={val.webinar} dark={dark} />
                             </Grid>
                         ))}
-                        <Typography
+                        {/* <Typography
                         variant="h5"
                         align="center"
                         component="p"
@@ -93,7 +93,7 @@ const Speaker = ({ dark }) => {
                         style={{padding: "50px 0px"}}
                         >
                             Coming Soon
-                        </Typography>
+                        </Typography> */}
                     </Grid>
                 </Box>
             </Container>
