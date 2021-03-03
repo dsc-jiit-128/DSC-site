@@ -9,7 +9,7 @@ import Typography from '@material-ui/core/Typography';
 const useStyles = makeStyles({
     root: {
         maxWidth: 345,
-        height: 700,
+        height: 750,
         borderRadius: 20
     },
     media: {
@@ -17,14 +17,21 @@ const useStyles = makeStyles({
     },
     list: {
         marginTop: 10
+    },
+    rootD: {
+        maxWidth: 345,
+        height: 750,
+        borderRadius: 20,
+        color: '#fff',
+        background: '#000'
     }
 });
 
-export default function Prizecard({ image, head, desc }) {
+export default function Prizecard({ image, head, desc, isDark }) {
     const classes = useStyles();
 
     return(
-        <Card className={classes.root}>
+        <Card className={isDark?classes.rootD:classes.root}>
 
             <CardMedia
                 className={classes.media}
@@ -38,7 +45,7 @@ export default function Prizecard({ image, head, desc }) {
                 <Typography gutterBottom variant="h5" component="h2" align="center">
                     {head}
             </Typography>
-                <Typography variant="body2" color="textSecondary" component="p">
+                <Typography variant="body2" color={isDark?"white":"textSecondary"} component="p">
                     <ul>
                         {desc.map(val=> (
                            <li className={classes.list}>{val}</li> 

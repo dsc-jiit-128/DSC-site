@@ -508,9 +508,12 @@ h3 {
 
 .communityCard img {
   max-width: 100%;
+  width: 400px;
+  object-fit: contain;
 }
 .sponsorCard img {
   max-width: 100%;
+  object-fit: contain;
 }
 
 @media (max-width:600px) {

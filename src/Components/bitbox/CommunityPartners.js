@@ -27,6 +27,7 @@ export default function CommunityPartners(props) {
         <CommunityCard key="0" src={require('../../images/sponsors/dscLogo.png')} link="https://linktr.ee/developer_student_community" />
         <CommunityCard key="1" src={require('../../images/sponsors/codingculture.jpg')} link="http://thecodingculture.com/" />
         <CommunityCard key="2" src={props.isDark?require('../../images/sponsors/dscbvp-d.png'):require('../../images/sponsors/dscbvp.png')} link="http://official.dscbvp.dev/" />
+        <CommunityCard key="3" src={require('../../images/sponsors/learn.png')} />
       </Grid>
 
       <a href="https://forms.gle/CexfaeJN6Mx6jQNr6" target="_blank" style={{color: "inherit", textDecoration: "none"}}> 
