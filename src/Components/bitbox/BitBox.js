@@ -20,7 +20,7 @@ export default function BitBox({isDark}) {
             <Schedule isDark={isDark} />
             <Prizes isDark={isDark} />
             <Theme />
-            <Sponsor/>
+            <Sponsor isDark={isDark}/>
             <SponsorUs />
             <CommunityPartners isDark={isDark} />
             <FAQ/>

@@ -103,7 +103,11 @@ export default function FAQ() {
     ans:'Yes, all participants will get a participation certificate.'},
 
     {Q:'Can I team up with students of different colleges',
-    ans:'Yes, you can team with any student!'}
+    ans:'Yes, you can team with any student!'},
+    {
+      Q: 'Have more questions?',
+      ans: 'Head over here: https://guide.devfolio.co/hackers/faqs-for-hackers'
+    }
   ];
   const classes = useStyles();
 

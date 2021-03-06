@@ -28,6 +28,12 @@ export default function CommunityPartners(props) {
         <CommunityCard key="1" src={require('../../images/sponsors/codingculture.jpg')} link="http://thecodingculture.com/" />
         <CommunityCard key="2" src={props.isDark?require('../../images/sponsors/dscbvp-d.png'):require('../../images/sponsors/dscbvp.png')} link="http://official.dscbvp.dev/" />
         <CommunityCard key="3" src={require('../../images/sponsors/learn.png')} />
+        <CommunityCard key="4" src={props.isDark?require('../../images/sponsors/HackNITR logo - Black.png'):require('../../images/sponsors/HackNITR logo.png')} link="http://hacknitr.tech/" />
+        <CommunityCard key="5" src={props.isDark?require('../../images/sponsors/DSC Indraprastha College For Women Light Vertical-Logo-d.png'):require('../../images/sponsors/DSC Indraprastha College For Women Light Vertical-Logo.png')} link="https://dsc.community.dev/indraprastha-college-for-women/" />
+        <CommunityCard key="6" src={props.isDark?require('../../images/sponsors/DSC Rustamji Institute of Technology Light Horizontal-Logo-d.png'):require('../../images/sponsors/DSC Rustamji Institute of Technology Light Horizontal-Logo.png')} link="https://dsc.community.dev/rustamji-institute-of-technology/" />
+        <CommunityCard key="7" src={props.isDark?require('../../images/sponsors/Group 112-d.png'):require('../../images/sponsors/Group 112.png')} link="http://dscjss.in/" />
+          <CommunityCard key="8" src={require('../../images/sponsors/dsc imsec 2.png')} link="https://dsc.community.dev/ims-engineering-college/" />
+        
       </Grid>
 
       <a href="https://forms.gle/CexfaeJN6Mx6jQNr6" target="_blank" style={{color: "inherit", textDecoration: "none"}}> 

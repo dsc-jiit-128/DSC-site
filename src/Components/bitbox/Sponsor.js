@@ -71,7 +71,7 @@ export default function Sponsor(props) {
       >
         <SponsorCard key="0" src={require('../../images/sponsors/taskade-meta.png')} link="https://www.taskade.com/" />
         <SponsorCard key="1" src={require('../../images/sponsors/interview.png')} link="https://www.interviewcake.com/" />
-        <SponsorCard key="2" src={require('../../images/sponsors/Axure_logo_400@1x.png')} link="https://www.axure.com/" />
+        <SponsorCard key="2" src={props.isDark?require('../../images/sponsors/Axure_logo_400@1x-d.png'):require('../../images/sponsors/Axure_logo_400@1x.png')} link="https://www.axure.com/" />
         <SponsorCard key="3" src={require('../../images/sponsors/wolfram2.png')} link="http://wolfram.com/" />
       </Grid>
     </div>

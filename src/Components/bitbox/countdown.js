@@ -109,7 +109,7 @@ class Countdown extends React.Component {
   render() {
     return (
       <div>
-          {this.state.isCountdownSet ? <CountdownTimer countdown={this.state.countdown} unixEndDate={this.renderCountdownDate().unixEndDate} dark={this.props.isDark} /> : <div className="align-t-c">Event Started</div>}
+          {this.state.isCountdownSet ? <CountdownTimer countdown={this.state.countdown} unixEndDate={this.renderCountdownDate().unixEndDate} dark={this.props.isDark} /> : <div className="align-t-c" style={{paddingBottom: 20, fontSize: 20}}>Event Started</div>}
       </div>
     );
   }

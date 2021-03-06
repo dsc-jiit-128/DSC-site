@@ -109,7 +109,7 @@ const scheduleDetails =
     icon: <BiCalendarX/>,
   },
   {
-    eventName: "Idea Prsentation Deadline",
+    eventName: "Idea Presentation Deadline",
     date: "14 March 2021 6:00PM",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in pulvinar leo. Nam vel mattis sem, eget condimentum eros. Sed condimentum molestie semper. ",
     icon: <MdOndemandVideo/>,
