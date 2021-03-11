@@ -26,6 +26,27 @@ const Speaker = ({ dark }) => {
             position: 'Senior Software Engineer, Tezos India',
             social: 'https://www.linkedin.com/in/akhil-bharti-17161272/',
             webinar: 'Blockchain'
+        },
+        {
+            img: 'aditya.png',
+            name: 'Aditya Oberai',
+            position: 'Imagine Cup 2021 National Winner - Education | MLH Coach | Gold Microsoft Learn Student Ambassador',
+            social: '',
+            webinar: ''
+        },
+        {
+            img: 'yash.jpg',
+            name: 'Yash Khare',
+            position: 'Member and mentor at amFOSS',
+            social: 'https://www.linkedin.com/in/yashk2000/',
+            webinar: ''
+        },
+        {
+            img: 'pragati.jpg',
+            name: 'Pragati Verma',
+            position: 'MLH Fellow | DSC Lead | InOut 7.0 Winner | SIH2020 Winner | MLSA 2020/21',
+            social: 'https://www.linkedin.com/in/pragativerma18/',
+            webinar: ''
         }
     ]
 

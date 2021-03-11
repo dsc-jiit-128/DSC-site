@@ -5,24 +5,16 @@ import {MdOndemandVideo} from 'react-icons/md'
 import {BiCalendarX} from 'react-icons/bi'
 import {FaHourglassStart} from 'react-icons/fa'
 import {FaHourglassEnd} from 'react-icons/fa'
-import {FaGoogle} from 'react-icons/fa'
 import {FaDiscord} from 'react-icons/fa'
-import {SiFlutter} from 'react-icons/si'
-import {SiTensorflow} from 'react-icons/si'
 import {SiBitcoin} from 'react-icons/si'
 import {SiKotlin} from 'react-icons/si'
 import {HiOutlineLightBulb} from 'react-icons/hi';
 import {GiBladeBite} from 'react-icons/gi'
 import {GiBoneGnawer} from 'react-icons/gi'
 import {GiGlassCelebration} from 'react-icons/gi'
-import {IoCloudDone} from 'react-icons/io5'
 import { Typography } from '@material-ui/core'
-import WorkIcon from "@material-ui/icons/Work";
 import LanguageIcon from '@material-ui/icons/Language';
 import StarsIcon from '@material-ui/icons/Stars';
-import CheckCircleIcon from '@material-ui/icons/CheckCircle';
-import PhoneAndroidIcon from '@material-ui/icons/PhoneAndroid';
-import AndroidIcon from '@material-ui/icons/Android';
 import {
   VerticalTimeline,
   VerticalTimelineElement
@@ -85,13 +77,13 @@ const scheduleDetails =
     icon: <HiOutlineLightBulb/>
   },
   {
-    eventName: "Webinar: Tensorflow",
-    date: "6 March 2021 5:00PM",
+    eventName: 'What is a hackathon? How to be best at it!?',
+    date: "10 March 2021 5:00PM",
     speaker: "Some Cool Guy",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in pulvinar leo. Nam vel mattis sem, eget condimentum eros. Sed condimentum molestie semper. ",
-    icon: <SiTensorflow/>,
+    icon: <AiOutlineCloudServer/>,
     link: 'https://www.youtube.com/channel/UCsq-cbi1tZStoem3KVQVjCg',
-    releaseDate: '03/06/2021 17:00'
+    releaseDate: '03/10/2021 17:00'
   },
   {
     eventName: "Webinar: Cloud Technologies",

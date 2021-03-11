@@ -32,7 +32,10 @@ export default function CommunityPartners(props) {
         <CommunityCard key="5" src={props.isDark?require('../../images/sponsors/DSC Indraprastha College For Women Light Vertical-Logo-d.png'):require('../../images/sponsors/DSC Indraprastha College For Women Light Vertical-Logo.png')} link="https://dsc.community.dev/indraprastha-college-for-women/" />
         <CommunityCard key="6" src={props.isDark?require('../../images/sponsors/DSC Rustamji Institute of Technology Light Horizontal-Logo-d.png'):require('../../images/sponsors/DSC Rustamji Institute of Technology Light Horizontal-Logo.png')} link="https://dsc.community.dev/rustamji-institute-of-technology/" />
         <CommunityCard key="7" src={props.isDark?require('../../images/sponsors/Group 112-d.png'):require('../../images/sponsors/Group 112.png')} link="http://dscjss.in/" />
-          <CommunityCard key="8" src={require('../../images/sponsors/dsc imsec 2.png')} link="https://dsc.community.dev/ims-engineering-college/" />
+        <CommunityCard key="8" src={require('../../images/sponsors/dsc imsec 2.png')} link="https://dsc.community.dev/ims-engineering-college/" />
+        <CommunityCard key="9" src={props.isDark?require('../../images/sponsors/DSC Birla Institute of Applied Sciences Light Vertical-Logo-d.png'):require('../../images/sponsors/DSC Birla Institute of Applied Sciences Light Vertical-Logo.png')} link="http://dsc.birlainstitute.co.in/" />
+        <CommunityCard key="9" src={require('../../images/sponsors/DSC MKSSS\'s Cummins College of Engineering for Women Logo x1.png')} link="https://dsc.community.dev/mkssss-cummins-college-of-engineering-for-women/" />
+        <CommunityCard key="10" src={props.isDark?require('../../images/sponsors/DSC CVR College of Engineering Logo Transparent-d.png'):require('../../images/sponsors/DSC CVR College of Engineering Logo Transparent.png')} link="https://tinyurl.com/dsccvr-hackathon" />
         
       </Grid>
 
