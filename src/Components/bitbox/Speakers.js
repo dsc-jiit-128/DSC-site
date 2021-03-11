@@ -31,22 +31,22 @@ const Speaker = ({ dark }) => {
             img: 'aditya.png',
             name: 'Aditya Oberai',
             position: 'Imagine Cup 2021 National Winner - Education | MLH Coach | Gold Microsoft Learn Student Ambassador',
-            social: '',
-            webinar: ''
+            social: 'https://www.linkedin.com/in/ACoAABSeMbQBA0_-ma8QqJPVALH9nFx7ycs1lpg/',
+            webinar: 'What is a Hackathon and How to be best at it?'
         },
         {
             img: 'yash.jpg',
             name: 'Yash Khare',
             position: 'Member and mentor at amFOSS',
             social: 'https://www.linkedin.com/in/yashk2000/',
-            webinar: ''
+            webinar: 'What is a Hackathon and How to be best at it?'
         },
         {
             img: 'pragati.jpg',
             name: 'Pragati Verma',
             position: 'MLH Fellow | DSC Lead | InOut 7.0 Winner | SIH2020 Winner | MLSA 2020/21',
             social: 'https://www.linkedin.com/in/pragativerma18/',
-            webinar: ''
+            webinar: 'What is a Hackathon and How to be best at it?'
         }
     ]
 
