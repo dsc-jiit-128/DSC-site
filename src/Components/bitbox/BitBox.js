@@ -17,8 +17,8 @@ export default function BitBox({isDark}) {
         <div>
             <Hero isDark={isDark}/>
             <Speakers dark={isDark} />
-            <Schedule isDark={isDark} />
             <Prizes isDark={isDark} />
+            <Schedule isDark={isDark} />
             <Theme />
             <Sponsor isDark={isDark}/>
             <SponsorUs />
