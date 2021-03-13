@@ -10,7 +10,8 @@ class App extends React.Component {
   constructor(props){
     super();
     this.state = {
-      isDark: false
+      isDark: false,
+      bitbox: false
     }    
   }
   componentDidMount() {
@@ -24,6 +25,17 @@ class App extends React.Component {
       this.setState({isDark: true});
     }
   };
+  
+  routeFunction = () => {
+    var pageURL = window.location.href;
+      var lastURLSegment = pageURL.substr(pageURL.lastIndexOf('/') + 1);
+      if(lastURLSegment === 'bitbox') {
+      console.log("bitbox")
+      }
+      else {
+        console.log('window.location')
+      }
+  }
 
   render() {
     const htmlDOM = document.getElementsByTagName('html')[0];
@@ -37,7 +49,7 @@ class App extends React.Component {
     }
     return (
       <div className={this.state.isDark?"darkmode":"lightmode"}>
-        <Router turnDark={isDark=> this.setState({isDark})} isDark={this.state.isDark}/>
+        <Router turnDark={isDark=> this.setState({isDark})} bitbox={this.state.bitbox} isDark={this.state.isDark}/>
       </div>
     );
   }

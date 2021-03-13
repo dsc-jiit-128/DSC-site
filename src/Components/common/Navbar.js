@@ -45,9 +45,9 @@ const Navbar = (props) => {
 
   return (
     <div>
-      <AppBar className="navbar" position="static" alignItems="baseline">
+      <AppBar className="navbar" position="static" alignitems="baseline">
         <Container>
-          <Grid justify="space-between" container alignItems="center">
+          <Grid justify="space-between" container alignitems="center">
             <Grid item>
               <Box
                 display="flex"
@@ -165,8 +165,7 @@ const Navbar = (props) => {
             </ListItemIcon>
             <ListItemText primary={"Events"} />
           </ListItem>
-          
-</List>
+        </List>
       </Drawer>
     </div>
   );

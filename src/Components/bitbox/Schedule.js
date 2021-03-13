@@ -11,7 +11,10 @@ import {SiKotlin} from 'react-icons/si'
 import {HiOutlineLightBulb} from 'react-icons/hi';
 import {GiBladeBite} from 'react-icons/gi'
 import {GiBoneGnawer} from 'react-icons/gi'
+import {SiCodechef} from 'react-icons/si'
+import {GiClown} from 'react-icons/gi'
 import {GiGlassCelebration} from 'react-icons/gi'
+import {FaCrown} from 'react-icons/fa'
 import { Typography } from '@material-ui/core'
 import LanguageIcon from '@material-ui/icons/Language';
 import StarsIcon from '@material-ui/icons/Stars';
@@ -111,6 +114,28 @@ const scheduleDetails =
     date: "14 - 26 March 2021",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in pulvinar leo. Nam vel mattis sem, eget condimentum eros. Sed condimentum molestie semper. ",
     icon: <FaDiscord/>,
+  },
+  {
+    eventName: "Codechef hours",
+    date: "18 - 23 March 2021",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in pulvinar leo. Nam vel mattis sem, eget condimentum eros. Sed condimentum molestie semper. ",
+    icon: <SiCodechef/>,
+  },
+  {
+    eventName: "Kings of '64",
+    date: "21st March 2021",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in pulvinar leo. Nam vel mattis sem, eget condimentum eros. Sed condimentum molestie semper. ",
+    icon: <FaCrown/>,
+    link: 'http://linktr.ee/dsc128',
+    releaseDate: '03/13/2021 17:00'
+  },
+  {
+    eventName: "Make a meme",
+    date: "22nd March 2021",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in pulvinar leo. Nam vel mattis sem, eget condimentum eros. Sed condimentum molestie semper. ",
+    icon: <GiClown/>,
+    link: 'http://linktr.ee/dsc128',
+    releaseDate: '03/13/2021 17:00'
   },
   {
     eventName: "Hack Begins",

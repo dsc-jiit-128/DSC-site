@@ -37,7 +37,7 @@ export default function Hero({isDark}) {
         BITBOX
       </Typography>
       <Countdown isDark={isDark}/>
-      <div fixed className='hero-btn-container' >
+      <div className='hero-btn-container' >
         <Box style={{height:"100px", width:"100%", display:"flex", alignItems:"center", justifyContent:"center", flexDirection:'column'}}>
         <div 
           className="apply-button" 
