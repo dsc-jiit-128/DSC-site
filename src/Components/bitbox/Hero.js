@@ -50,7 +50,7 @@ export default function Hero({isDark}) {
         </Box>
       </div>
       <div className="frameContainer">
-        <iframe className="frameCard" src="https://www.youtube-nocookie.com/embed/wR0O8FMLm7c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe className="frameCard" src="https://www.youtube-nocookie.com/embed/wR0O8FMLm7c" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
       </Container>
     </div>
