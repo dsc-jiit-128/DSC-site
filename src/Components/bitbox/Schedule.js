@@ -12,7 +12,7 @@ import {HiOutlineLightBulb} from 'react-icons/hi';
 import {GiBladeBite} from 'react-icons/gi'
 import {GiBoneGnawer} from 'react-icons/gi'
 import {SiCodechef} from 'react-icons/si'
-import {GiClown} from 'react-icons/gi'
+import {GrTechnology} from 'react-icons/gr'
 import {GiGlassCelebration} from 'react-icons/gi'
 import {FaCrown} from 'react-icons/fa'
 import { Typography } from '@material-ui/core'
@@ -98,12 +98,6 @@ const scheduleDetails =
     releaseDate: '03/13/2021 17:00'
   },
   {
-    eventName: "Registration Ends",
-    date: "14 March 2021",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in pulvinar leo. Nam vel mattis sem, eget condimentum eros. Sed condimentum molestie semper. ",
-    icon: <BiCalendarX/>,
-  },
-  {
     eventName: "Idea Presentation Deadline",
     date: "14 March 2021 6:00PM",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in pulvinar leo. Nam vel mattis sem, eget condimentum eros. Sed condimentum molestie semper. ",
@@ -127,15 +121,19 @@ const scheduleDetails =
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in pulvinar leo. Nam vel mattis sem, eget condimentum eros. Sed condimentum molestie semper. ",
     icon: <FaCrown/>,
     link: 'http://linktr.ee/dsc128',
-    releaseDate: '03/13/2021 17:00'
+    releaseDate: '03/21/2021 17:00'
   },
   {
-    eventName: "Make a meme",
-    date: "22nd March 2021",
+    eventName: "Registration Ends",
+    date: "21 March 2021",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in pulvinar leo. Nam vel mattis sem, eget condimentum eros. Sed condimentum molestie semper. ",
-    icon: <GiClown/>,
-    link: 'http://linktr.ee/dsc128',
-    releaseDate: '03/13/2021 17:00'
+    icon: <BiCalendarX/>,
+  },
+  {
+    eventName: "Build a Cloud-Connected AR/VR App in 15 Minutes or Less using echoAR",
+    date: "24th March 2021",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in pulvinar leo. Nam vel mattis sem, eget condimentum eros. Sed condimentum molestie semper. ",
+    icon: <GrTechnology/>
   },
   {
     eventName: "Hack Begins",
