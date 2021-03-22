@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fbb556c991f8570588596c7f9410b5f9",
+    "revision": "b3d1da6a03d45e0752ffe17e3b28591a",
     "url": "./index.html"
   },
   {
-    "revision": "1aeaac76a1d5902c757d",
+    "revision": "36b6ff58ee08d8bdb3c2",
     "url": "./static/css/2.e0f123b0.chunk.css"
   },
   {
-    "revision": "a96fa38b15acdb46dd20",
-    "url": "./static/css/main.7552d238.chunk.css"
+    "revision": "d9a91c6f6f5723d9ee77",
+    "url": "./static/css/main.f47801e8.chunk.css"
   },
   {
-    "revision": "1aeaac76a1d5902c757d",
-    "url": "./static/js/2.4766dd28.chunk.js"
+    "revision": "36b6ff58ee08d8bdb3c2",
+    "url": "./static/js/2.40fba06f.chunk.js"
   },
   {
     "revision": "93da8c3820b6927aa0c6aaa46c0fc0c5",
-    "url": "./static/js/2.4766dd28.chunk.js.LICENSE.txt"
+    "url": "./static/js/2.40fba06f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a96fa38b15acdb46dd20",
-    "url": "./static/js/main.bb4455c3.chunk.js"
+    "revision": "d9a91c6f6f5723d9ee77",
+    "url": "./static/js/main.b3e895bc.chunk.js"
   },
   {
     "revision": "ab84521f3427beb73027",
@@ -148,12 +148,32 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/CodeChef-UNACADEMY - AUG-01.4316691e.png"
   },
   {
+    "revision": "2043c5d5158ddcaf5cd19aefc448da06",
+    "url": "./static/media/DSC Birla Institute of Applied Sciences Light Vertical-Logo-d.2043c5d5.png"
+  },
+  {
+    "revision": "2210cdc595c61a9d573a2779c18f5c05",
+    "url": "./static/media/DSC Birla Institute of Applied Sciences Light Vertical-Logo.2210cdc5.png"
+  },
+  {
+    "revision": "e4bbf6155a30071137fba3e3da7c3cce",
+    "url": "./static/media/DSC CVR College of Engineering Logo Transparent-d.e4bbf615.png"
+  },
+  {
+    "revision": "d73edfcbe88c4d11465e06315de93142",
+    "url": "./static/media/DSC CVR College of Engineering Logo Transparent.d73edfcb.png"
+  },
+  {
     "revision": "ecd08204a60dca95ff0f801da3762973",
     "url": "./static/media/DSC Indraprastha College For Women Light Vertical-Logo-d.ecd08204.png"
   },
   {
     "revision": "b7565ab4c9be7e8f57d898cf56593120",
     "url": "./static/media/DSC Indraprastha College For Women Light Vertical-Logo.b7565ab4.png"
+  },
+  {
+    "revision": "dc0d21bded04e84561fd3d5ffdb55a9d",
+    "url": "./static/media/DSC MKSSS's Cummins College of Engineering for Women Logo x1.dc0d21bd.png"
   },
   {
     "revision": "8792c059899ff005d4fb3fbf1fd290f5",
@@ -360,6 +380,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/YouTube.4b45eb8b.svg"
   },
   {
+    "revision": "b728219c1740ba0b29a0e1570a16f0d8",
+    "url": "./static/media/aditya.b728219c.png"
+  },
+  {
     "revision": "17289fb33868a57525d4f343f072f236",
     "url": "./static/media/bitbox.17289fb3.png"
   },
@@ -488,6 +512,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/portis.8de2cd56.jpg"
   },
   {
+    "revision": "596428b44473711d36abf0ea1d573752",
+    "url": "./static/media/pragati.596428b4.jpg"
+  },
+  {
     "revision": "faac10286765a6ba00c5426f12f397de",
     "url": "./static/media/python.faac1028.jpg"
   },
@@ -558,5 +586,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c795d1ad612b8f29b7a38966c41eabf6",
     "url": "./static/media/workshops.c795d1ad.jpeg"
+  },
+  {
+    "revision": "cce11a7cef479e0e0173c4575c90b685",
+    "url": "./static/media/yash.cce11a7c.jpg"
   }
 ]);
