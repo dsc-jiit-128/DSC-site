@@ -23,7 +23,7 @@ export default function Hero({isDark}) {
     }
   }, []);
   return (
-    <div id='hero-section' className='' style={{ height: '120vh' }}>
+    <div id='hero-section' className='' style={{ height: '175vh' }}>
       <canvas id='kaleidoscope' ></canvas>
         <Container fixed className='hero-container'>
       <Typography
@@ -32,7 +32,6 @@ export default function Hero({isDark}) {
         className='box-font margintopmax'
         style={isDark?{color:'#fff'}:{}}
         align='center'
-        data-aos="zoom-in-up"
       >
         BITBOX
       </Typography>
