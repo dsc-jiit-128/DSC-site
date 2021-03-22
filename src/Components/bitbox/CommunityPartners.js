@@ -39,7 +39,7 @@ export default function CommunityPartners(props) {
         
       </Grid>
 
-      <a href="https://forms.gle/CexfaeJN6Mx6jQNr6" target="_blank" style={{color: "inherit", textDecoration: "none"}}> 
+      {/* <a href="https://forms.gle/CexfaeJN6Mx6jQNr6" target="_blank" style={{color: "inherit", textDecoration: "none"}}> 
         <Button
             data-aos="fade-up"
             className='mt-9 hero-btn mentor-btn'
@@ -49,7 +49,7 @@ export default function CommunityPartners(props) {
         >
         Become a Community Partner
         </Button>
-        </a>
+        </a> */}
     </div>
   );
 }

@@ -49,6 +49,9 @@ export default function Hero({isDark}) {
         <Button variant="outlined" color="primary" style={{marginTop:'10px'}} onClick={() => {window.location = "#/photobooth"}}>Get Your Profile Badge</Button>
         </Box>
       </div>
+      <div className="frameContainer">
+        <iframe className="frameCard" src="https://www.youtube-nocookie.com/embed/wR0O8FMLm7c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
       </Container>
     </div>
   );

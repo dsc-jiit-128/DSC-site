@@ -515,8 +515,21 @@ h3 {
   max-width: 100%;
   object-fit: contain;
 }
+.frameCard {
+  height: 315px;
+  width: 660px;
+}
+.frameContainer {
+  width: 100%;
+  margin-top: 60px;
+  text-align: center;
+}
 
 @media (max-width:600px) {
+  .frameCard {
+    height: 315px;
+    width: 100%;
+  }
   .speaker-grid {
     max-height: 320px;
     transform: scale(0.5) !important;

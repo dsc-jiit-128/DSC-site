@@ -66,7 +66,7 @@ const Speaker = ({ dark }) => {
             >
                 Join our Discord Server
             </Button>
-            <Button
+            {/* <Button
                 data-aos="fade-left"
                 className='mt-9 hero-btn mentor-btn'
                 onClick={(e) => {
@@ -78,7 +78,7 @@ const Speaker = ({ dark }) => {
                 style={{ background: '#35A853', margin: '2rem auto', display:'block' }}
             >
                 Become A Mentor
-            </Button>
+            </Button> */}
                 <Box className="team-sections">
                     <Typography
                         variant="h3"
