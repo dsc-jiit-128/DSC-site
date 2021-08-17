@@ -1,4 +1,4 @@
-<p align="center"><img src="https://media-exp1.licdn.com/dms/image/C4E1BAQEeEW6C2U7kNg/company-background_10000/0/1570735746624?e=2159024400&v=beta&t=gZJK_A_8YqAW9SoU9FLkheaz8_E0Is9A2uk0cYEqdNI"></p>
+<p align="center"><img src="https://drive.google.com/uc?export=view&id=1S0cxxnFmQ99ExpKxuC5i3ROT2ppA0gs0"></p>
 
     
 <br/><br/>
