@@ -1,8 +1,8 @@
-<img align="center" src="https://media-exp1.licdn.com/dms/image/C4E1BAQEeEW6C2U7kNg/company-background_10000/0/1570735746624?e=2159024400&v=beta&t=gZJK_A_8YqAW9SoU9FLkheaz8_E0Is9A2uk0cYEqdNI">
+<p align="center"><img src="https://media-exp1.licdn.com/dms/image/C4E1BAQEeEW6C2U7kNg/company-background_10000/0/1570735746624?e=2159024400&v=beta&t=gZJK_A_8YqAW9SoU9FLkheaz8_E0Is9A2uk0cYEqdNI"></p>
 
     
 <br/><br/>
-<h1 style="text-align: center;" border=1px>
+<h1 align="center">
  DSC-site
 </h1>
 <p align="center">DSC(Developers Student Club) - JIIT128 is a Google Developers program aimed for college students to help them build their mobile, web, machine learning, cloud skills, etc</p>
