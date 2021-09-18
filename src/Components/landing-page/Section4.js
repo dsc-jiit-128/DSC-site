@@ -1,6 +1,6 @@
 import React from "react";
 import dscjiitDark from "../../images/dscjiit-dark.png";
-import dscjiit from "../../images/dscjiit.png";
+import dscjiit from "../../images/dsc_logo.png";
 import Box from "@material-ui/core/Box";
 import { Typography, Grid } from "@material-ui/core";
 import fbIcon from "../../images/Facebook.svg";
@@ -80,3 +80,4 @@ const Section4 = ({isDark}) => {
 };
 
 export default Section4;
+
