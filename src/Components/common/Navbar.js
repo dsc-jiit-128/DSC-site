@@ -57,7 +57,7 @@ const Navbar = (props) => {
               >
                 <img className="dsc-logo" src={dscIcon} alt="logo"></img>
                 <p className="dsc-logo-text">
-                  DSC <span className="dsc-college-name">JIIT128</span>
+                  GDSC <span className="dsc-college-name">JIIT128</span>
                 </p>
               </Box>
             </Grid>
