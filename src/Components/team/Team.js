@@ -18,16 +18,74 @@ import Section4 from "../landing-page/Section4";
 const Team = ({isDark}) => {
   const coreArr = [
     {
+      img: "SomyaGupta.jpg",
+      name: "Somya Gupta",
+      position: "Chapter Lead"
+    },
+
+    
+   
+    {
+      img: "AditriSrivastava.jpg",
+      name: "Aditri Srivastava",
+      position: "Event Management Lead"
+    },
+    
+    {
+      img: "ManasDalakoti.jpeg",
+      name: "Manas Dalakoti",
+      position: "ML Lead"
+    },
+    {
+      img: "AdityaSingh.jpg",
+      name: "Aditya Singh",
+      position: "Social Media and Content Lead"
+    },
+    
+    {
+      img: "AnishKhare.jpg",
+      name: "Anish Khare",
+      position: "Management Lead"
+    },
+    {
+      img: "HardikAgarwal.jpg",
+      name: "Hardik Agarwal",
+      position: "Technical Lead"
+    },
+    {
+      img: "Ishanjain.jpg",
+      name: "Ishan Jain",
+      position: "Management Lead"
+    },
+    {
+      img: "AmanNagpal.jpg",
+      name: "Aman Nagpal",
+      position: "Design Lead"
+    },
+    {
+      img: "gauravsharan2.jpeg",
+      name: "Gaurav Sharan",
+      position: "PR Lead"
+    },
+    {
+      img: "ShriyanshiSrivastava.jpg",
+      name: "Shriyanshi Srivastava",
+      position: "Technical Advisor"
+    }
+    
+
+  ];
+  const SeniorArr = [
+    {
       img: "AbhinavSrivastava.jpg",
       name: "Abhinav Srivastava",
-      position: "Community Lead"
+      position: "Ex-Community Lead"
     },
     {
       img: "SimranShilky.jpg",
       name: "Simran Shilky",
       position: "Design Lead"
     },
-   
     {
       img: "Tanya.jpeg",
       name: "Tanya Rastogi",
@@ -37,13 +95,14 @@ const Team = ({isDark}) => {
       img: "AbhinavJha.jpg",
       name: "Abhinav Jha",
       position: "Management Lead"
+    
     },
     {
       img: "UtkarshPandey.jpg",
       name: "Utkarsh Pandey",
       position: "Technical Lead"
     },
-   
+
     {
       img: "ShriyamTripathi.jpg",
       name: "Shriyam Tripathi",
@@ -63,9 +122,50 @@ const Team = ({isDark}) => {
       img: "Saksham.jpg",
       name: "Saksham Goel",
       position: "Event Manager"
-    }
-  ]
-  const SeniorArr = [
+    },
+    {
+      img: "SuyashSingh.jpg",
+      name: "Suyash Singh",
+      position: "Web"
+    },
+    {
+      img: "ShikharSharma.jpeg",
+      name: "Shikhar Sharma",
+      position: "Web"
+    },
+  
+    {
+    img: "AmanJakhetiya.jpg",
+    name: "Aman Jakhetiya",
+    position: "ML"
+    },
+    {
+      img: "ShobhitGarg.jpeg",
+      name: "Shobhit Garg",
+      position: "Web"
+    },
+    {
+      img: "VedanshSharma.jpg",
+      name: "Vedansh Sharma",
+      position: "ML"
+    },
+    {
+      img: "VineetJain.jpg",
+      name: "Vineet Jain",
+      position: "ML"
+    },
+    
+    {
+      img: "AnmolGupta.jpeg",
+      name: "Anmol Gupta",
+      position: "ML"
+    },
+    {
+      img: "AshutoshAgarwal.jpg",
+      name: "Ashutosh Agarwal",
+      position: "Mobile"
+    },
+
     {
       img: "FahadSiddiqui.jpg",
       name: "Fahad Siddiqui",
@@ -125,33 +225,18 @@ const Team = ({isDark}) => {
       img: "SatyamMittal.jpg",
       name: "Satyam Mittal",
       position: "ML"
-    }
-  ];
+    },
+  ]
 
   const TechnicalArr = [
     {
-      img: "SuyashSingh.jpg",
-      name: "Suyash Singh",
+      img: "Shubham.jpg",
+      name: "Shubham Singh",
       position: "Web"
     },
     {
-      img: "AmanJakhetiya.jpg",
-      name: "Aman Jakhetiya",
-      position: "ML"
-    },
-    {
-      img: "SimranBhardwaj.jpg",
-      name: "Simran Bhardwaj",
-      position: "Web"
-    },
-    {
-      img: "ShobhitGarg.jpeg",
-      name: "Shobhit Garg",
-      position: "Web"
-    },
-    {
-      img: "ShikharSharma.jpeg",
-      name: "Shikhar Sharma",
+      img: "BhavyaAggarwal.jpg",
+      name: "Bhavya  Aggarwal",
       position: "Web"
     },
     {
@@ -159,62 +244,36 @@ const Team = ({isDark}) => {
       name: "Abhir Raj Shrivastava",
       position: "Web"
     },
+    
     {
-      img: "AditriSrivastava.jpg",
-      name: "Aditri Srivastava",
-      position: "Web"
-    },
-    {
-      img: "SomyaGupta.jpg",
-      name: "Somya Gupta",
-      position: "Web"
-    },
-    {
-      img: "AnmolGupta.jpeg",
-      name: "Anmol Gupta",
+      img: "KushagraSingh.jpg",
+      name: "Kushagra Singh",
       position: "ML"
     },
     {
-      img: "VineetJain.jpg",
-      name: "Vineet Jain",
+      img: "sarthakpant.jpeg",
+      name: "Sarthak Pant",
       position: "ML"
     },
     {
-      img: "ManasDalakoti.jpeg",
-      name: "Manas Dalakoti",
+      img: "RamBagga.jpeg",
+      name: "Ram Bagga",
       position: "ML"
     },
-    {
-      img: "VedanshSharma.jpg",
-      name: "Vedansh Sharma",
-      position: "ML"
-    }
+    
     ,
     {
-      img: "AshutoshAgarwal.jpg",
-      name: "Ashutosh Agarwal",
+      img: "harshitsharma.jpg",
+      name: "Harshit Sharma",
       position: "Mobile"
     },
+    
     {
-      img: "HarshitGarg.jpg",
-      name: "Harshit Garg",
-      position: "CP"
-    },
-    {
-      img: "TusharGoyal.jpg",
-      name: "Tushar Goyal",
-      position: "CP"
-    },
-    {
-      img: "AnishKhare.jpg",
-      name: "Anish Khare",
+      img: "anshgoyal.jpeg",
+      name: "Ansh Goyal",
       position: "Cyber Security"
     },
-    {
-      img: "HardikAgarwal.jpg",
-      name: "Hardik Agarwal",
-      position: "UI/UX Design"
-    }
+    
   ];
   const managementTeam = [
     // {
@@ -228,36 +287,37 @@ const Team = ({isDark}) => {
     //   position: "PR Member"
     // },
     {
-      img: "Gaurav.jpeg",
-      name: "Gaurav Sharan",
-      position: "PR Member"
+      img: "AviralGupta.jpg",
+      name: "Aviral Gupta",
+      position: "Event Manger"
     },
     {
-      img: "Ishanjain.jpg",
-      name: "Ishan Jain",
+      img: "RitikaAgrawal.jpeg",
+      name: "Ritika Agrawal",
       position: "Event Manager"
     },
     {
-      img: "ShriyanshiSrivastava.jpg",
-      name: "Shriyanshi Srivastava",
+      img: "AasmiGill.png",
+      name: "Aasmi Gill",
       position: "Event Manager"
     },
+    
     {
-      img: "AnishKhare.jpg",
-      name: "Anish Khare",
+      img: "sagarmaurya.jpeg",
+      name: "Sagar Maurya",
       position: "Event Manager"
-    }
+    },
     
   ];
   const socialMedia = [
     {
-      img: "ShikharGupta.jpg",
-      name: "Shikhar Gupta",
+      img: "sambhavjain.jpg",
+      name: "Sambhav Jain",
       position: "Social Media Manager"
     },
     {
-      img: "AdityaSingh.jpg",
-      name: "Aditya Singh",
+      img: "amisha.jpg",
+      name: "Amisha",
       position: "Social Media Manager"
     }
   ];
@@ -270,14 +330,15 @@ const Team = ({isDark}) => {
   // ];
 
   const contentTeam = [
+   
     {
-      img: "AryamanKumar.jpeg",
-      name: "Aryaman Kumar",
+      img: "RashikaAgarwal.jpg",
+      name: "Rashika Agarwal",
       position: "Content Writer"
     },
     {
-      img: "AbhirRajShrivastava.png",
-      name: "Abhir Raj Shrivastava",
+      img: "AmviSinha.png",
+      name: "Amvi Sinha",
       position: "Content Writer"
     }
   ];
@@ -476,3 +537,4 @@ const Team = ({isDark}) => {
 };
 
 export default withRouter(Team);
+
