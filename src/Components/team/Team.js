@@ -235,6 +235,11 @@ const Team = ({isDark}) => {
       position: "Web"
     },
     {
+      img: "Meenal.jpeg",
+      name: "Meenal Prakash",
+      position: "Web"
+    },
+    {
       img: "BhavyaAggarwal.jpg",
       name: "Bhavya  Aggarwal",
       position: "Web"
