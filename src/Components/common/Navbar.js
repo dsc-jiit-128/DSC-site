@@ -24,6 +24,7 @@ import InfoIcon from "@material-ui/icons/Info";
 import EmojiEventsIcon from "@material-ui/icons/EmojiEvents";
 import workFromHome from "../../images/workfromhome.gif";
 import EventAvailableIcon from '@material-ui/icons/EventAvailable';
+import { Highlight } from "@material-ui/icons";
 
 const Navbar = (props) => {
   const [open, setOpen] = React.useState(false);
@@ -42,6 +43,26 @@ const Navbar = (props) => {
     else localStorage.setItem('isDark', false);
     props.turnDark(event.target.checked);
   };
+
+  function home(){
+    window.location = "#/";
+  }
+
+  function highlights(){
+    window.location = "#/highlights";
+  }
+
+  function bitbox(){
+    window.location = "#/bitbox";
+  }
+
+  function team(){
+    window.location = "#/team";
+  }
+
+  function events(){
+    window.location = "#/events";
+  }
 
   return (
     <div>
@@ -94,6 +115,8 @@ const Navbar = (props) => {
           </Grid>
         </Container>
       </AppBar>
+
+      
       {/* // menu below */}
       <Drawer variant="persistent" anchor="right" open={open}>
         <div>
@@ -113,9 +136,10 @@ const Navbar = (props) => {
           <ListItem
             button
             onClick={() => {
-              window.location = "#/";
+              home();
+              handleDrawerClose();
             }}
-          >
+          > 
             <ListItemIcon>
               <HomeIcon className="drawer-btn"/>
             </ListItemIcon>
@@ -124,7 +148,8 @@ const Navbar = (props) => {
           <ListItem
             button
             onClick={() => {
-              window.location = "#/highlights";
+              highlights();
+              handleDrawerClose();
             }}
           >
             <ListItemIcon>
@@ -135,7 +160,8 @@ const Navbar = (props) => {
           <ListItem
             button
             onClick={() => {
-              window.location = "#/bitbox";
+              bitbox();
+              handleDrawerClose();
             }}
           >
             <ListItemIcon>
@@ -146,7 +172,8 @@ const Navbar = (props) => {
           <ListItem
             button
             onClick={() => {
-              window.location = "#/team";
+              team();
+              handleDrawerClose();
             }}
           >
             <ListItemIcon>
@@ -157,7 +184,8 @@ const Navbar = (props) => {
           <ListItem
             button
             onClick={() => {
-              window.location = "#/events";
+              events();
+              handleDrawerClose();
             }}
           >
             <ListItemIcon>
