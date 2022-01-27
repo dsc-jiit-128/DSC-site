@@ -18,11 +18,11 @@
       font-size: 15rem;
       color: #292929;
     }
-    .register-btn{
-        font-size: 2rem;
+    .register-btn {
+      font-size: 2rem;
     }
-    .mentor-btn{
-        font-size: 1.5rem;
+    .mentor-btn {
+      font-size: 1.5rem;
     }
   }
 }
@@ -30,15 +30,16 @@
   -ms-flex-align: center;
   -webkit-box-align: center;
   align-items: center;
-  background-color: #3770FF;
+  background-color: #3770ff;
   border-radius: 3px;
   border: none;
-  color: #FFFFFF;
+  color: #ffffff;
   cursor: pointer;
   display: -ms-flexbox;
   display: -webkit-box;
   display: flex;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial,
+    sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
   font-size: 18px;
   font-weight: 600;
   padding: 12px 20px;
@@ -51,10 +52,10 @@
 }
 
 #devfolio-apply-now:hover {
-  background-color: #2954BF !important;
+  background-color: #2954bf !important;
 }
 
-.sponsors .sponsor-container{
+.sponsors .sponsor-container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -70,7 +71,7 @@
   justify-content: center;
 }
 
-.sponsorCard img{
+.sponsorCard img {
   height: 80%;
   width: auto;
   border-radius: 1rem;
@@ -85,18 +86,18 @@
   justify-content: center;
 }
 
-.communityCard img{
+.communityCard img {
   height: 80%;
   width: auto;
   border: 2px dashed white;
   border-radius: 1rem;
 }
 
-#participant-name{
+#participant-name {
   background: #eee;
   border: 2px dashed #3f51b5;
 }
-#participant-name-label{
+#participant-name-label {
   background: #3f51b5;
   color: white;
   padding: 2px 8px;
@@ -104,25 +105,25 @@
   transform: translate(10px, -8px);
 }
 
-#photobooth-buttons{
+#photobooth-buttons {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 
-  .MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary{
+  .MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary {
     margin: 1rem 0;
   }
 }
 
 @media only screen and (max-width: 980px) {
-  .sponsors .sponsor-container{
+  .sponsors .sponsor-container {
     flex-direction: column;
   }
 }
 
 @media screen and (max-width: 600px) {
-  #photobooth-buttons{
+  #photobooth-buttons {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -133,56 +134,54 @@
       h1 {
         font-size: 7rem;
       }
-      .register-btn{
+      .register-btn {
         font-size: 1rem;
-    }
-    .mentor-btn{
+      }
+      .mentor-btn {
         font-size: 0.7rem;
-    }
-    }
-    
-  }
-}
-
-@media screen and (min-width:600px) and (max-width: 800px) {
-    #hero-section {
-      .hero-container {
-        h1 {
-          font-size: 10rem;
-        }
-        .register-btn{
-            font-size: 1.5rem;
-        }
-        .mentor-btn{
-            font-size: 1rem;
-        }
       }
     }
   }
-
-
-.temp-video{
-    // position: absolute;
-    width: 100%;
-    max-height: 40rem ;
-    opacity: 0.15;
-    z-index: -1;
-    .planning{
-        // width:100%;
-        display: block;
-        margin: 0 auto 0 auto;
-        max-height: 40rem ;
-    }
 }
 
-.vertical-timeline-element-date{
+@media screen and (min-width: 600px) and (max-width: 800px) {
+  #hero-section {
+    .hero-container {
+      h1 {
+        font-size: 10rem;
+      }
+      .register-btn {
+        font-size: 1.5rem;
+      }
+      .mentor-btn {
+        font-size: 1rem;
+      }
+    }
+  }
+}
+
+.temp-video {
+  // position: absolute;
+  width: 100%;
+  max-height: 40rem;
+  opacity: 0.15;
+  z-index: -1;
+  .planning {
+    // width:100%;
+    display: block;
+    margin: 0 auto 0 auto;
+    max-height: 40rem;
+  }
+}
+
+.vertical-timeline-element-date {
   color: black;
 }
 
-.vertical-timeline-element-content{
+.vertical-timeline-element-content {
   border-radius: 7px;
 }
 
-.dark-timeline .vertical-timeline-element-date{
+.dark-timeline .vertical-timeline-element-date {
   color: white;
 }

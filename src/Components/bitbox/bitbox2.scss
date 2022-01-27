@@ -1,13 +1,10 @@
-.bitbox {
-  text-align: center;
-}
-
 a {
   cursor: pointer;
 }
 
 .bitbox1 {
   padding: 5px;
+  margin: 5% 0% 5% 0%;
   background-color: #3770ff;
   border-radius: 5%;
   align-items: center;
@@ -20,4 +17,9 @@ a {
   font-size: 18px;
   font-weight: 600;
   padding: 12px 20px;
+}
+
+.heading {
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
