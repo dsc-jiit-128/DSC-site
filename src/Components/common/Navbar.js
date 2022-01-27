@@ -43,7 +43,9 @@ const Navbar = (props) => {
     props.turnDark(event.target.checked);
   };
 
+
   return (
+   
     <div>
       <AppBar className='navbar' position='static' alignitems='baseline'>
         <Container>
@@ -60,6 +62,8 @@ const Navbar = (props) => {
                 </p>
               </Box>
             </Grid>
+            
+            
 
             <div className='darkMode-switch'>
               <Typography
@@ -105,6 +109,26 @@ const Navbar = (props) => {
           </Grid>
         </Container>
       </AppBar>
+       <div>
+       <div style={{ marginLeft: '0%', marginTop: '72px', width: '100%' , shadowColor: "#000",
+            shadowOffset: {
+              width: 0,
+              height: 10,
+            },
+            shadowOpacity: 0.12,
+            shadowRadius: 60, }}>
+        <Box color="black" bgcolor="lightgrey"  height={20}   p={1}>
+       <p style={{position:'absolute', top:'65px', left:'500px'}}>Bit Box 2.0 is here, tune in on 28th feb at 5:00 P.M  click here </p> 
+          <button  cssClass='e-link' onClick={ () => {  handleDrawerClose();
+              window.location = 'https://www.youtube.com/watch?v=wR0O8FMLm7c';} } style={{ borderRadius:'10%' , shadowColor: "black",shadowOffset: {
+              width: 0,
+              height: 10,
+            },
+            shadowOpacity: 0.12,
+            shadowRadius: 60, backgroundColor:'black', color: 'white', fontSize:'16px' ,border:'none', position:'absolute', top:'75px', left:'1000px' , borderColor:'indianred', width:"100px" , height:"30px",  }}><b style={{ position:'absolute', top:'5px', left:'20px'}} >Click me</b></button>
+    </Box>
+    </div>
+       </div>
       {/* // menu below */}
       <Drawer variant='persistent' anchor='right' open={open}>
         <div>
@@ -131,6 +155,8 @@ const Navbar = (props) => {
             </ListItemIcon>
             <ListItemText primary={'Home'} />
           </ListItem>
+          
+          
           <ListItem
             button
             onClick={() => {
@@ -177,6 +203,7 @@ const Navbar = (props) => {
           </ListItem>
         </List>
       </Drawer>
+   
     </div>
   );
 };
