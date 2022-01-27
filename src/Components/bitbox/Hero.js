@@ -26,6 +26,9 @@ export default function Hero({ isDark }) {
           align='center'>
           BITBOX
         </Typography>
+        <h2 style={{ fontFamily: 'Great Vibes', textAlign: 'center' }}>
+          Memories '21
+        </h2>
         {/* <Countdown isDark={isDark} /> */}
         <div className='hero-btn-container'>
           <Box

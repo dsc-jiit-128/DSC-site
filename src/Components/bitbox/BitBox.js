@@ -1,4 +1,4 @@
-import { Typography, Container, Box } from '@material-ui/core';
+import { Typography, Container, Button } from '@material-ui/core';
 import React, { useEffect } from 'react';
 import Kaleidoscope from 'ak-kaleidoscope';
 import Section4 from '../landing-page/Section4';
@@ -37,37 +37,64 @@ export default function BitBox({ isDark }) {
             we are hosting our annual tech hackathon "BIT BOX" in the month of
             march for the students intrested, all over the world.
           </div>
-          <button className='bitbox1'>Bit Box 2020 Memories</button>
+          <button
+            className='bitbox1'
+            onClick={() => {
+              window.location = '#/bitbox1';
+            }}>
+            Bit Box 2021 Memories
+          </button>
         </Container>
         <Theme />
         <SponsorUs />
 
         <div>
           <div className='heading'>
-            <h1>
-              {' '}
-              <u>Sessions</u>
-            </h1>
+            <Typography
+              variant='h3'
+              align='center'
+              component='p'
+              className='dsc-font'
+              data-aos='flip-left'
+              style={{ paddingTop: '4rem' }}>
+              Sessions
+            </Typography>
             Yet to be announced
           </div>
           <div className='heading'>
-            <h1>
-              {' '}
-              <u>Speakers and Judges</u>
-            </h1>
+            <Typography
+              variant='h3'
+              align='center'
+              component='p'
+              className='dsc-font'
+              data-aos='flip-left'
+              style={{ paddingTop: '4rem' }}>
+              Speakers and Judges
+            </Typography>
             To be announced
           </div>
           <div className='heading'>
-            <h1>
-              <u>Prizes</u>
-            </h1>
+            <Typography
+              variant='h3'
+              align='center'
+              component='p'
+              className='dsc-font'
+              data-aos='flip-left'
+              style={{ paddingTop: '4rem' }}>
+              Prizes
+            </Typography>
             To be announced
           </div>
           <div className='heading'>
-            <h1>
-              {' '}
-              <u>Community Partners</u>
-            </h1>
+            <Typography
+              variant='h3'
+              align='center'
+              component='p'
+              className='dsc-font'
+              data-aos='flip-left'
+              style={{ paddingTop: '4rem' }}>
+              Community Partners
+            </Typography>
             To be announced
           </div>
         </div>
