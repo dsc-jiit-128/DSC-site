@@ -151,7 +151,7 @@ const Navbar = (props) => {
             <ListItemIcon>
               <EmojiEventsIcon className='drawer-btn' />
             </ListItemIcon>
-            <ListItemText primary={'BitBox'} />
+            <ListItemText primary={'BitBox 2.0'} />
           </ListItem>
           <ListItem
             button
