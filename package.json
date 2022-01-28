@@ -8,7 +8,7 @@
     "@material-ui/icons": "^4.5.1",
     "ak-kaleidoscope": "^1.1.0",
     "aos": "^2.3.4",
-    "axios": "^0.21.1",
+    "axios": "^0.21.2",
     "cheerio": "^1.0.0-rc.5",
     "merge-images": "^2.0.0",
     "moment": "^2.27.0",
