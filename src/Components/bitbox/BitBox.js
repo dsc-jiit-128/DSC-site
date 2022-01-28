@@ -1,4 +1,4 @@
-import { Typography, Container, Button } from '@material-ui/core';
+import { Typography, Container, Button, Box } from '@material-ui/core';
 import React, { useEffect } from 'react';
 import Kaleidoscope from 'ak-kaleidoscope';
 import Section4 from '../landing-page/Section4';
@@ -17,9 +17,18 @@ export default function BitBox({ isDark }) {
       shapes: ['circle', 'drop', 'oval', 'square', 'star', 'triangle', 'wave'],
       color: ['#4285F4', '#EA4335', '#F8BC06', '#35A853'],
     });
+
+    const script = document.createElement('script');
+    script.src = 'https://apply.devfolio.co/v2/sdk.js';
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    };
   }, []);
   return (
-    <div id='hero-section' style={{ height: '100vh' }}>
+    <div id='hero-section' style={{ height: '125vh' }}>
       <center>
         <canvas id='kaleidoscope'></canvas>
         <Container fixed className='hero-container'>
@@ -37,14 +46,50 @@ export default function BitBox({ isDark }) {
             we are hosting our annual tech hackathon "BIT BOX" in the month of
             march for the students intrested, all over the world.
           </div>
-          <button
-            className='bitbox1'
-            onClick={() => {
-              window.location = '#/bitbox1';
-            }}>
-            Bit Box 2021 Memories
-          </button>
+          <div className='hero-btn-container'>
+            <Box
+              style={{
+                height: '100px',
+                width: '100%',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                flexDirection: 'column',
+              }}>
+              <div
+                className='apply-button'
+                data-hackathon-slug='bitbox2.0'
+                data-button-theme='light'
+                style={{ height: '44px', width: '312px' }}
+              />
+            </Box>
+          </div>
+          <div style={{ marginTop: '50px' }}>
+            <Button
+              className='mt-9 hero-btn mentor-btn'
+              onClick={(e) => {
+                e.preventDefault();
+                window.location.href = 'https://discord.gg/Dy3MVM2';
+              }}
+              variant='contained'
+              color='primary'
+              style={{
+                background: '#7289da',
+                margin: '2rem auto',
+                display: 'block',
+              }}>
+              Join our Discord Server
+            </Button>
+            <button
+              className='bitbox1'
+              onClick={() => {
+                window.location = '#/bitbox1';
+              }}>
+              Bit Box 2021 Memories
+            </button>
+          </div>
         </Container>
+
         <Theme />
         <SponsorUs />
 
