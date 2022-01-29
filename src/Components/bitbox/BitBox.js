@@ -66,6 +66,7 @@ export default function BitBox({ isDark }) {
                 data-button-theme='light'
                 style={{ height: '44px', width: '312px' }}
               /> */}
+              <p>Registrations start from 1st February,2022</p>
               <button id='devfolio-apply-now'>
                 <svg
                   class='logo'
