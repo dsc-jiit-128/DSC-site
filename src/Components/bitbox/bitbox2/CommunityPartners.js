@@ -26,28 +26,28 @@ export default function CommunityPartners(props) {
         />
 
         <CommunityCard
-          key='2'
+          key='1'
           src={require('../../../images/sponsors/bitbox2/dav-dsc.svg')}
           link=''
         />
         <CommunityCard
-          key='3'
+          key='2'
           src={require('../../../images/sponsors/bitbox2/dtiet-dsc.svg')}
         />
         <CommunityCard
-          key='4'
+          key='3'
           src={require('../../../images/sponsors/bitbox2/kalindi-dsc.svg')}
           link=''
         />
         <CommunityCard
-          key='1'
+          key='4'
           src={require('../../../images/sponsors/bitbox2/CodeChefVIT.svg')}
           link=''
         />
         <CommunityCard
-          key='1'
+          key='5'
           src={require('../../../images/sponsors/bitbox2/CodeChefIGDTUW.jpg')}
-          link=''
+          link='https://instagram.com/codechef_igdtuw?utm_medium=copy_link'
         />
       </Grid>
 

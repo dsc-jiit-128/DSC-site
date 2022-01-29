@@ -7,7 +7,7 @@ export default function Sessions({ isDark }) {
     {
       title: 'Webinar on Web Technologies',
       Speaker: 'Ayush Singh',
-      Date: '31st January, 4 P.M',
+      Date: '31st January, 4 P.M IST',
       link: 'Link',
     },
   ];
