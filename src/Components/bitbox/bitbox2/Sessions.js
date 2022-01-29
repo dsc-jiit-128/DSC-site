@@ -18,6 +18,7 @@ export default function Sessions({ isDark }) {
           className='sessions'
           item
           data-aos='zoom-in'
+          style={isDark ? { color: '#000' } : { color: '#000' }}
           data-aos-duration='500'>
           <div style={{ textAlign: 'right' }}>
             <div>
