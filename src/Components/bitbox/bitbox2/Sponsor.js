@@ -32,13 +32,13 @@ export default function Sponsor(props) {
         />
         <SponsorCard
           key='3'
-          src={require('../../../images/sponsors/wolfram2.png')}
-          link='http://wolfram.com/'
+          src={require('../../../images/sponsors/bitbox2/leading-learner.svg')}
+          link='https://www.leadlearners.ca/'
         />
         <SponsorCard
           key='3'
-          src={require('../../../images/sponsors/bitbox2/leading-learner.svg')}
-          link='https://www.leadlearners.ca/'
+          src={require('../../../images/sponsors/wolfram2.png')}
+          link='http://wolfram.com/'
         />
       </div>
       <Typography
@@ -60,14 +60,14 @@ export default function Sponsor(props) {
           link='https://matic.network'
         />
         <SponsorCard
-          key='3'
-          src={require('../../../images/sponsors/GMC_logo.png')}
-          link='http://givemycertificate.com/'
-        />
-        <SponsorCard
           key='5'
           src={require('../../../images/sponsors/StreamYard - Horz.png')}
           link='https://streamyard.com/'
+        />
+        <SponsorCard
+          key='3'
+          src={require('../../../images/sponsors/GMC_logo.png')}
+          link='http://givemycertificate.com/'
         />
       </Grid>
       <Typography

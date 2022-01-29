@@ -24,11 +24,7 @@ export default function CommunityPartners(props) {
           src={require('../../../images/sponsors/bitbox2/aurangabad-dsc.svg')}
           link=''
         />
-        <CommunityCard
-          key='1'
-          src={require('../../../images/sponsors/bitbox2/CodeChefVIT.svg')}
-          link=''
-        />
+
         <CommunityCard
           key='2'
           src={require('../../../images/sponsors/bitbox2/dav-dsc.svg')}
@@ -41,6 +37,16 @@ export default function CommunityPartners(props) {
         <CommunityCard
           key='4'
           src={require('../../../images/sponsors/bitbox2/kalindi-dsc.svg')}
+          link=''
+        />
+        <CommunityCard
+          key='1'
+          src={require('../../../images/sponsors/bitbox2/CodeChefVIT.svg')}
+          link=''
+        />
+        <CommunityCard
+          key='1'
+          src={require('../../../images/sponsors/bitbox2/CodeChefIGDTUW.jpg')}
           link=''
         />
       </Grid>

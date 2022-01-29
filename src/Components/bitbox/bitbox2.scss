@@ -23,3 +23,22 @@ a {
   padding-top: 5%;
   padding-bottom: 5%;
 }
+
+// SESSIONS COMPONENT //
+
+.sessions {
+  display: flex;
+  flex-direction: col;
+  padding: 0% 5% 0% 5%;
+  align-items: center;
+  justify-content: space-around;
+  align-content: center;
+  flex-wrap: wrap;
+  vertical-align: middle;
+  background-color: #e2e2e4;
+}
+
+.bitbox-logo {
+  width: 175px;
+  text-align: center;
+}
