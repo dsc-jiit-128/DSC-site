@@ -1,4 +1,6 @@
 import { Typography, Container, Button, Box } from '@material-ui/core';
+import CommunityPartners from './bitbox2/CommunityPartners';
+import Sponsers from './bitbox2/Sponsor';
 import React, { useEffect } from 'react';
 import Kaleidoscope from 'ak-kaleidoscope';
 import Section4 from '../landing-page/Section4';
@@ -89,10 +91,6 @@ export default function BitBox({ isDark }) {
             </button>
           </div>
         </Container>
-
-        <Theme />
-        <SponsorUs />
-
         <div>
           <div className='heading'>
             <Typography
@@ -130,19 +128,11 @@ export default function BitBox({ isDark }) {
             </Typography>
             To be announced
           </div>
-          <div className='heading'>
-            <Typography
-              variant='h3'
-              align='center'
-              component='p'
-              className='dsc-font'
-              data-aos='flip-left'
-              style={{ paddingTop: '4rem' }}>
-              Community Partners
-            </Typography>
-            To be announced
-          </div>
         </div>
+        <Theme />
+        <Sponsers isDark={isDark} />
+        <CommunityPartners />
+        <SponsorUs />
       </center>
       <FAQ />
       <Container id='contact'>
