@@ -22,13 +22,13 @@ export default function CommunityPartners(props) {
         <CommunityCard
           key='0'
           src={require('../../../images/sponsors/bitbox2/aurangabad-dsc.svg')}
-          link=''
+          link='https://gdsc.community.dev/deogiri-institute-of-engineering-and-management-studies-aurangabad/'
         />
 
         <CommunityCard
           key='1'
           src={require('../../../images/sponsors/bitbox2/dav-dsc.svg')}
-          link=''
+          link='https://gdsc.community.dev/dav-institute-of-engineering-technology-jalandhar/'
         />
         <CommunityCard
           key='2'
@@ -37,12 +37,12 @@ export default function CommunityPartners(props) {
         <CommunityCard
           key='3'
           src={require('../../../images/sponsors/bitbox2/kalindi-dsc.svg')}
-          link=''
+          link='https://bit.ly/chapterGDSCKalindi'
         />
         <CommunityCard
           key='4'
           src={require('../../../images/sponsors/bitbox2/CodeChefVIT.svg')}
-          link=''
+          link='https://www.codechefvit.com/'
         />
         <CommunityCard
           key='5'
