@@ -119,6 +119,15 @@ body {
   cursor: pointer;
 }
 
+@media screen and (max-width: 600px) {
+  .dsc-logo {
+    width: 2rem;
+  }
+  .dsc-logo-text {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+}
 .dsc-college-name {
   font-weight: 600;
 }

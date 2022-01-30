@@ -18,9 +18,13 @@ export default function Sessions({ isDark }) {
           className='sessions'
           item
           data-aos='zoom-in'
-          style={isDark ? { color: '#000' } : { color: '#000' }}
+          style={
+            isDark
+              ? { color: '#fff', backgroundColor: '#202124' }
+              : { color: '#000', backgroundColor: '#e2e2e4' }
+          }
           data-aos-duration='500'>
-          <div style={{ textAlign: 'right' }}>
+          <div id='sessions-title'>
             <div>
               <b>{data.title}</b>
               <i> By {data.Speaker}</i>

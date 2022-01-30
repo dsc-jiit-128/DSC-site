@@ -35,10 +35,20 @@ a {
   align-content: center;
   flex-wrap: wrap;
   vertical-align: middle;
-  background-color: #e2e2e4;
 }
 
 .bitbox-logo {
   width: 175px;
   text-align: center;
+}
+
+#sessions-title {
+  text-align: right;
+}
+
+@media screen and (max-width: 600px) {
+  #sessions-title {
+    text-align: center;
+    padding-top: 1rem;
+  }
 }

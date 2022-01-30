@@ -131,7 +131,7 @@ export default function BitBox({ isDark }) {
               style={{ paddingTop: '4rem' }}>
               Sessions
             </Typography>
-            <Sessions />
+            <Sessions isDark={isDark}/>
           </div>
           <div className='heading'>
             <Typography
