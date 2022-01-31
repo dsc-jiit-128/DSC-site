@@ -150,8 +150,8 @@ export default function BitBox({ isDark }) {
         <Sponsers isDark={isDark} />
         <br />
         <br />
-        <CommunityPartners />
-        <SponsorUs />
+        <CommunityPartners isDark={isDark} />
+        <SponsorUs isDark={isDark} />
       </center>
       <FAQ />
       <Container id='contact'>
