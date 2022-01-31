@@ -15,13 +15,14 @@
 }
 #events .eventsection .cards{
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto;
+    
 }
 
 @media only screen and (max-width: 980px) {
     #events .eventsection .cards{
         display: grid;
-        grid-template-columns: auto auto auto;
+        grid-template-columns: auto auto;
     }
     #events .eventsection{
         padding: 0 2rem;
