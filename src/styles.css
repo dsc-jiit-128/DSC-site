@@ -1,4 +1,4 @@
-.lightmode{
+.lightmode {
   --nav-back: white;
   --dsc-logo-text: #6f7277;
   --section2-btn-text: white;
@@ -6,20 +6,20 @@
   --section2-btn-border: rgb(52, 109, 241);
   --section2-btn-text-hover: white;
   --section2-btn-back-hover: rgb(28, 85, 218);
-  --section2-btn-border-hover:rgb(28, 85, 218);
+  --section2-btn-border-hover: rgb(28, 85, 218);
   --primary-text: #4285f4;
   --warning-text: #ffba00;
   --danger-text: #fe2c25;
   --success-text: #00a050;
   --vertical-timeline: #535353;
   --success-back: rgba(11, 184, 83, 0.15);
-  --danger-back:rgba(223, 77, 19, 0.15);
+  --danger-back: rgba(223, 77, 19, 0.15);
   --warning-back: rgba(247, 212, 17, 0.15);
   --primary-back: rgba(12, 80, 182, 0.15);
   --faq-back: white;
 }
 
-.darkmode{
+.darkmode {
   --nav-back: #222;
   --dsc-logo-text: #d1d6dd;
   --section2-btn-text: white;
@@ -27,78 +27,77 @@
   --section2-btn-border: rgb(52, 109, 241);
   --section2-btn-text-hover: white;
   --section2-btn-back-hover: rgb(28, 85, 218);
-  --section2-btn-border-hover:rgb(28, 85, 218);
+  --section2-btn-border-hover: rgb(28, 85, 218);
   --primary-text: #4285f4;
   --warning-text: #ffba00;
   --danger-text: #fe2c25;
   --success-text: #00a050;
   --vertical-timeline: #535353;
   --success-back: rgba(11, 184, 83, 0.15);
-  --danger-back:rgba(223, 77, 19, 0.15);
+  --danger-back: rgba(223, 77, 19, 0.15);
   --warning-back: rgba(247, 212, 17, 0.15);
   --primary-back: rgba(12, 80, 182, 0.15);
   --faq-back: #444;
 }
 
-.darkmode [alt="github-icon"]{
+.darkmode [alt='github-icon'] {
   filter: invert(1) !important;
 }
 
-.MuiPaper-root.MuiAccordion-root.MuiAccordion-rounded.MuiPaper-elevation1.MuiPaper-rounded{
+.MuiPaper-root.MuiAccordion-root.MuiAccordion-rounded.MuiPaper-elevation1.MuiPaper-rounded {
   border: none !important;
   background: var(--faq-back);
 }
 
-.MuiPaper-root.MuiDrawer-paper.MuiDrawer-paperAnchorRight.MuiDrawer-paperAnchorDockedRight.MuiPaper-elevation0{
+.MuiPaper-root.MuiDrawer-paper.MuiDrawer-paperAnchorRight.MuiDrawer-paperAnchorDockedRight.MuiPaper-elevation0 {
   background: var(--nav-back);
 }
 
-.MuiButtonBase-root.MuiListItem-root.MuiListItem-gutters.MuiListItem-button{
+.MuiButtonBase-root.MuiListItem-root.MuiListItem-gutters.MuiListItem-button {
   color: var(--dsc-logo-text);
 }
 
-.darkmode .drawer-btn{
+.darkmode .drawer-btn {
   color: var(--dsc-logo-text);
 }
 
-.darkmode .highlight-heading{
+.darkmode .highlight-heading {
   background: var(--nav-back);
   color: var(--dsc-logo-text);
 }
-.darkmode .highlight-heading:disabled{
+.darkmode .highlight-heading:disabled {
   background: var(--nav-back);
   color: var(--dsc-logo-text);
-  opacity: .6;
+  opacity: 0.6;
 }
 
-.darkMode-switch{
+.darkMode-switch {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 @font-face {
-  font-family: "dsc-font";
-  src: url("./fonts/dsc-font.woff2") format("woff2");
+  font-family: 'dsc-font';
+  src: url('./fonts/dsc-font.woff2') format('woff2');
 }
 
 @font-face {
-  font-family: "box-on-box";
-  src: url("./fonts/boxonbox.woff2") format("woff2");
+  font-family: 'box-on-box';
+  src: url('./fonts/boxonbox.woff2') format('woff2');
 }
 
-@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
-  font-family: "dsc-font";
+  font-family: 'dsc-font';
 }
 
 body {
   margin: 0;
 }
-
 
 .navbar {
   padding: 0.25rem 1rem;
@@ -114,12 +113,21 @@ body {
 
 .dsc-logo-text {
   color: var(--dsc-logo-text);
-  font-family: "dsc-font";
+  font-family: 'dsc-font';
   font-size: 1.25rem;
   font-weight: 500;
   cursor: pointer;
 }
 
+@media screen and (max-width: 600px) {
+  .dsc-logo {
+    width: 2rem;
+  }
+  .dsc-logo-text {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+}
 .dsc-college-name {
   font-weight: 600;
 }
@@ -129,16 +137,16 @@ body {
 }
 
 .montserrat {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .dsc-font {
-  font-family: "dsc-font" !important;
+  font-family: 'dsc-font' !important;
   margin: 1rem 0 !important;
 }
 
 .box-font {
-  font-family: "box-on-box" !important;
+  font-family: 'box-on-box' !important;
   margin: 1rem 0 !important;
 }
 
@@ -153,7 +161,7 @@ body {
 }
 
 .section-2-paper p {
-  font-family: "dsc-font" !important;
+  font-family: 'dsc-font' !important;
   margin: 1rem 0;
 }
 
@@ -234,7 +242,6 @@ body {
 }
 
 .bg-success {
-
   background-color: var(--success-back);
   padding: 0.5rem 0.25rem;
   border-radius: 5px;
@@ -347,17 +354,15 @@ h3 {
   background: #000 !important;
 }
 
-
 .sizing {
   font-size: 50px !important;
 }
 .color-pink {
-  color: #929
+  color: #929;
 }
 .color-blue {
-  color: #0e76a8
+  color: #0e76a8;
 }
-
 
 .member-card-s img {
   border-radius: 50%;
@@ -401,7 +406,7 @@ h3 {
   font-weight: bolder;
 }
 .member-card-s-d .webinar {
-  color: #FFF;
+  color: #fff;
   font-size: 30px;
   margin-top: 50px;
   font-weight: bolder;
@@ -454,7 +459,7 @@ h3 {
   text-align: center;
 }
 .flexdisp {
-  display: flex;;
+  display: flex;
 }
 .margintopmax {
   margin-top: 200px !important;
@@ -479,11 +484,11 @@ h3 {
 .countdown .card .countdown-value {
   color: #000;
   font-size: 2rem;
-  margin-bottom: 10px
+  margin-bottom: 10px;
 }
 
 .countdown .card .countdown-unit {
-  text-transform: capitalize
+  text-transform: capitalize;
 }
 
 .countdown-d .card {
@@ -499,11 +504,11 @@ h3 {
 .countdown-d .card .countdown-value {
   color: #0fc;
   font-size: 2rem;
-  margin-bottom: 10px
+  margin-bottom: 10px;
 }
 
 .countdown-d .card .countdown-unit {
-  text-transform: capitalize
+  text-transform: capitalize;
 }
 
 .communityCard img {
@@ -525,7 +530,7 @@ h3 {
   text-align: center;
 }
 
-@media (max-width:600px) {
+@media (max-width: 600px) {
   .frameCard {
     height: 315px;
     width: 100%;
@@ -533,9 +538,8 @@ h3 {
   .speaker-grid {
     max-height: 320px;
     transform: scale(0.5) !important;
-  } 
+  }
   .padB {
     padding-bottom: 80px;
   }
 }
-

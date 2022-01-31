@@ -1,11 +1,8 @@
 import React from 'react';
 import { Typography, Grid, Container, Box } from '@material-ui/core';
-import { Link, useHistory } from 'react-router-dom';
 import SponsorCard from '../SponsorCard';
 
-export default function Sponsor(props) {
-  let history = useHistory();
-
+export default function Sponsor({ isDark }) {
   return (
     <div className='sponsors'>
       <Typography
@@ -22,23 +19,32 @@ export default function Sponsor(props) {
         component='p'
         className='dsc-font margintop'
         align='center'>
-        Sponsors
+        Associate Sponsors
       </Typography>
       <div className='sponsor-container'>
         <SponsorCard
           key='0'
-          src={require('../../../images/sponsors/devfolio-light.png')}
+          src={require(!isDark
+            ? '../../../images/sponsors/devfolio-light.png'
+            : '../../../images/sponsors/bitbox2/Devfolio_Dark.png')}
           link='https://devfolio.co'
+        />
+        <SponsorCard
+          key='1'
+          src={require(!isDark
+            ? '../../../images/sponsors/bitbox2/polygon_light.png'
+            : '../../../images/sponsors/bitbox2/polygon_dark.png')}
+          link='https://polygon.technology/'
+        />
+        <SponsorCard
+          key='2'
+          src={require('../../../images/sponsors/bitbox2/leading-learner.svg')}
+          link='https://www.leadlearners.ca/'
         />
         <SponsorCard
           key='3'
           src={require('../../../images/sponsors/wolfram2.png')}
           link='http://wolfram.com/'
-        />
-        <SponsorCard
-          key='3'
-          src={require('../../../images/sponsors/bitbox2/leading-learner.svg')}
-          link='https://www.leadlearners.ca/'
         />
       </div>
       <Typography
@@ -56,8 +62,24 @@ export default function Sponsor(props) {
         alignItems='center'>
         <SponsorCard
           key='0'
-          src={require('../../../images/sponsors/matic-light.png')}
-          link='https://matic.network'
+          src={require(!isDark
+            ? '../../../images/sponsors/bitbox2/tezos_light.png'
+            : '../../../images/sponsors/bitbox2/tezos_dark.png')}
+          link='https://tezos.com/'
+        />
+        <SponsorCard
+          key='1'
+          src={require(!isDark
+            ? '../../../images/sponsors/bitbox2/celo_light.png'
+            : '../../../images/sponsors/bitbox2/celo_dark.png')}
+          link='https://celo.org/'
+        />
+        <SponsorCard
+          key='2'
+          src={require(!isDark
+            ? '../../../images/sponsors/bitbox2/filecoin_light.png'
+            : '../../../images/sponsors/bitbox2/filecoin_dark.png')}
+          link='https://filecoin.io/'
         />
         <SponsorCard
           key='3'
@@ -65,7 +87,7 @@ export default function Sponsor(props) {
           link='http://givemycertificate.com/'
         />
         <SponsorCard
-          key='5'
+          key='4'
           src={require('../../../images/sponsors/StreamYard - Horz.png')}
           link='https://streamyard.com/'
         />
@@ -84,9 +106,9 @@ export default function Sponsor(props) {
         justify='space-around'
         alignItems='center'>
         <SponsorCard
-          key='1'
+          key='0'
           src={require('../../../images/sponsors/bitbox2/heiphen.svg')}
-          link=''
+          link='https://heiphen.com/'
         />
       </Grid>
     </div>

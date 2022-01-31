@@ -1,4 +1,5 @@
 import { Typography, Container, Button, Box } from '@material-ui/core';
+import Bitbox from '../../images/sponsors/bitbox2/bitbox_logo.png';
 import CommunityPartners from './bitbox2/CommunityPartners';
 import Sponsers from './bitbox2/Sponsor';
 import React, { useEffect } from 'react';
@@ -6,6 +7,7 @@ import Kaleidoscope from 'ak-kaleidoscope';
 import Section4 from '../landing-page/Section4';
 import Theme from './Theme';
 import SponsorUs from './SponsorUs';
+import Sessions from './bitbox2/Sessions';
 import FAQ from './FAQ';
 import './bitbox.scss';
 import './bitbox2.scss';
@@ -30,7 +32,7 @@ export default function BitBox({ isDark }) {
     };
   }, []);
   return (
-    <div id='hero-section' style={{ height: '125vh' }}>
+    <div id='hero-section' style={{ height: '175vh' }}>
       <center>
         <canvas id='kaleidoscope'></canvas>
         <Container fixed className='hero-container'>
@@ -39,7 +41,7 @@ export default function BitBox({ isDark }) {
             component='h1'
             align='center'
             className='box-font margintopmax'
-            style={isDark ? { color: '#fff' } : { color: '#000' }}>
+            style={isDark ? { color: '#fff' } : { color: '#292929' }}>
             BITBOX 2.0
           </Typography>
 
@@ -58,15 +60,30 @@ export default function BitBox({ isDark }) {
                 justifyContent: 'center',
                 flexDirection: 'column',
               }}>
+              <p>Registrations start from 1st February,2022</p>
               <div
                 className='apply-button'
-                data-hackathon-slug='bitbox2.0'
+                data-hackathon-slug='BITBOX-2.0'
                 data-button-theme='light'
                 style={{ height: '44px', width: '312px' }}
               />
             </Box>
           </div>
-          <div style={{ marginTop: '50px' }}>
+          <div
+            className='frameContainer'
+            style={isDark ? { color: '#fff' } : { color: '#000' }}>
+            {/* <p>Check out the info session here!!</p>
+            <iframe
+              width='560'
+              height='315'
+              src='https://www.youtube.com/embed/wlXCgup_w4Y'
+              title='YouTube video player'
+              frameborder='0'
+              allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+              allowfullscreen></iframe> */}
+            <img className='bitbox-logo' src={Bitbox} alt='Bitbox logo' />
+            <div style={{ marginTop: '50px' }}></div>
+
             <Button
               className='mt-9 hero-btn mentor-btn'
               onClick={(e) => {
@@ -102,7 +119,7 @@ export default function BitBox({ isDark }) {
               style={{ paddingTop: '4rem' }}>
               Sessions
             </Typography>
-            Yet to be announced
+            <Sessions isDark={isDark} />
           </div>
           <div className='heading'>
             <Typography
@@ -131,6 +148,8 @@ export default function BitBox({ isDark }) {
         </div>
         <Theme />
         <Sponsers isDark={isDark} />
+        <br />
+        <br />
         <CommunityPartners />
         <SponsorUs />
       </center>

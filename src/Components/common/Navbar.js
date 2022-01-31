@@ -3,6 +3,7 @@ import AppBar from '@material-ui/core/AppBar';
 import MenuIcon from '@material-ui/icons/Menu';
 import Grid from '@material-ui/core/Grid';
 import dscIcon from '../../images/logo.svg';
+import Bitbox from '../../images/sponsors/bitbox2/bitbox_logo.png';
 import Container from '@material-ui/core/Container';
 import Box from '@material-ui/core/Box';
 import { Button, Drawer, IconButton, Divider, List } from '@material-ui/core';
@@ -24,6 +25,7 @@ import InfoIcon from '@material-ui/icons/Info';
 import EmojiEventsIcon from '@material-ui/icons/EmojiEvents';
 import workFromHome from '../../images/workfromhome.gif';
 import EventAvailableIcon from '@material-ui/icons/EventAvailable';
+import './Navbar.scss';
 
 const Navbar = (props) => {
   const [open, setOpen] = React.useState(false);
@@ -62,6 +64,33 @@ const Navbar = (props) => {
             </Grid>
 
             <div className='darkMode-switch'>
+              <Grid item className='NavbarBitbox'>
+                <Typography
+                  variant='h6'
+                  style={{
+                    verticalAlign: 'middle',
+                    display: 'flex',
+                    flexDirection: 'row',
+                  }}>
+                  <img className='dsc-logo' src={Bitbox} alt='Bitbox logo' />
+                  <Button
+                    data-aos='fade-left'
+                    className='hero-btn mentor-btn'
+                    variant='contained'
+                    color='primary'
+                    onClick={() => {
+                      window.location = '#/bitbox';
+                    }}
+                    style={{
+                      background: '#35A853',
+                      display: 'block',
+                      verticalAlign: 'middle',
+                      margin: '0rem 1rem 0rem 1rem',
+                    }}>
+                    Register for Bit Box 2.0
+                  </Button>
+                </Typography>
+              </Grid>
               <Typography
                 variant='h6'
                 component='p'
@@ -127,7 +156,7 @@ const Navbar = (props) => {
               window.location = '#/';
             }}>
             <ListItemIcon>
-              <HomeIcon className='drawer-btn' />
+              <HomeIcon className='drawer-btn home-hover' />
             </ListItemIcon>
             <ListItemText primary={'Home'} />
           </ListItem>
