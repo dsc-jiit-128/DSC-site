@@ -1,9 +1,39 @@
 import React, {useState, useEffect} from 'react';
 import EventCard from './EventCard';
+import "./EventCard.scss";
 import './Events.scss';
 const axios = require('axios');
 const cheerio = require('cheerio');
-var pastEvents = [];
+var pastEvents = [
+  {
+    id: "1",
+    imgsrc: "30days.jpeg",
+  },
+  {
+    id: "2",
+    imgsrc: "cloudComputing.jpeg",
+  },
+  {
+    id: "3",
+    imgsrc: "CodethonPoster.jpeg",
+  },
+  {
+    id: "4",
+    imgsrc: "codethon2.0.jpeg",
+  },
+  {
+    id: "5",
+    imgsrc: "cybersecurity.jpeg",
+  },
+  {
+    id: "6",
+    imgsrc: "gitGithub.jpeg",
+  },
+  {
+    id: "7",
+    imgsrc: "orientationPoster.jpeg",
+  },
+];
 var upcommingEvents = [];
 var webdata = "";
 
@@ -78,10 +108,6 @@ const EventsPage = ({isDark})=>{
                     {
                         upcomingData ? upcomingData.map((event)=>{
                             return <EventCard 
-                                link={event.link}
-                                date={event.date}
-                                type={event.type}
-                                title={event.title}
                                 imgsrc={event.image}
                             />
                         }) : "There are no upcomming Events right now!!!"
@@ -93,13 +119,13 @@ const EventsPage = ({isDark})=>{
                 <div className="cards">
                     {
                         pastData ? pastData.map((event)=>{
-                            return <EventCard 
-                                link={event.link}
-                                date={event.date}
-                                type={event.type}
-                                title={event.title}
-                                imgsrc={event.image}
-                            />
+                            return (
+                              <div className="eventCard" target="_blank">
+                                <img
+                                  src={require(`../../images/previousEvents/${event.imgsrc}`)}
+                                />
+                              </div>
+                            );
                         }) : null
                     }
                 </div>

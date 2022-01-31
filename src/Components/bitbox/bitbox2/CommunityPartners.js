@@ -4,44 +4,51 @@ import CommunityCard from '../CommunityCard';
 
 export default function CommunityPartners(props) {
   return (
-    <div className='sponsors'>
+    <div className="sponsors">
       <Typography
-        data-aos='flip-down'
-        variant='h3'
-        component='p'
-        className='dsc-font'
-        align='center'>
+        data-aos="flip-down"
+        variant="h3"
+        component="p"
+        className="dsc-font"
+        align="center"
+      >
         Community Partners
       </Typography>
 
       <Grid
         container
-        direction='row'
-        justify='space-around'
-        alignItems='center'>
+        direction="row"
+        justify="space-around"
+        alignItems="center"
+      >
         <CommunityCard
-          key='0'
-          src={require('../../../images/sponsors/bitbox2/aurangabad-dsc.svg')}
-          link=''
+          key="0"
+          src={require("../../../images/sponsors/bitbox2/aurangabad-dsc.svg")}
+          link=""
         />
         <CommunityCard
-          key='1'
-          src={require('../../../images/sponsors/bitbox2/CodeChefVIT.svg')}
-          link=''
+          key="1"
+          src={require("../../../images/sponsors/bitbox2/CodeChefVIT.svg")}
+          link=""
         />
         <CommunityCard
-          key='2'
-          src={require('../../../images/sponsors/bitbox2/dav-dsc.svg')}
-          link=''
+          key="2"
+          src={require("../../../images/sponsors/bitbox2/dav-dsc.svg")}
+          link=""
         />
         <CommunityCard
-          key='3'
-          src={require('../../../images/sponsors/bitbox2/dtiet-dsc.svg')}
+          key="3"
+          src={require("../../../images/sponsors/bitbox2/dtiet-dsc.svg")}
         />
         <CommunityCard
-          key='4'
-          src={require('../../../images/sponsors/bitbox2/kalindi-dsc.svg')}
-          link=''
+          key="4"
+          src={require("../../../images/sponsors/bitbox2/kalindi-dsc.svg")}
+          link=""
+        />
+        <CommunityCard
+          key="5"
+          src={require("../../../images/sponsors/bitbox2/GDSCGND.png")}
+          link=""
         />
       </Grid>
 

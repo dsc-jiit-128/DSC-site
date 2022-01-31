@@ -4,41 +4,31 @@
     padding: 1rem;
     border: 1px solid #ddd;
     margin: .5rem;
+    height: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-size: cover;
+    background-position:center center ;
+    background-repeat:no-repeat ;
+    flex-wrap: wrap;
+    
 }
 .eventCard:link, .eventCard:visited, .eventCard:active{
     text-decoration: none;
 }
 
 .eventCard img{
-    width: 150px;
+    margin: auto;
+    display: cover;
+    width: 400px;
     height: auto;
-    border-radius: 50%;
+    // border-radius: 50%;
 }
 
-.eventCard .date{
-    text-transform: uppercase;
-    font-size: 16px;
-    font-weight: lighter;
-    margin: .5rem;
-    text-align: center;
-    color: #333;
-}
-
-.eventCard .type{
-    font-size: 16px;
-    font-weight: bolder;
-    margin: .5rem;
-    color: #333;
-    text-align: center;
-}
-
-.eventCard .title{
-    margin: .5rem;
-    font-size: 18px;
-    color: #666;
-    text-align: center;
+@media screen and (max-width:900px) {
+    .eventCard img{
+        width: 311px;
+    }
 }
