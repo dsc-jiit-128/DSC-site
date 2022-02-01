@@ -63,7 +63,7 @@ export default function BitBox({ isDark }) {
               <p>Registrations start from 1st February,2022</p>
               <div
                 className='apply-button'
-                data-hackathon-slug='BITBOX-2.0'
+                data-hackathon-slug='bitbox-2'
                 data-button-theme='light'
                 style={{ height: '44px', width: '312px' }}
               />
