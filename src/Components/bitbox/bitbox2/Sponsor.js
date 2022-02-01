@@ -101,6 +101,11 @@ export default function Sponsor({ isDark }) {
           src={require('../../../images/sponsors/bitbox2/IBlogo.png')}
           link='https://interviewbuddy.in/'
         />
+        <SponsorCard
+          key='5'
+          src={require('../../../images/sponsors/bitbox2/axure.png')}
+          link='https://www.axure.com/'
+        />
       </Grid>
       <Typography
         data-aos='flip-down'
