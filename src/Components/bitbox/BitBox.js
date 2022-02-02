@@ -81,7 +81,15 @@ export default function BitBox({ isDark }) {
               frameborder='0'
               allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
               allowfullscreen></iframe> */}
-            <img className='bitbox-logo' src={Bitbox} alt='Bitbox logo' />
+             <div className='frameContainer'>
+          <iframe
+            className='frameCard'
+            src='https://www.youtube-nocookie.com/embed/wR0O8FMLm7c'
+            title='YouTube video player'
+            frameborder='1'
+            allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+            allowfullscreen></iframe>
+        </div>
             <div style={{ marginTop: '50px' }}></div>
 
             <Button

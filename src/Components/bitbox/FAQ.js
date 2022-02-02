@@ -82,7 +82,7 @@ export default function FAQ() {
       ans: 'Yes, you do need a team to participate in this event. A maximum of 4 team members and a minimum of 2 members is allowed.',
     },
     {
-      Q: 'Is there anything that i need to prep?.',
+      Q: 'Is there anything that I need to prepare?.',
       ans: 'Yes, you need to have an idea for your project. You can begin your project as soon as you register',
     },
     { Q: 'How much does it cost?', ans: 'Free! It’s absolutely free of cost' },
