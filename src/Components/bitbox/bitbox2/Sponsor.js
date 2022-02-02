@@ -1,5 +1,5 @@
 import React from 'react';
-import { Typography, Grid, Container, Box } from '@material-ui/core';
+import { Typography, Grid,} from '@material-ui/core';
 import SponsorCard from '../SponsorCard';
 
 export default function Sponsor({ isDark }) {

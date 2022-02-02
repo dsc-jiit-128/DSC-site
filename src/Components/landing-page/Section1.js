@@ -37,9 +37,9 @@ const Section1 = ({ isDark }) => {
                     want to further enhance their skills, we provide a platform
                     for students to learn and collaborate in solving problems
                     around them with the help of technology.
-                  </Typography>
+                  </Typography>                  
 
-                  {/* <a href="https://dscjiit128.studio/#/bitbox" style={{color: "inherit", textDecoration: "none"}}> 
+                  <a href="https://gdscjiit128.tech/#/bitbox" style={{color: "inherit", textDecoration: "none"}}> 
                   <Button
                       data-aos="fade-up"
                       className='mt-9 hero-btn mentor-btn'
@@ -49,7 +49,7 @@ const Section1 = ({ isDark }) => {
                   >
                   Register for Bitbox
                   </Button>
-                  </a> */}
+                  </a>
                 </Container>
               </Box>
             </Box>
