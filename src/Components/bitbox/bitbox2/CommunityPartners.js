@@ -53,6 +53,11 @@ export default function CommunityPartners({ isDark }) {
           src={require('../../../images/sponsors/bitbox2/GDSCGND.png')}
           link='https://gdscgndu.github.io/'
         />
+          <CommunityCard
+          key='7'
+          src={require('../../../images/sponsors/bitbox2/flag-standalone.svg')}
+          link=''
+          />
       </Grid>
     </div>
   );
