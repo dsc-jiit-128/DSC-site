@@ -2,8 +2,8 @@ import React from 'react';
 import Container from '@material-ui/core/Container';
 import Grid from '@material-ui/core/Grid';
 import cosmic from '../../images/cosmic-noBG.gif';
-import dscjiit from '../../images/dsc_logo.webp';
-import dscjiitDark from '../../images/dsc_logo.png';
+import dscjiit from '../../images/dsc_logo.svg';
+import dscjiitDark from '../../images/dsc_logo.svg';
 import Box from '@material-ui/core/Box';
 import { Typography, Button } from '@material-ui/core';
 
