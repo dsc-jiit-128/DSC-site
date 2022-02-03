@@ -2,14 +2,12 @@ import React from "react";
 import { Typography, Container, Box, Grid } from "@material-ui/core";
 import { withRouter } from "react-router-dom";
 import Member from "./MemberCard";
-// import profileIcon from "../../images/profileAvatar.jpg";
-// import Img from "../import_image/importImage.js";
+
 import {
   GroupWork,
   Android,
   Bookmarks,
   BorderColor,
-  Camera,
   Facebook
 } from "@material-ui/icons";
 import EmojiPeopleIcon from '@material-ui/icons/EmojiPeople';
@@ -281,16 +279,6 @@ const Team = ({isDark}) => {
     
   ];
   const managementTeam = [
-    // {
-    //   img: "cat2.gif",
-    //   name: "Aditya Dahiya",
-    //   position: "PR Head"
-    // },
-    // {
-    //   img: "cat2.gif",
-    //   name: "Megha Singhal",
-    //   position: "PR Member"
-    // },
     {
       img: "AviralGupta.jpg",
       name: "Aviral Gupta",
@@ -326,13 +314,6 @@ const Team = ({isDark}) => {
       position: "Social Media Manager"
     }
   ];
-  // const photoTeam = [
-  //   {
-  //     img: "ShantanuGoyal.jpg",
-  //     name: "Shantanu Goyal",
-  //     position: "Photography"
-  //   }
-  // ];
 
   const contentTeam = [
    

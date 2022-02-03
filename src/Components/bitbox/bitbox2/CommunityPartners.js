@@ -1,5 +1,5 @@
 import React from 'react';
-import { Typography, Button, Grid, Box } from '@material-ui/core';
+import { Typography,Grid} from '@material-ui/core';
 import CommunityCard from '../CommunityCard';
 
 export default function CommunityPartners({ isDark }) {
@@ -59,18 +59,6 @@ export default function CommunityPartners({ isDark }) {
           link=''
           />
       </Grid>
-
-      {/* <a href="https://forms.gle/CexfaeJN6Mx6jQNr6" target="_blank" style={{color: "inherit", textDecoration: "none"}}> 
-        <Button
-            data-aos="fade-up"
-            className='mt-9 hero-btn mentor-btn'
-            variant='contained'
-            color='primary'
-            style={{ background: '#ec407a', margin: '4rem auto 4rem auto', display:'block' }}
-        >
-        Become a Community Partner
-        </Button>
-        </a> */}
     </div>
   );
 }

@@ -223,7 +223,7 @@ const Timeline = ({isDark}) => {
                     <Typography component="p" variant="body1" align="left">
                       From containerizing applications to creating virtual
                       machines, Study Jams can be tailored to specific Cloud
-                      topics and skill levels. Whether you’re a beginner
+                      topics and skill levels. Whether you're a beginner
                       developer or interested in diving into Machine Learning,
                       BigQuery, Certification, or Kubernetes - there's a track
                       for you. You'll learn the fundamental tools and

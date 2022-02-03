@@ -1,13 +1,13 @@
 import React from "react";
-import dscjiitDark from "../../images/dscjiit-dark.png";
-import dscjiit from "../../images/dsc_logo.png";
+import dscjiitDark from "../../images/dscjiit-dark.svg";
+import dscjiit from "../../images/dsc_logo.svg";
 import Box from "@material-ui/core/Box";
 import { Typography, Grid } from "@material-ui/core";
 import fbIcon from "../../images/Facebook.svg";
 import githubIcon from "../../images/Github.svg";
 import googleIcon from "../../images/google-plus.svg";
 import twitterIcon from "../../images/Twitter.svg";
-import discordIcon from "../../images/Discord-Logo.png"
+import discordIcon from "../../images/Discord-Logo.svg"
 import instagramIcon from "../../images/Instagram.svg";
 import youtubeIcon from "../../images/YouTube.svg";
 
