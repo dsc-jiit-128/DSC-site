@@ -88,7 +88,7 @@ export default function BitBox({ isDark }) {
             </div>
             <div style={{ marginTop: "50px" }}></div>
           </div>
-          
+
           <div className="heading">
             <Typography
               variant="p"
@@ -153,6 +153,14 @@ export default function BitBox({ isDark }) {
       </Container>
       
     {' '} */}
+      {/* <button
+        className="bitbox1"
+        onClick={() => {
+          window.location = "#/bitbox1";
+        }}
+      >
+        Bit Box 2021 Memories
+      </button> */}
     </div>
   );
 }
