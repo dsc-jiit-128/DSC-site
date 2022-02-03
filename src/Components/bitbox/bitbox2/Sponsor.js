@@ -25,15 +25,15 @@ export default function Sponsor({ isDark }) {
         <SponsorCard
           key='0'
           src={require(!isDark
-            ? '../../../images/sponsors/devfolio-light.png'
-            : '../../../images/sponsors/bitbox2/Devfolio_Dark.png')}
+            ? '../../../images/sponsors/bitbox2/devfolio-light.svg'
+            : '../../../images/sponsors/bitbox2/devfolio-dark.svg')}
           link='https://devfolio.co'
         />
         <SponsorCard
           key='1'
           src={require(!isDark
-            ? '../../../images/sponsors/bitbox2/polygon_light.png'
-            : '../../../images/sponsors/bitbox2/polygon_dark.png')}
+            ? '../../../images/sponsors/bitbox2/polygon_light.svg'
+            : '../../../images/sponsors/bitbox2/polygon_dark.svg')}
           link='https://polygon.technology/'
         />
         <SponsorCard
@@ -63,22 +63,22 @@ export default function Sponsor({ isDark }) {
         <SponsorCard
           key='0'
           src={require(!isDark
-            ? '../../../images/sponsors/bitbox2/tezos_light.png'
-            : '../../../images/sponsors/bitbox2/tezos_dark.png')}
+            ? '../../../images/sponsors/bitbox2/tezos_light.svg'
+            : '../../../images/sponsors/bitbox2/tezos_dark.svg')}
           link='https://tezos.com/'
         />
         <SponsorCard
           key='1'
           src={require(!isDark
-            ? '../../../images/sponsors/bitbox2/celo_light.png'
-            : '../../../images/sponsors/bitbox2/celo_dark.png')}
+            ? '../../../images/sponsors/bitbox2/celo_light.svg'
+            : '../../../images/sponsors/bitbox2/celo_dark.svg')}
           link='https://celo.org/'
         />
         <SponsorCard
           key='2'
           src={require(!isDark
-            ? '../../../images/sponsors/bitbox2/filecoin_light.png'
-            : '../../../images/sponsors/bitbox2/filecoin_dark.png')}
+            ? '../../../images/sponsors/bitbox2/filecoin_light.svg'
+            : '../../../images/sponsors/bitbox2/filecoin_dark.svg')}
           link='https://filecoin.io/'
         />
         <SponsorCard
@@ -93,17 +93,17 @@ export default function Sponsor({ isDark }) {
         />
         <SponsorCard
           key='5'
-          src={require('../../../images/sponsors/bitbox2/Inter_cake.png')}
+          src={require('../../../images/sponsors/bitbox2/Inter_cake.svg')}
           link='https://www.interviewcake.com/'
         />
         <SponsorCard
           key='4'
-          src={require('../../../images/sponsors/bitbox2/IBlogo.png')}
+          src={require('../../../images/sponsors/bitbox2/IBlogo.svg')}
           link='https://interviewbuddy.in/'
         />
         <SponsorCard
           key='5'
-          src={require('../../../images/sponsors/bitbox2/axure.png')}
+          src={require('../../../images/sponsors/bitbox2/axure.svg')}
           link='https://www.axure.com/'
         />
       </Grid>

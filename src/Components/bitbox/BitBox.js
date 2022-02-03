@@ -1,5 +1,4 @@
 import { Typography, Container, Button, Box } from '@material-ui/core';
-import Bitbox from '../../images/sponsors/bitbox2/bitbox_logo.png';
 import CommunityPartners from './bitbox2/CommunityPartners';
 import Sponsers from './bitbox2/Sponsor';
 import React, { useEffect } from 'react';

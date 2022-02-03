@@ -47,7 +47,7 @@ const Section1 = ({ isDark }) => {
                       color='primary'
                       style={{ background: '#35A853', margin: '2rem 4rem 2rem 0', display:'block' }}
                   >
-                  Register for Bitbox
+                  Register for Bitbox 2.0
                   </Button>
                   </a>
                 </Container>
