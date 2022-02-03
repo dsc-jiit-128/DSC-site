@@ -109,7 +109,7 @@ export default function Sponsor({ isDark }) {
          <SponsorCard
           key='6'
           src={require('../../../images/sponsors/aops.jpeg')}
-          link=''
+          link='https://taskade.com/press'
         />
       </Grid>
       <Typography
