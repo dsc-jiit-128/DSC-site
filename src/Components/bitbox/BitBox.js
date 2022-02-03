@@ -84,7 +84,7 @@ export default function BitBox({ isDark }) {
              <div className='frameContainer'>
           <iframe
             className='frameCard'
-            src='https://www.youtube-nocookie.com/embed/wR0O8FMLm7c'
+            src='https://www.youtube.com/embed/XJ7E5l2YfB0'
             title='YouTube video player'
             frameborder='1'
             allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
