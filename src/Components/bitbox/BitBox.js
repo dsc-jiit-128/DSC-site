@@ -48,8 +48,10 @@ export default function BitBox({ isDark }) {
           <div style={isDark ? { color: '#fff' } : { color: '#000' }}>
             <h4>
               Google Developer Student Club JIIT-128 is pleased to announce that
-              we are hosting our annual tech hackathon "BIT BOX" in the month of
-              march for the students intrested, all over the world.
+              we are hosting our annual tech hackathon "BIT BOX" from 4th - 6th
+              march along with lot's of exciting events for developers to be
+              held in february. Undergrads all over the world are eligible to
+              apply!!
             </h4>
             <h4>
               * BITBOX 2.0 is going to be held in Online mode. Apply using the
