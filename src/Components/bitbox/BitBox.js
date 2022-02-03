@@ -60,7 +60,7 @@ export default function BitBox({ isDark }) {
                 justifyContent: 'center',
                 flexDirection: 'column',
               }}>
-              <p>Registrations start from 1st February,2022</p>
+             
               <div
                 className='apply-button'
                 data-hackathon-slug='bitbox-2'
