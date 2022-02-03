@@ -76,7 +76,7 @@ const scheduleDetails = [
     speaker: "It's a secret",
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in pulvinar leo. Nam vel mattis sem, eget condimentum eros. Sed condimentum molestie semper. ',
     icon: <FaBrain />,
-    link: ' ',
+    link: 'https://www.youtube.com/channel/UCsq-cbi1tZStoem3KVQVjCg',
     releaseDate: '14/02/2021 17:00',
   },
   {
