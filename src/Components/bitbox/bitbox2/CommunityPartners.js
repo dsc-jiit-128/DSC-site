@@ -58,6 +58,11 @@ export default function CommunityPartners({ isDark }) {
           src={require('../../../images/sponsors/bitbox2/flag-standalone.svg')}
           link=''
           />
+           <CommunityCard
+          key='8'
+          src={require('../../../images/sponsors/bitbox2/aops.svg')}
+          link=''
+          />    
       </Grid>
 
       {/* <a href="https://forms.gle/CexfaeJN6Mx6jQNr6" target="_blank" style={{color: "inherit", textDecoration: "none"}}> 
