@@ -59,7 +59,7 @@ export default function BitBox({ isDark }) {
                 justifyContent: 'center',
                 flexDirection: 'column',
               }}>
-              <p>Registrations start from 1st February,2022</p>
+             
               <div
                 className='apply-button'
                 data-hackathon-slug='bitbox-2'
@@ -83,7 +83,7 @@ export default function BitBox({ isDark }) {
              <div className='frameContainer'>
           <iframe
             className='frameCard'
-            src='https://www.youtube-nocookie.com/embed/wR0O8FMLm7c'
+            src='https://www.youtube.com/embed/XJ7E5l2YfB0'
             title='YouTube video player'
             frameborder='1'
             allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'

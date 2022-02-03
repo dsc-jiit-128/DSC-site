@@ -58,6 +58,7 @@ export default function CommunityPartners({ isDark }) {
           src={require('../../../images/sponsors/bitbox2/flag-standalone.svg')}
           link=''
           />
+               
       </Grid>
     </div>
   );
