@@ -130,6 +130,11 @@ export default function Sponsor({ isDark }) {
           src="https://balsamiq.com/assets/company/brandassets/balsamiq-logo-screen-1000x500.png"
           link="https://balsamiq.com/"
         />
+         <SponsorCard
+          key='10'
+          src={require('../../../images/sponsors/clerky.jpeg')}
+          link=''
+        />
       </Grid>
       <Typography
         data-aos="flip-down"
