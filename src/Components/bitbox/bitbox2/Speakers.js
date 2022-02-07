@@ -12,7 +12,7 @@ const Speaker = ({ dark }) => {
     },
     {
       img: "RangaK .png",
-      social: "https://www.linkedin.com",
+      social: "https://www.linkedin.com/in/rangakaranam/",
     },
   ];
 

@@ -1,6 +1,6 @@
-import React from 'react';
-import { Typography, Grid,} from '@material-ui/core';
-import SponsorCard from '../SponsorCard';
+import React from "react";
+import { Typography, Grid } from "@material-ui/core";
+import SponsorCard from "../SponsorCard";
 
 export default function Sponsor({ isDark }) {
   return (
@@ -113,12 +113,17 @@ export default function Sponsor({ isDark }) {
         <SponsorCard
           key="6"
           src={require("../../../images/sponsors/aops.jpeg")}
-          link="https://taskade.com/press"
+          link="https://artofproblemsolving.com/"
         />
         <SponsorCard
           key="7"
           src={require("../../../images/sponsors/bitbox2/xyz-logo-color.png")}
           link="https://gen.xyz/"
+        />
+        <SponsorCard
+          key="9"
+          src={require("../../../images/sponsors/taskade-meta.png")}
+          link="https://www.taskade.com/"
         />
         <SponsorCard
           key="8"
