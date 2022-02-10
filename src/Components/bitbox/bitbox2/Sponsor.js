@@ -121,20 +121,35 @@ export default function Sponsor({ isDark }) {
           link="https://gen.xyz/"
         />
         <SponsorCard
+          key="8"
+          src="https://balsamiq.com/assets/company/brandassets/balsamiq-logo-screen-1000x500.png"
+          link="https://balsamiq.com/"
+        />
+        <SponsorCard
           key="9"
           src={require("../../../images/sponsors/taskade-meta.png")}
           link="https://www.taskade.com/"
         />
         <SponsorCard
-          key="8"
-          src="https://balsamiq.com/assets/company/brandassets/balsamiq-logo-screen-1000x500.png"
-          link="https://balsamiq.com/"
-        />
-         <SponsorCard
           key='10'
           src={require('../../../images/sponsors/clerky.jpeg')}
           link=''
         />
+        <SponsorCard
+          key="11"
+          src={require(!isDark
+            ? "../../../images/sponsors/bitbox2/Voiceflow-Black.svg"
+            : "../../../images/sponsors/bitbox2/Voiceflow-White.png")}
+          link="https://www.voiceflow.com/"
+        />
+        <SponsorCard
+          key="12"
+          src={require(!isDark
+            ? "../../../images/sponsors/bitbox2/The-Company-Black.svg"
+            : "../../../images/sponsors/bitbox2/The-Company-White.png")}
+          link="https://atsign.com/"
+        />  
+         
       </Grid>
       <Typography
         data-aos="flip-down"
@@ -156,6 +171,30 @@ export default function Sponsor({ isDark }) {
           src={require("../../../images/sponsors/bitbox2/heiphen.svg")}
           link="https://heiphen.com/"
         />
+      </Grid>
+      <Typography
+        data-aos="flip-down"
+        variant="h5"
+        component="p"
+        className="dsc-font margintop"
+        align="center"
+      >
+        Knowledge Partner
+      </Typography>
+      <Grid
+        container
+        direction="row"
+        justify="space-around"
+        alignItems="center"
+      >
+      <SponsorCard
+          key="0"
+          src={require(!isDark
+            ? "../../../images/sponsors/bitbox2/Seekho-Black.webp"
+            : "../../../images/sponsors/bitbox2/Seekho-White.png")}
+          link="https://seekho.ai/"
+        /> 
+
       </Grid>
     </div>
   );
