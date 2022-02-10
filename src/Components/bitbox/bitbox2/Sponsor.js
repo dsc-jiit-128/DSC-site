@@ -121,30 +121,35 @@ export default function Sponsor({ isDark }) {
           link="https://gen.xyz/"
         />
         <SponsorCard
-          key="9"
-          src={require("../../../images/sponsors/taskade-meta.png")}
-          link="https://www.taskade.com/"
-        />
-        <SponsorCard
           key="8"
           src="https://balsamiq.com/assets/company/brandassets/balsamiq-logo-screen-1000x500.png"
           link="https://balsamiq.com/"
         />
         <SponsorCard
           key="9"
+          src={require("../../../images/sponsors/taskade-meta.png")}
+          link="https://www.taskade.com/"
+        />
+        <SponsorCard
+          key='10'
+          src={require('../../../images/sponsors/clerky.jpeg')}
+          link=''
+        />
+        <SponsorCard
+          key="11"
           src={require(!isDark
             ? "../../../images/sponsors/bitbox2/Voiceflow-Black.svg"
             : "../../../images/sponsors/bitbox2/Voiceflow-White.png")}
           link="https://www.voiceflow.com/"
         />
-
         <SponsorCard
-          key="10"
+          key="12"
           src={require(!isDark
             ? "../../../images/sponsors/bitbox2/The-Company-Black.svg"
             : "../../../images/sponsors/bitbox2/The-Company-White.png")}
           link="https://atsign.com/"
         />  
+         
       </Grid>
       <Typography
         data-aos="flip-down"
