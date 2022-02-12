@@ -31,28 +31,20 @@ export default function Sponsor({ isDark }) {
             : "../../../images/sponsors/bitbox2/devfolio-dark.svg")}
           link="https://devfolio.co"
         />
-          <SponsorCard
-          key="1"
-          src={require(!isDark
-            ? "../../../images/sponsors/bitbox2/Roke-light.png"
-            : "../../../images/sponsors/bitbox2/Roke-dark.png")}
-          link="https://www.roke.co.uk/"
-        />
-
         <SponsorCard
-          key="2"
+          key="1"
           src={require(!isDark
             ? "../../../images/sponsors/bitbox2/polygon_light.svg"
             : "../../../images/sponsors/bitbox2/polygon_dark.svg")}
           link="https://polygon.technology/"
         />
         <SponsorCard
-          key="3"
+          key="2"
           src={require("../../../images/sponsors/bitbox2/leading-learner.svg")}
           link="https://www.leadlearners.ca/"
         />
         <SponsorCard
-          key="4"
+          key="3"
           src={require("../../../images/sponsors/wolfram2.png")}
           link="http://wolfram.com/"
         />
