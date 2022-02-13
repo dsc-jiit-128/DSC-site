@@ -14,6 +14,12 @@ const Speaker = ({ dark }) => {
       img: "RangaK .png",
       social: "https://www.linkedin.com/in/rangakaranam/",
     },
+    {
+      img: "DebasmitaSarkar.png",
+      social: "https://www.linkedin.com/in/debasmita-s-22296bb2/",
+    },
+    
+
   ];
 
   return (
