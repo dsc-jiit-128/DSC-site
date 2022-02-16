@@ -63,11 +63,14 @@ export default function Sponsor({ isDark }) {
           link="http://wolfram.com/"
         />
         <SponsorCard
-          key="4"
-          src="https://www.roostoo.com/assets/img/roostoo_brand.svg"
+          key="5"
+          src={
+            !isDark
+              ? "https://www.roostoo.com/assets/img/roostoo_brand.svg "
+              : require("../../../images/sponsors/bitbox2/roostoo.jpeg")
+          }
           link="https://www.roostoo.com/"
         />
-        
       </Grid>
       <Typography
         data-aos="flip-down"
