@@ -6,6 +6,11 @@ const axios = require("axios");
 const cheerio = require("cheerio");
 var pastEvents = [
   {
+    id: "10",
+    imgsrc: "DebasmitaSarkar.png",
+    url: "",
+  },
+  {
     id: "9",
     imgsrc: "RangaK.png",
     url: "https://www.youtube.com/watch?v=fu75vu6Nnnk",
@@ -52,11 +57,7 @@ var pastEvents = [
   },
 ];
 var upcommingEvents = [
-  {
-    id: "1",
-    imgsrc: "DebasmitaSarkar.png",
-    url: "",
-  },
+  
 ];
 var webdata = "";
 

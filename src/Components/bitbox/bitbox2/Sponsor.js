@@ -16,14 +16,20 @@ export default function Sponsor({ isDark }) {
       </Typography>
       <Typography
         data-aos="flip-down"
-        variant="h5"
+        variant="h4"
         component="p"
         className="dsc-font margintop"
         align="center"
       >
         Associate Sponsors
       </Typography>
-      <div className="sponsor-container">
+      <Grid
+        container
+        direction="row"
+        justify="space-around"
+        alignItems="center"
+        variant="h5"
+      >
         <SponsorCard
           key="0"
           src={require(!isDark
@@ -31,7 +37,7 @@ export default function Sponsor({ isDark }) {
             : "../../../images/sponsors/bitbox2/devfolio-dark.svg")}
           link="https://devfolio.co"
         />
-          <SponsorCard
+        <SponsorCard
           key="1"
           src={require(!isDark
             ? "../../../images/sponsors/bitbox2/Roke-light.png"
@@ -56,10 +62,16 @@ export default function Sponsor({ isDark }) {
           src={require("../../../images/sponsors/wolfram2.png")}
           link="http://wolfram.com/"
         />
-      </div>
+        <SponsorCard
+          key="4"
+          src="https://www.roostoo.com/assets/img/roostoo_brand.svg"
+          link="https://www.roostoo.com/"
+        />
+        
+      </Grid>
       <Typography
         data-aos="flip-down"
-        variant="h5"
+        variant="h4"
         component="p"
         className="dsc-font margintop"
         align="center"
@@ -139,9 +151,9 @@ export default function Sponsor({ isDark }) {
           link="https://www.taskade.com/"
         />
         <SponsorCard
-          key='10'
-          src={require('../../../images/sponsors/clerky.jpeg')}
-          link=''
+          key="10"
+          src={require("../../../images/sponsors/clerky.jpeg")}
+          link=""
         />
         <SponsorCard
           key="11"
@@ -156,12 +168,11 @@ export default function Sponsor({ isDark }) {
             ? "../../../images/sponsors/bitbox2/The-Company-Black.svg"
             : "../../../images/sponsors/bitbox2/The-Company-White.png")}
           link="https://atsign.com/"
-        />  
-         
+        />
       </Grid>
       <Typography
         data-aos="flip-down"
-        variant="h5"
+        variant="h4"
         component="p"
         className="dsc-font margintop"
         align="center"
@@ -182,7 +193,7 @@ export default function Sponsor({ isDark }) {
       </Grid>
       <Typography
         data-aos="flip-down"
-        variant="h5"
+        variant="h4"
         component="p"
         className="dsc-font margintop"
         align="center"
@@ -195,14 +206,13 @@ export default function Sponsor({ isDark }) {
         justify="space-around"
         alignItems="center"
       >
-      <SponsorCard
+        <SponsorCard
           key="0"
           src={require(!isDark
             ? "../../../images/sponsors/bitbox2/Seekho-Black.webp"
             : "../../../images/sponsors/bitbox2/Seekho-White.png")}
           link="https://seekho.ai/"
-        /> 
-
+        />
       </Grid>
     </div>
   );
