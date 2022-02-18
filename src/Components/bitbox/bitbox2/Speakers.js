@@ -18,8 +18,10 @@ const Speaker = ({ dark }) => {
       img: "DebasmitaSarkar.png",
       social: "https://www.linkedin.com/in/debasmita-s-22296bb2/",
     },
-    
-
+    {
+      img: "google speaker.jpeg",
+      social: "https://www.linkedin.com/in/avisek-lahiri-phd-9b240748",
+    },
   ];
 
   return (
