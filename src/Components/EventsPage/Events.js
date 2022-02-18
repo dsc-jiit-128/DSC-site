@@ -57,7 +57,11 @@ var pastEvents = [
   },
 ];
 var upcommingEvents = [
-  
+  {
+    id: "1",
+    imgsrc: "google speaker.jpeg",
+    url: "",
+  },
 ];
 var webdata = "";
 
