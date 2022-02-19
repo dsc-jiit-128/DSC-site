@@ -22,6 +22,9 @@ const Speaker = ({ dark }) => {
       img: "google speaker.jpeg",
       social: "https://www.linkedin.com/in/avisek-lahiri-phd-9b240748",
     },
+    {
+      img:"Nirbhik Jangid Square.jpeg",
+    }
   ];
 
   return (
