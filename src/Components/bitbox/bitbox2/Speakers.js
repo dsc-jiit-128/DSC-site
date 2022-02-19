@@ -23,8 +23,9 @@ const Speaker = ({ dark }) => {
       social: "https://www.linkedin.com/in/avisek-lahiri-phd-9b240748",
     },
     {
-      img:"Nirbhik Jangid Square.jpeg",
-    }
+      img: "Nirbhik.png",
+      social: "https://www.linkedin.com/in/nirbhikjangid/",
+    },
   ];
 
   return (
