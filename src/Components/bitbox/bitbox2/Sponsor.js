@@ -167,9 +167,7 @@ export default function Sponsor({ isDark }) {
         />
         <SponsorCard
           key="12"
-          src={require(!isDark
-            ? "../../../images/sponsors/bitbox2/The-Company-Black.svg"
-            : "../../../images/sponsors/bitbox2/The-Company-White.png")}
+          src="https://ucc0deb23468bfc8d43f83463e2d.previews.dropboxusercontent.com/p/thumb/ABfdMYarYWlfBcDHEadkPUmC2aWYlIizlmSqLXQvFEwDt_umYU9Lu5T6xW2GvCgZnaqwHfFCMEmh9SAupyJD4s7RN2bThvZLAFCJ1NpFoZS1Au6tayid8K0tmsLrRTBMpVQbuXBSwjKQmkkuce6eS1ZEeqh6XtQYlnzhPIJ6hOuQKXyBKpc5Ic7dOXZKYt9DTc4by-UDpRQt_q3eQGjKPdfL_crQdWKeoho1eJyNFjYcxw5-TC78ceKyyJO59aUEyB0Iql2-9meOiqvkjljsXrJGz_4ETnssKVJ5rU4Cbhyi4qi7AFX1ZpTa5Z62qrIZCFiS23hXWFYMwsXQSb8ku2d7Fz4paAhEr0MxjBkD438_rA/p.png"
           link="https://atsign.com/"
         />
       </Grid>
