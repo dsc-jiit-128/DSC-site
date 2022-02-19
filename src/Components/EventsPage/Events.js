@@ -55,11 +55,16 @@ var pastEvents = [
     imgsrc: "orientationPoster.jpeg",
     url: "",
   },
+  {
+    id: "11",
+    imgsrc: "google speaker.jpeg",
+    url: "",
+  },
 ];
 var upcommingEvents = [
   {
     id: "1",
-    imgsrc: "google speaker.jpeg",
+    imgsrc: "Nirbhik Jangid Square.jpeg",
     url: "",
   },
 ];
