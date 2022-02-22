@@ -32,21 +32,20 @@ export default function BitBox({ isDark }) {
     };
   }, []);
   return (
-    <div id="hero-section" style={{ height: "100vh" }}>
+    <div id='hero-section' style={{ height: '100vh' }}>
       <center>
-        <canvas id="kaleidoscope"></canvas>
-        <Container fixed className="hero-container">
+        <canvas id='kaleidoscope'></canvas>
+        <Container fixed className='hero-container'>
           <Typography
-            variant="h1"
-            component="h1"
-            align="center"
-            className="box-font margintopmax"
-            style={isDark ? { color: "#fff" } : { color: "#292929" }}
-          >
+            variant='h1'
+            component='h1'
+            align='center'
+            className='box-font margintopmax'
+            style={isDark ? { color: '#fff' } : { color: '#292929' }}>
             BITBOX 2.0
           </Typography>
 
-          <div style={isDark ? { color: "#fff" } : { color: "#000" }}>
+          <div style={isDark ? { color: '#fff' } : { color: '#000' }}>
             <h4>
               Google Developer Student Club JIIT-128 is pleased to announce that
               we are hosting our annual tech hackathon "BIT BOX" from 4th - 6th
@@ -58,83 +57,92 @@ export default function BitBox({ isDark }) {
               * BITBOX 2.0 is going to be held in Online mode. Apply using the
               devfolio button below!!
             </h4>
+            <h4 style={{ color: '#EA4335' }}>
+              Last date to Apply: 26th February 2022
+            </h4>
           </div>
-          <div className="hero-btn-container">
+          <div className='hero-btn-container'>
             <Box
               style={{
-                height: "100px",
-                width: "100%",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                flexDirection: "column",
-              }}
-            >
+                height: '100px',
+                width: '100%',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                flexDirection: 'column',
+              }}>
               <div
-                className="apply-button"
-                data-hackathon-slug="bitbox-2"
-                data-button-theme="light"
-                style={{ height: "44px", width: "312px" }}
+                className='apply-button'
+                data-hackathon-slug='bitbox-2'
+                data-button-theme='light'
+                style={{ height: '44px', width: '312px' }}
               />
             </Box>
           </div>
         </Container>
         <div>
           <div
-            className="frameContainer"
-            style={isDark ? { color: "#fff" } : { color: "#000" }}
-          >
-            <div className="frameContainer">
+            className='frameContainer'
+            style={isDark ? { color: '#fff' } : { color: '#000' }}>
+            <div className='frameContainer'>
               <iframe
-                className="frameCard"
-                src="https://www.youtube.com/embed/XJ7E5l2YfB0"
-                title="YouTube video player"
-                frameborder="1"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              ></iframe>
+                className='frameCard'
+                src='https://www.youtube.com/embed/XJ7E5l2YfB0'
+                title='YouTube video player'
+                frameborder='1'
+                allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+                allowfullscreen></iframe>
             </div>
-            <div style={{ marginTop: "50px" }}></div>
+            <div style={{ marginTop: '50px' }}></div>
           </div>
 
-          <div className="heading">
+          <div className='heading'>
             <Typography
-              variant="p"
-              align="center"
-              component="p"
-              className="dsc-font"
-              data-aos="flip-left"
-              style={{ paddingTop: "4rem" }}
-            >
+              variant='p'
+              align='center'
+              component='p'
+              className='dsc-font'
+              data-aos='flip-left'
+              style={{ paddingTop: '4rem' }}>
               <Schedule isDark={isDark} />
             </Typography>
           </div>
-          <div className="heading">
+          <div className='heading'>
             <Typography
-              variant="h3"
-              align="center"
-              component="p"
-              className="dsc-font"
-              data-aos="flip-left"
-              style={{ paddingTop: "4rem" }}
-            >
-              Speakers and Judges
+              variant='h3'
+              align='center'
+              component='p'
+              className='dsc-font'
+              data-aos='flip-left'
+              style={{ paddingTop: '4rem' }}>
+              Our Speakers
               <Speakers />
             </Typography>
           </div>
-            <h3 style={{marginTop:"10px"}}>More exciting sessions coming soon. Stay tuned!!</h3>
-          <div className="heading">
+          <div className='heading'>
             <Typography
-              variant="h3"
-              align="center"
-              component="p"
-              className="dsc-font"
-              data-aos="flip-left"
-              style={{ paddingTop: "4rem" }}
-            >
+              variant='h3'
+              align='center'
+              component='p'
+              className='dsc-font'
+              data-aos='flip-left'
+              style={{ paddingTop: '4rem' }}>
+              Our esteemed panel of Judges
+            </Typography>
+            <div>To be announced soon</div>
+          </div>
+
+          <div className='heading'>
+            <Typography
+              variant='h3'
+              align='center'
+              component='p'
+              className='dsc-font'
+              data-aos='flip-left'
+              style={{ paddingTop: '4rem' }}>
               Prizes
             </Typography>
-            To be announced
+            To be announced soon
           </div>
         </div>
         <Theme />
@@ -145,7 +153,7 @@ export default function BitBox({ isDark }) {
         <SponsorUs isDark={isDark} />
       </center>
       <FAQ />
-      <Container id="contact">
+      <Container id='contact'>
         <Section4 isDark={isDark} />
       </Container>
 
