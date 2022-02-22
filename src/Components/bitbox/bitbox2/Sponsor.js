@@ -175,7 +175,7 @@ export default function Sponsor({ isDark }) {
           src={require(!isDark
             ? "../../../images/sponsors/bitbox2/darkinfu.png"
             : "../../../images/sponsors/bitbox2/Infuzex Logo.png")}
-          link="https://www.voiceflow.com/"
+          link="https://infuzex.in/"
         />
       </Grid>
       <Typography
