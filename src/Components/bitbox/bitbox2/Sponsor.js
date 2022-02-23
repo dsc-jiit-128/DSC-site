@@ -39,14 +39,7 @@ export default function Sponsor({ isDark }) {
           src={require(!isDark
             ? '../../../images/sponsors/bitbox2/Roke-light.png'
             : '../../../images/sponsors/bitbox2/Roke-dark.png')}
-          link='https://www.roke.co.uk/'
-        />
-        <SponsorCard
-          key='2'
-          src={require(!isDark
-            ? '../../../images/sponsors/bitbox2/dapplist.svg'
-            : '../../../images/sponsors/bitbox2/dapplist_dark.png')}
-          link='https://thedapplist.com/'
+          link='https://www.roke.to/'
         />
 
         <SponsorCard
@@ -110,70 +103,78 @@ export default function Sponsor({ isDark }) {
             : '../../../images/sponsors/bitbox2/filecoin_dark.svg')}
           link='https://filecoin.io/'
         />
+
         <SponsorCard
-          key='3'
+          key='4'
           src={require('../../../images/sponsors/GMC_logo.png')}
           link='http://givemycertificate.com/'
         />
         <SponsorCard
-          key='4'
+          key='3'
+          src={require(!isDark
+            ? '../../../images/sponsors/bitbox2/dapplist.svg'
+            : '../../../images/sponsors/bitbox2/dapplist_dark.png')}
+          link='https://thedapplist.com/'
+        />
+        <SponsorCard
+          key='5'
           src={require('../../../images/sponsors/StreamYard - Horz.png')}
           link='https://streamyard.com/'
         />
         <SponsorCard
-          key='5'
+          key='6'
           src={require('../../../images/sponsors/bitbox2/Inter_cake.svg')}
           link='https://www.interviewcake.com/'
         />
         <SponsorCard
-          key='4'
+          key='7'
           src={require('../../../images/sponsors/bitbox2/IBlogo.svg')}
           link='https://interviewbuddy.in/'
         />
         <SponsorCard
-          key='5'
+          key='8'
           src={require('../../../images/sponsors/bitbox2/axure.svg')}
           link='https://www.axure.com/'
         />
         <SponsorCard
-          key='6'
+          key='9'
           src={require('../../../images/sponsors/aops.jpeg')}
           link='https://artofproblemsolving.com/'
         />
         <SponsorCard
-          key='7'
+          key='10'
           src={require('../../../images/sponsors/bitbox2/xyz-logo-color.png')}
           link='https://gen.xyz/'
         />
         <SponsorCard
-          key='8'
+          key='11'
           src='https://balsamiq.com/assets/company/brandassets/balsamiq-logo-screen-1000x500.png'
           link='https://balsamiq.com/'
         />
         <SponsorCard
-          key='9'
+          key='12'
           src={require('../../../images/sponsors/taskade-meta.png')}
           link='https://www.taskade.com/'
         />
         <SponsorCard
-          key='10'
+          key='13'
           src={require('../../../images/sponsors/clerky.jpeg')}
           link=''
         />
         <SponsorCard
-          key='11'
+          key='14'
           src={require(!isDark
             ? '../../../images/sponsors/bitbox2/Voiceflow-Black.svg'
             : '../../../images/sponsors/bitbox2/Voiceflow-White.png')}
           link='https://www.voiceflow.com/'
         />
         <SponsorCard
-          key='12'
+          key='15'
           src={require('../../../images/sponsors/bitbox2/atsign.png')}
           link='https://atsign.com/'
         />
         <SponsorCard
-          key='13'
+          key='16'
           src={require(!isDark
             ? '../../../images/sponsors/bitbox2/darkinfu.png'
             : '../../../images/sponsors/bitbox2/Infuzex Logo.png')}
