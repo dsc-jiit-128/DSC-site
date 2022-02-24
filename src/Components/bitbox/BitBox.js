@@ -59,7 +59,7 @@ export default function BitBox({ isDark }) {
               devfolio button below!!
             </h4>
             <h4 style={{ color: '#EA4335' }}>
-              Last date to Apply: 26th February 2022
+              Last date to Apply: 28th February 2022
             </h4>
           </div>
           <div className='hero-btn-container'>
