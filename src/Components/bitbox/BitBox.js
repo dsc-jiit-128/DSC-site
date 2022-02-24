@@ -11,6 +11,7 @@ import FAQ from './FAQ';
 import './bitbox.scss';
 import './bitbox2.scss';
 import Schedule from './bitbox2/Schedule';
+import Prizes from './bitbox2/prizes';
 
 export default function BitBox({ isDark }) {
   useEffect(() => {
@@ -140,9 +141,9 @@ export default function BitBox({ isDark }) {
               className='dsc-font'
               data-aos='flip-left'
               style={{ paddingTop: '4rem' }}>
-              Prizes
+              
             </Typography>
-            To be announced soon
+            <Prizes/>
           </div>
         </div>
         <Theme />
