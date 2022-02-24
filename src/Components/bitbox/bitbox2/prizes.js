@@ -26,6 +26,7 @@ export default function Prizes(props) {
       image: "2",
       heading: "Runner-up(2nd place)",
       desc: [
+        "Best solution developed gets Rs. 15,000/team + 2600$ additional benifits",
         "Wolfram subscription worth $375*4",
         "Leading Learners subscription $100*4",
         "Interview Buddy mock interviews discount vouchers 90% off",
