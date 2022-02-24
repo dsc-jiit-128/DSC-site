@@ -42,7 +42,7 @@ const scheduleDetails = [
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in pulvinar leo. Nam vel mattis sem, eget condimentum eros. Sed condimentum molestie semper. ',
     icon: <StarsIcon />,
     link: 'https://www.youtube.com/watch?v=fu75vu6Nnnk',
-    releaseDate: '02/03/2021 18:00',
+    // releaseDate: '02/03/2021 18:00',
   },
   {
     eventName: 'Registration Begins',
@@ -50,7 +50,7 @@ const scheduleDetails = [
     speaker: 'Some Cool Guy',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in pulvinar leo. Nam vel mattis sem, eget condimentum eros. Sed condimentum molestie semper. ',
     icon: <LanguageIcon />,
-    releaseDate: '01/02/2022 17:00',
+    // releaseDate: '01/02/2022 17:00',
   },
   {
     eventName: 'Speaker session on Cloud',
@@ -59,7 +59,7 @@ const scheduleDetails = [
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in pulvinar leo. Nam vel mattis sem, eget condimentum eros. Sed condimentum molestie semper. ',
     icon: <SiKotlin />,
     link: 'https://www.youtube.com/channel/UCsq-cbi1tZStoem3KVQVjCg',
-    releaseDate: '07/02/2022 17:00',
+    // releaseDate: '07/02/2022 17:00',
   },
   {
     eventName: 'Speaker session on ML',
@@ -68,7 +68,7 @@ const scheduleDetails = [
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in pulvinar leo. Nam vel mattis sem, eget condimentum eros. Sed condimentum molestie semper. ',
     icon: <FaBrain />,
     link: 'https://www.youtube.com/channel/UCsq-cbi1tZStoem3KVQVjCg',
-    releaseDate: '14/02/2021 17:00',
+    // releaseDate: '14/02/2021 17:00',
   },
   {
     eventName: 'Speaker session on Blockchain Technology',
@@ -77,11 +77,11 @@ const scheduleDetails = [
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in pulvinar leo. Nam vel mattis sem, eget condimentum eros. Sed condimentum molestie semper. ',
     icon: <FaBrain />,
     link: 'https://www.youtube.com/channel/UCsq-cbi1tZStoem3KVQVjCg',
-    releaseDate: '14/02/2021 17:00',
+    // releaseDate: '14/02/2021 17:00',
   },
   {
     eventName: 'Registration Ends',
-    date: '26th February 2022',
+    date: '28th February 2022',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in pulvinar leo. Nam vel mattis sem, eget condimentum eros. Sed condimentum molestie semper. ',
     icon: <HiOutlineLightBulb />,
     releaseDate: '26/02/2022 17:00',
