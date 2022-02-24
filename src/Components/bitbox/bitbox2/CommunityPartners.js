@@ -17,6 +17,7 @@ export default function CommunityPartners({ isDark }) {
         container
         direction='row'
         justify='space-around'
+        variant='p'
         alignItems='center'>
         <CommunityCard
           key='0'
