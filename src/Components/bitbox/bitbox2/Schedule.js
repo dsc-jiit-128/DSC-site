@@ -41,8 +41,8 @@ const scheduleDetails = [
     // speaker: "Some Cool Guy",
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in pulvinar leo. Nam vel mattis sem, eget condimentum eros. Sed condimentum molestie semper. ',
     icon: <StarsIcon />,
-    link: 'https://www.youtube.com/watch?v=fu75vu6Nnnk',
-    // releaseDate: '02/03/2021 18:00',
+    // link: 'https://www.youtube.com/watch?v=fu75vu6Nnnk',
+    releaseDate: '02/03/2021 18:00',
   },
   {
     eventName: 'Registration Begins',
@@ -58,7 +58,7 @@ const scheduleDetails = [
     speaker: 'Some Cool Guy',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in pulvinar leo. Nam vel mattis sem, eget condimentum eros. Sed condimentum molestie semper. ',
     icon: <SiKotlin />,
-    link: 'https://www.youtube.com/channel/UCsq-cbi1tZStoem3KVQVjCg',
+    // link: 'https://www.youtube.com/channel/UCsq-cbi1tZStoem3KVQVjCg',
     // releaseDate: '07/02/2022 17:00',
   },
   {
@@ -67,7 +67,7 @@ const scheduleDetails = [
     speaker: "It's a secret",
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in pulvinar leo. Nam vel mattis sem, eget condimentum eros. Sed condimentum molestie semper. ',
     icon: <FaBrain />,
-    link: 'https://www.youtube.com/channel/UCsq-cbi1tZStoem3KVQVjCg',
+    // link: 'https://www.youtube.com/channel/UCsq-cbi1tZStoem3KVQVjCg',
     // releaseDate: '14/02/2021 17:00',
   },
   {
@@ -76,7 +76,7 @@ const scheduleDetails = [
     speaker: "It's a secret",
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in pulvinar leo. Nam vel mattis sem, eget condimentum eros. Sed condimentum molestie semper. ',
     icon: <FaBrain />,
-    link: 'https://www.youtube.com/channel/UCsq-cbi1tZStoem3KVQVjCg',
+    // link: 'https://www.youtube.com/channel/UCsq-cbi1tZStoem3KVQVjCg',
     // releaseDate: '14/02/2021 17:00',
   },
   {
@@ -120,7 +120,6 @@ const scheduleDetails = [
     date: 'March 6th 2022',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in pulvinar leo. Nam vel mattis sem, eget condimentum eros. Sed condimentum molestie semper. ',
     icon: <GrTechnology />,
-
     releaseDate: '06/03/2022 17:00',
   },
   {
