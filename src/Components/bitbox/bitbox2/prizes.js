@@ -6,6 +6,21 @@ import { Typography, Grid } from "@material-ui/core";
 export default function Prizes(props) {
   const prizeArr = [
     {
+      image: "2",
+      heading: "Runner-up(2nd place)",
+      desc: [
+        "Best solution developed gets Rs. 15,000/team + 2600$ additional benifits",
+        "Wolfram subscription worth $375*4",
+        "Leading Learners subscription $100*4",
+        "Interview Buddy mock interviews discount vouchers 90% off",
+        "Interview Cake worth $169",
+        "Axure one year subscription certificates $504",
+        "Voiceflow coupon worth $50",
+        ".xyz domain registration on Gen .xyz",
+        "Hack club stickers",
+      ],
+    },
+    {
       image: "1",
       heading: "Winners(1st Place)",
       desc: [
@@ -17,21 +32,6 @@ export default function Prizes(props) {
         "Taskade Lifetime upgrades ",
         "Axure one year subscription certificates $504",
         "Clerky for 1 company lifetime package $799",
-        "Voiceflow coupon worth $50",
-        ".xyz domain registration on Gen .xyz",
-        "Hack club stickers",
-      ],
-    },
-    {
-      image: "2",
-      heading: "Runner-up(2nd place)",
-      desc: [
-        "Best solution developed gets Rs. 15,000/team + 2600$ additional benifits",
-        "Wolfram subscription worth $375*4",
-        "Leading Learners subscription $100*4",
-        "Interview Buddy mock interviews discount vouchers 90% off",
-        "Interview Cake worth $169",
-        "Axure one year subscription certificates $504",
         "Voiceflow coupon worth $50",
         ".xyz domain registration on Gen .xyz",
         "Hack club stickers",
@@ -52,42 +52,47 @@ export default function Prizes(props) {
         "Hack club stickers",
       ],
     },
-    // {
-    //   image: "fresher",
-    //   heading: "Fresh Winning(Fresher’s Team Prize)",
-    //   desc: [
-    //     "All team members should be in the first year to be eligible for this prize.",
-    //     "Voice flow coupon code worth $50",
-    //     "Balsamiq 90 day promo code",
-    //     "10% off coupons",
-    //     "Interview cake 30days $169 coupon ",
-    //   ],
-    // },
-    // {
-    //   image: "girl",
-    //   heading: "Girls Prize(All Girls Team Prize)",
-    //   desc: [
-    //     "All team members should be girls to be eligible for this prize.",
-    //     "Best solution developed gets Rs. 2,000/team",
-    //     "Wolfram|One Personal Edition plus a one-year subscription to Wolfram|Alpha Pro for all team members worth $350/member",
-    //     "30-day access pass to Interview Cake, a programming interview preparation platform for all team members worth $249/member",
-    //     "echoAR Business Tier for a month worth $89/member",
-    //     "Axure annual subscription account worth $42 for one member",
-    //     "Free upgrade to Taskade unlimited worth $5/member",
-    //   ],
-    // },
-    // {
-    //   image: "consolation",
-    //   heading:
-    //     "Consolation (A Special Prize for Top 5 teams other than the top 3 and special prize teams)",
-    //   desc: [
-    //     "Best solution developed gets Rs. 1,000/team",
-    //     "Wolfram|One Personal Edition plus a one-year subscription to Wolfram|Alpha Pro for all team members worth $350/member",
-    //     "30-day access pass to Interview Cake, a programming interview preparation platform for all team members worth $249/member",
-    //     "echoAR Business Tier for a month worth $89/member",
-    //     "Free upgrade to Taskade unlimited worth $5/member",
-    //   ],
-    // },
+    {
+      image: "fresher",
+      heading: "Fresh Winning(Fresher’s Team Prize)",
+      desc: [
+        "All team members should be in the first year to be eligible for this prize.",
+        "Best solution developed gets Rs. 2,500/team+2100 $ additional benifits",
+        "Voice flow coupon code worth $50",
+        "25 t shirts to lucky winners in the session of The @ company",
+        "Balsamiq 90 day promo code",
+        // "10% off coupons",
+        "Interview cake 30days $169 coupon",
+      ],
+    },
+    {
+      image: "girl",
+      heading: "Girls Prize(All Girls Team Prize)",
+      desc: [
+        // "Best solution developed gets Rs. 2500/team + 2100$ additional benifits",
+
+        "All team members should be girls to be eligible for this prize.",
+        "Best solution developed gets Rs. 2,000/team",
+        "Voice flow coupon code worth $50",
+        "25 t shirts to lucky winners in the session of The @ company",
+        "Balsamiq 90 day promo code",
+        // "10% off coupons",
+        "Interview cake 30days $169 coupon",
+      ],
+    },
+    {
+      image: "consolation",
+      heading:
+        "Consolation (A Special Prize for Top 4 teams other than the top 3 and special prize teams)",
+      desc: [
+        "Best solution developed gets Rs. 1,000/team + 220$ additional benifits",
+        "Voice flow coupon code worth $50",
+        "25 t shirts to lucky winners in the session of The @ company",
+        "Balsamiq 90 day promo code",
+        // "10% off coupons",
+        "Interview cake 30days $169 coupon",
+      ],
+    },
     // {
     //   image: "tezos",
     //   heading: "Tezos",
@@ -126,18 +131,18 @@ export default function Prizes(props) {
     //     "Resources present on Devfolio hack page, register to know more.",
     //   ],
     // },
-    // {
-    //   image: "idea",
-    //   heading:
-    //     "Spartans(All participants who do a valid submission to the hack)",
-    //   desc: [
-    //     "Best solution developed gets Rs. 15,000/team + 1000$ additional benifits",
-    //     "Voice flow coupon code worth $50",
-    //     "Balsamiq 90 day promo code",
-    //     "10% off coupons",
-    //     "Interview cake 30days $169 coupon ",
-    //   ],
-    // },
+    {
+      image: "idea",
+      heading:
+        "Spartans(All participants who do a valid submission to the hack)",
+      desc: [
+        "Voice flow coupon code worth $50",
+        "25 t shirts to lucky winners in the session of The @ company",
+        "Balsamiq 90 day promo code",
+        "10% off coupons",
+        "Interview cake 30days $169 coupon",
+      ],
+    },
   ];
   return (
     <div className="margintop">
