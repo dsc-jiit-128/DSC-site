@@ -33,7 +33,7 @@ export default function Prizecard({ image, head, desc, isDark }) {
     <Card className={isDark ? classes.rootD : classes.root}>
       <CardMedia
         className={classes.media}
-        image={require(`../../../images/bitbox/prizes/${image}.jpg`)}
+        image={require(`../../../images/bitbox/prizes/${image}`)}
         title="Contemplative Reptile"
       />
       <div className="prizediv">
