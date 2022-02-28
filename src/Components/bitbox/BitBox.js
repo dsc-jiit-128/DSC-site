@@ -12,6 +12,7 @@ import './bitbox.scss';
 import './bitbox2.scss';
 import Schedule from './bitbox2/Schedule';
 import Prizes from './bitbox2/prizes';
+import Judges from './bitbox2/Judges';
 
 export default function BitBox({ isDark }) {
   useEffect(() => {
@@ -130,7 +131,8 @@ export default function BitBox({ isDark }) {
               style={{ paddingTop: '4rem' }}>
               Our esteemed panel of Judges
             </Typography>
-            <div>To be announced soon</div>
+            <Judges />
+            {/* <div>To be announced soon</div> */}
           </div>
 
           <div className='heading'>
