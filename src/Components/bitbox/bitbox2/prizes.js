@@ -85,6 +85,7 @@ export default function Prizes(props) {
       image: "Roke-light.png",
       heading: "Roke.to (Special Track)",
       desc: [
+        "Best solution developed gets Rs. 25000/team",
         "Interview Cake worth $169",
         "Interview Buddy discount vouchers 90% off",
         "Taskade 5 year upgrades",
@@ -115,7 +116,7 @@ export default function Prizes(props) {
         "Every valid submission made in the Tezos track will be rewarded with exclusive Schwag Kits.",
       ],
     },
-   
+
     {
       image: "polygon1.jpg",
       heading: "Polygon (Special Track)",
@@ -125,7 +126,7 @@ export default function Prizes(props) {
         "Resources present on Devfolio hack page, register to know more.",
       ],
     },
-    
+
     {
       image: "idea.jpg",
       heading:
