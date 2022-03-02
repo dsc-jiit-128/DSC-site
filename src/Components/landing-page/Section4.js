@@ -1,5 +1,5 @@
 import React from "react";
-import dscjiitDark from "../../images/dscjiit-dark.svg";
+import dscjiitDark from "../../images/dscjiit-dark.png";
 import dscjiit from "../../images/dsc_logo.svg";
 import Box from "@material-ui/core/Box";
 import { Typography, Grid } from "@material-ui/core";

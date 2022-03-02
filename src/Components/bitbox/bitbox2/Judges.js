@@ -5,16 +5,24 @@ import Member from './JudgesCard'
 const Judges = ({ dark }) => {
   const speakerArr = [
     {
-      img: 'AyushSing.png',
-      social: 'https://www.linkedin.com/in/alphaayush',
+      img: 'Shikha.jpeg',
+      social: 'https://www.jiit.ac.in/dr-shikha-mehta',
     },
     {
-        img: 'AyushSing.png',
-        social: 'https://www.linkedin.com/in/alphaayush',
+      img: 'Shruti.jpeg',
+      social: 'https://www.jiit.ac.in/dr-shruti-jaiswal',
     },
     {
-        img: 'AyushSing.png',
-        social: 'https://www.linkedin.com/in/alphaayush',
+      img: 'Varsha.jpeg',
+      social: 'https://www.jiit.ac.in/varsha-garg',
+    },
+    {
+      img: 'Abhinav.jpeg',
+      social: 'https://www.linkedin.com/in/abhinavsri360/',
+    },
+    {
+      img: 'Rohan.jpeg',
+      social: 'https://www.linkedin.com/in/rsrohanverma/',
     },
 
   ];
