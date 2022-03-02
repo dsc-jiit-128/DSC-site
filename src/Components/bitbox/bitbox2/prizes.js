@@ -99,6 +99,7 @@ export default function Prizes(props) {
       heading:
         "Consolation (A Special Prize for Top 4 teams other than the top 3 and special prize teams)",
       desc: [
+        "Best solution developed gets Rs. 1000",
         "Interview Cake worth $169",
         "Interview Buddy discount vouchers 90% off",
         "Taskade 5 year upgrades",
