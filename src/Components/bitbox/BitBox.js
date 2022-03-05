@@ -59,9 +59,9 @@ export default function BitBox({ isDark }) {
               * BITBOX 2.0 is going to be held in Online mode. Apply using the
               devfolio button below!!
             </h4>
-            <h4 style={{ color: '#EA4335' }}>
-              Last date to Apply: 28th February 2022
-            </h4>
+            <h2 style={{ color: '#0F9D58' }}>
+              Hackathon is live now!!
+            </h2>
           </div>
           <div className='hero-btn-container'>
             <Box
