@@ -12,7 +12,7 @@
     "cheerio": "^1.0.0-rc.5",
     "i": "^0.3.7",
     "merge-images": "^2.0.0",
-    "moment": "^2.27.0",
+    "moment": "^2.29.4",
     "node-sass": "^4.14.1",
     "react": "^16.11.0",
     "react-countup": "^4.3.1",
